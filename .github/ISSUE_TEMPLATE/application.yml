@@ -19,7 +19,7 @@
 name: 🚀 Application
 description: I'd like to apply to Google Summer of Code to work on stdlib!
 title: "[RFC]: "
-labels: [rfc, 2023]
+labels: ["rfc", "2023"]
 body:
   - type: markdown
     attributes:
@@ -57,8 +57,8 @@ body:
       label: Full name
       description: What is your full name?
       placeholder: e.g., Jane Doe
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: dropdown
     id: enrollment
@@ -68,24 +68,24 @@ body:
       options:
         - Yes
         - No
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: input
     id: university
     attributes:
       label: University name
       description: If you are enrolled at a university, what is the name of that university?
-      validations:
-        required: false
+    validations:
+      required: false
 
   - type: textarea
     id: bio
     attributes:
       label: Short biography
       description: Please provide a brief overview of your background, including any education/professional qualifications (e.g., university degrees, certificates, etc), technical competencies (e.g., C/C++, JavaScript, CI/CD), and general interests (e.g., high-performance numerical computing, machine learning, frontend development).
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: input
     id: contact
@@ -93,8 +93,8 @@ body:
       label: Contact details
       description: How can we contact you? This may include e-mail, GitHub username, or other handle. If you have multiple handles/usernames, please list all those you want us to know about in order to help us associate all your various usernames with you. Separate each entry with a comma.
       placeholder: email:jane@doe.com,github:janedoe123
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: markdown
     attributes:
@@ -115,56 +115,56 @@ body:
         - Linux
         - Windows
         - Other
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: textarea
     id: tech_editor
     attributes:
       label: Editor
       description: What is your preferred code editor (e.g., VSCode, Sublime Text, Vim, Emacs, etc) and why?
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: textarea
     id: tech_experience
     attributes:
       label: Programming experience
       description: What is your experience programming? Tell us about something that you've created!
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: textarea
     id: tech_javascript
     attributes:
       label: JavaScript experience
       description: What is your experience with JavaScript? What is your favorite feature of JavaScript? What is your least favorite feature of JavaScript?
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: textarea
     id: tech_nodejs
     attributes:
       label: Node.js experience
       description: What is your experience with Node.js?
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: textarea
     id: tech_native
     attributes:
       label: C/Fortran experience
       description: What is your experience with C and/or Fortran?
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: textarea
     id: tech_stdlib
     attributes:
       label: Interest in stdlib
       description: What interests you about stdlib? Do you have a favorite feature or example? If so, tell us more!
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: dropdown
     id: tech_git
@@ -174,16 +174,16 @@ body:
       options:
         - Yes
         - No
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: textarea
     id: tech_stdlib
     attributes:
       label: Contributions to stdlib
       description: Please provide a brief summary of your contributions to stdlib so far, including any unmerged work. This should be a list of pull requests and an indication as to whether each pull request is merged, closed, or still open. If you made significant contributions outside of your pull requests (e.g., reviewing someone else's pull request), you may list that as well.
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: markdown
     attributes:
@@ -205,48 +205,48 @@ body:
     attributes:
       label: Goals
       description: What do you hope to achieve?
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: textarea
     id: proposal_why
     attributes:
       label: Why this project?
       description: What excites you about this project and why?
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: textarea
     id: proposal_qualifications
     attributes:
       label: Qualifications
       description: What qualifications do you have to execute on your proposal? How are you suited to work on this project? For example, if you are interested in implementing statistical hypothesis tests, what courses have you taken or books have you read on statistics?
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: textarea
     id: proposal_prior_art
     attributes:
       label: Prior art
       description: How have other people achieved the aims of this project? Has the project been implemented before (e.g., in another programming language or library)? Are there are papers or blog posts about it?
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: textarea
     id: proposal_commitment
     attributes:
       label: Commitment
       description: How much time do you plan to invest the project before, during, and after the Google Summer of Code program? E.g., for part-time contributors, we expect ~20 hr/week during GSoC, but we request that you be explicit in your commitment. If you plan on taking any vacations or time away during the program, let us know about it here.
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: textarea
     id: proposal_schedule
     attributes:
       label: Schedule
       description: Please provide a schedule of how your time will be spent on sub-tasks of the project throughout the GSoC program. While this is only preliminary, providing such a schedule will help us monitor your progress throughout the program. Also, understand that, during your project, you will issue weekly progress reports against that plan on your blog.
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: markdown
     attributes:
