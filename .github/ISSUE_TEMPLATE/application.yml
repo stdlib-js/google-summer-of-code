@@ -225,6 +225,8 @@ body:
 
         If you include any significant text or code from another source in your application, you must properly cite the included material. All papers or references that you use or plan to use must be cited. Place all citations in a "References" section at the bottom of each appliable application section. Copying text without citation is plagarism and will result in your application being rejected.
 
+        For an example of a well-written and clearly articulated GSoC proposal, see Aaron Meurer's [2009 SymPy GSoC proposal](https://github.com/sympy/sympy/wiki/GSoC-2009-Application-Aaron-Meurer).
+
   - type: textarea
     id: proposal_goals
     attributes:
