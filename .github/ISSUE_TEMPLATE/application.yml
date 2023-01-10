@@ -28,6 +28,8 @@ body:
 
         A few general notes:
 
+        1.  Before working on your proposal, be sure to read through [instructions](https://github.com/stdlib-js/google-summary-of-code/blob/main/README.md) first!
+
         1.  To be considered, a GSoC application **must** have a written proposal submitted to <https://summerofcode.withgoogle.com/>. The purpose of creating this issue is to allow stdlib mentors to provide feedback and answer any questions you have regarding your prospective project proposal. Note, however, that we will **not** write your proposal for you. You, and you alone, are responsible for writing, and the timely submission of, your project proposal.
 
         1.  Please use a succinct name to describe your proposal. This issue should use the following issue naming convention:
@@ -234,7 +236,7 @@ body:
     id: proposal_commitment
     attributes:
       label: Commitment
-      description: How much time do you plan to invest in the project before, during, and after the Google Summer of Code program? E.g., for part-time contributors, we expect ~20 hr/week during GSoC, but we request that you be explicit in your commitment. If you plan on taking any vacations or time away during the program, let us know about it here.
+      description: How much time do you plan to invest in the project before, during, and after the Google Summer of Code program? E.g., for part-time contributors, we expect ~20 hr/week during GSoC, but we request that you be explicit in your commitment. If you plan on taking any vacations or time away, have other jobs, or will be busy with exams during the program, let us know about it here.
     validations:
       required: true
 
@@ -261,7 +263,7 @@ body:
           required: true
         - label: I have read and understood the application materials found in this repository.
           required: true
-        - label: I have read and understood the [patch requirement](https://github.com/stdlib-js/google-summary-of-code/blob/develop/README.md#patch-requirement) which is necessary for my application to be considered for acceptance.
+        - label: I have read and understood the [patch requirement](https://github.com/stdlib-js/google-summary-of-code/blob/main/README.md#patch-requirement) which is necessary for my application to be considered for acceptance.
           required: true
         - label: The issue name begins with `RFC:` and succinctly describes your proposal.
           required: true
