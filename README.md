@@ -37,7 +37,15 @@ In order to apply to GSoC with [stdlib][stdlib], you must:
 
 Please remember that all applications **must** go through Google's application system and you **MUST SUBMIT YOUR APPLICATION ON GOOGLE'S WEBSITE**. If you do not submit your application on the [GSoC website][gsoc], we **cannot** accept your application.
 
-> **Tip**: Communication is probably the most important part of the application process. Talk to mentors and other stdlib developers, **listen** when they offer advice, and demonstrate that you've understood their suggestions by incorporating their feedback into what you are proposing. Failure to incorporate feedback **significantly** lowers your chance of success.
+### Tips
+
+The intent of GSoC is to provide a way for new contributors to join and participate in the world of open source. The contributors most likely to be selected and ultimately succeed are those who are engaged in the community and hoping to continue their involvement beyond the duration of the GSoC program. In general, for most projects, **being a good community member is more important than be a good coder**.
+
+**Communicate.** Communication is probably the most important part of the application process. Talk to mentors and other stdlib developers, **listen** when they offer advice, and demonstrate that you've understood their suggestions by incorporating their feedback into what you are proposing. Failure to incorporate feedback **significantly** lowers your chance of success.
+
+**Read the instructions.** Always read (and re-read) all instructions when submitting proposals. Do not simply submit a resume, scientific paper, presentation, or other file which does not contain any information about the project you'd like to pursue. Failure to follow instructions is guaranteed to lead to proposal rejection.
+
+**Be professional.** Show respect and demonstrate that you will take the mentoring relationship seriously. That means actively listening when you receive feedback and always valuing the time of each member in the [stdlib][stdlib] community. Poor communication and a failure to read and follow instructions convey a lack of respect and lack of consideration for mentor time, and no mentor wants to work with a contributor who doesn't exhibit the professionalism necessary to ensure both the success of their project and their personal growth as a [stdlib][stdlib] community member.
 
 ### Questions
 
@@ -147,7 +155,7 @@ This document may be reused under a [Creative Commons Attribution-ShareAlike 4.0
 
 [stdlib-gsoc-application-template]: https://github.com/stdlib-js/google-summer-of-code/issues/new?assignees=&labels=rfc%2C2023&template=application.yml&title=%5BRFC%5D%3A+
 
-[stdlib-gsoc-ideas]: https://github.com/stdlib-js/google-summer-of-code/labels/Idea
+[stdlib-gsoc-ideas]: https://github.com/stdlib-js/google-summer-of-code/labels/idea
 
 [stdlib-gitter]: https://gitter.im/stdlib-js/stdlib
 
