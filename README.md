@@ -70,8 +70,8 @@ The program start date is [**non-negotiable**][gsoc-faq-schedule-start]. All GSo
 
 This document borrows heavily from
 
--   [Python Software Foundation][psf-gsoc]
--   [SymPy][sympy-gsoc]
+-   [Python Software Foundation GSoC guidelines][psf-gsoc]
+-   [SymPy GSoC guidelines][sympy-gsoc]
 
 ## License
 
