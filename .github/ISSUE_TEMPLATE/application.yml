@@ -302,7 +302,7 @@ body:
         Notes:
 
         - Usually, even week 1 deliverables include some code.
-        - By week 6, you need enough done at this point for your mentor to evaluate your progress and pass you. Usually, you want to be a bit more than half done.
+        - By week 6, you need enough done at this point for your mentor to evaluate your progress and pass you. Usually, you want to be a bit more than halfway done.
         - By week 11, you may want to "code freeze" and focus on completing any tests and/or documentation.
         - During the final week, you'll be submitting your project.
     validations:
