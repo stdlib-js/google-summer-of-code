@@ -79,11 +79,36 @@ body:
     validations:
       required: false
 
+  - type: input
+    id: area_of_study
+    attributes:
+      label: University program
+      description: If you are enrolled at a university, what is your area of study?
+    validations:
+      required: false
+
+  - type: input
+    id: expected_graduation
+    attributes:
+      label: Expected graduation
+      description: If you are enrolled at a university, when is your expected graduation date?
+    validations:
+      required: false
+
   - type: textarea
     id: bio
     attributes:
       label: Short biography
       description: Please provide a brief overview of your background, including any education/professional qualifications (e.g., university degrees, certificates, etc), technical competencies (e.g., C/C++, JavaScript, CI/CD), and general interests (e.g., high-performance numerical computing, machine learning, frontend development).
+    validations:
+      required: true
+
+  - type: input
+    id: timezone
+    attributes:
+      label: Timezone
+      description: In what timezone are you located?
+      placeholder: US Pacific Time
     validations:
       required: true
 
@@ -204,7 +229,7 @@ body:
     id: proposal_goals
     attributes:
       label: Goals
-      description: What do you hope to achieve?
+      description: What do you hope to achieve? This should be your project abstract and included a detailed description of the proposed work.
     validations:
       required: true
 
@@ -236,7 +261,7 @@ body:
     id: proposal_commitment
     attributes:
       label: Commitment
-      description: How much time do you plan to invest in the project before, during, and after the Google Summer of Code program? E.g., for part-time contributors, we expect ~20 hr/week during GSoC, but we request that you be explicit in your commitment. If you plan on taking any vacations or time away, have other jobs, or will be busy with exams during the program, let us know about it here.
+      description: How much time do you plan to invest in the project before, during, and after the Google Summer of Code program? E.g., for part-time contributors, we expect ~20 hr/week during GSoC, but we request that you be explicit in your commitment. If you have other commitments, such as if you plan on taking any vacations or time away, have other jobs, or will be busy with exams during the program, let us know about it here.
     validations:
       required: true
 
@@ -244,7 +269,42 @@ body:
     id: proposal_schedule
     attributes:
       label: Schedule
-      description: Please provide a schedule of how your time will be spent on the subtasks of the project throughout the GSoC program. While this is only preliminary, providing such a schedule will help us monitor your progress throughout the program. Also, during your project, understand that you will issue weekly progress reports against the proposed schedule on your blog.
+      description: Please provide a weekly schedule of how your time will be spent on the subtasks of the project throughout the GSoC program and the expected deliverables. While this is only preliminary and can be adjusted later, if need be, providing such a schedule will help us monitor your progress throughout the program. During your project, understand that you will issue weekly progress reports against the proposed schedule on your blog. If you aim to perform any prepwork prior to week 1, be sure to include that in your answer below. The template below assumes a 12 week schedule. If you are doing an alternate schedule, you can adjust the template accordingly.
+      value: |
+        Assuming a 12 week schedule,
+
+        - **Week 1**:
+
+        - **Week 2**:
+
+        - **Week 3**:
+
+        - **Week 4**:
+
+        - **Week 5**:
+
+        - **Week 6**: (midterm)
+
+        - **Week 7**:
+
+        - **Week 8**:
+
+        - **Week 9**:
+
+        - **Week 10**:
+
+        - **Week 11**:
+
+        - **Week 12**:
+
+        - **Final Week**:
+
+        Notes:
+
+        - Usually, even week 1 deliverables include some code.
+        - By week 6, you need enough done at this point for your mentor to evaluate your progress and pass you. Usually, you want to be a bit more than half done.
+        - By week 11, you may want to "code freeze" and focus on completing any tests and/or documentation.
+        - During the final week, you'll be submitting your project.
     validations:
       required: true
 
