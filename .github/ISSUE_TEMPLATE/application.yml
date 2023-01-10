@@ -34,12 +34,12 @@ body:
 
         1.  Please use a succinct name to describe your proposal. This issue should use the following issue naming convention:
 
-            -   RFC: the succinct name describing your proposal
+            -   \[RFC]: the succinct name describing your proposal
 
             For example,
 
-            -   RFC: improve tiling algorithms for element-wise ndarray iteration
-            -   RFC: build a developer dashboard for tracking repository build status
+            -   \[RFC]: improve tiling algorithms for element-wise ndarray iteration
+            -   \[RFC]: build a developer dashboard for tracking repository build status
 
         1.  In your proposal, you should include the following information, as described below.
 
@@ -327,7 +327,7 @@ body:
           required: true
         - label: I have read and understood the [patch requirement](https://github.com/stdlib-js/google-summary-of-code/blob/main/README.md#patch-requirement) which is necessary for my application to be considered for acceptance.
           required: true
-        - label: The issue name begins with `RFC:` and succinctly describes your proposal.
+        - label: The issue name begins with `[RFC]:` and succinctly describes your proposal.
           required: true
         - label: I understand that, in order to apply to be a GSoC contributor, I must submit my final application to <https://summerofcode.withgoogle.com/> **before** the submission deadline.
           required: true
