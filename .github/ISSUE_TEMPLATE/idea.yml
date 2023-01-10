@@ -1,0 +1,157 @@
+#/
+# @license Apache-2.0
+#
+# Copyright (c) 2023 The Stdlib Authors.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#/
+
+name: 💡 Idea
+description: I have a project idea!
+title: "[Idea]: "
+labels: ["idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to propose a new idea!
+
+        A few general notes:
+
+        1.  Before submitting your idea, please be sure to look through the [list of existing ideas](https://github.com/stdlib-js/google-summer-of-code/issues?q=label%3Aidea+) to ensure that your idea has not already been discussed.
+
+        1.  Also, before submitting your idea, please be sure to each out over the stdlib [Gitter channel](https://gitter.im/stdlib-js/stdlib) to discuss it with us first. We'll inform you whether the idea has already been implemented, if the idea will entail enough work to last the duration of the GSoC program, if the idea requires too much work to be meaningfully pursued during GSoC, and if the idea is within the scope of stdlib.
+
+        1.  Understand that submitting an idea is **not** sufficient to participate in GSoC. To be considered, a GSoC application **must** have a written proposal submitted to <https://summerofcode.withgoogle.com/>. To begin working on a GSoC application, we **strongly** recommend using the stdlib [application template](https://github.com/stdlib-js/google-summer-of-code/issues/new?assignees=&labels=rfc%2C2023&template=application.yml&title=%5BRFC%5D%3A+).
+
+        1.  Please use a succinct name to describe your idea. This issue should use the following issue naming convention:
+
+            -   \[Idea]: the succinct name describing your idea
+
+            For example,
+
+            -   \[Idea]: improving the stdlib REPL
+            -   \[Idea]: add SIMD support to loop tiling macros
+
+        1.  When describing your idea, you should include the following information, as described below.
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: Description
+      description: Describe your idea, including the overall goals, expected outcomes, and any prior art relevant to its achievement (e.g., academic literature, reference implementations, etc).
+    validations:
+      required: true
+
+  - type: textarea
+    id: status
+    attributes:
+      label: Status
+      description: What is the current status of the idea in the stdlib community? This should include any previous work done (e.g., as described in issues and pull requests).
+    validations:
+      required: true
+
+  - type: textarea
+    id: involved_software
+    attributes:
+      label: Involved software
+      description: Would your idea require the use of external dependencies? If so, what are those dependencies and why are they necessary to pursue your idea?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: technology
+    attributes:
+      multiple: true
+      label: Technology
+      description: "What technology is needed to execute on your idea? (select all that apply)"
+      options:
+        - "JavaScript"
+        - "C"
+        - "Fortran"
+        - "nodejs"
+        - "native addons"
+        - "JSX/React"
+        - "HTML/CSS"
+    validations:
+      required: true
+
+  - type: textarea
+    id: other_technology
+    attributes:
+      label: Other technology
+      description: Please include any other technology which was not selected above which is necessary to execute on your idea.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Difficulty
+      description: "How difficult is your idea to pursue? (1: beginner, 3: intermediate, 5: advanced)"
+      options:
+        - "5"
+        - "4"
+        - "3"
+        - "2"
+        - "1"
+    validations:
+      required: true
+
+  - type: textarea
+    id: diffulty_justification
+    attributes:
+      label: Difficulty justification
+      description: What factors contribute to the predicted difficulty? (e.g., technical constraints, missing prerequisite functionality, large refactors, platform variability, etc)
+    validations:
+      required: true
+
+  - type: textarea
+    id: prerequisite_knowledge
+    attributes:
+      label: Prerequisite knowledge
+      description: Please describe any prerequisite knowledge or approaches necessary to pursue your idea (e.g., knowledge of statistics and numerical algorithms, mastery of JavaScript and C, previous experience with React, etc)?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: project_length
+    attributes:
+      label: Project length
+      description: Is this idea suitable for a 350 hour GSoC project, 175 hour GSoC project, or both?
+      options:
+        - "350"
+        - "175"
+        - "both"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        * * *
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: Please ensure the following tasks are completed before submitting an idea.
+      options:
+        - label: I have read and understood the [Code of Conduct](https://github.com/stdlib-js/stdlib/blob/develop/CODE_OF_CONDUCT.md).
+          required: true
+        - label: I have read and understood the application materials found in this repository.
+          required: true
+        - label: The issue name begins with `[Idea]:` and succinctly describes your idea.
+          required: true
+        - label: I understand that, in order to apply to be a GSoC contributor, I must submit my final application to <https://summerofcode.withgoogle.com/> **before** the submission deadline.
+          required: true
