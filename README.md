@@ -100,11 +100,11 @@ To submit a patch,
 
     Throughout the development and feedback process, you should **always** run unit tests locally to verify expected behavior.
 
-    During review, please be patient with reviewers. Due to [GSoC][gsoc], there may be a number of pull requests to review, and we may be slow to review all pull requests, especially if they are submitted close to the application deadline. You are **strongly** encouraged to submit your pull request early on in the application process to give yourself the best chance for having a merged patch before the **application** deadline.
+    During review, please be patient with reviewers. Due to [GSoC][gsoc], there may be a number of pull requests to review, and we may be slow to review all pull requests, especially if they are submitted close to the application deadline. You are **strongly** encouraged to submit your pull request(s) early on in the application process to give yourself the best chance for having a merged patch before the **application** deadline.
 
     While having a patch merged before the application deadline is preferred, if your patch is still under review, that is fine. What is critical is that your patch be merged before the **acceptance** deadline.
 
-    It is up to you to respond to our feedback in a timely enough manner so that your patch gets merged before the **acceptance** deadline.
+    It is up to you to respond to our feedback in a timely enough manner in order for your patch to be merged before the **acceptance** deadline.
 
 1.  **In your application, please provide a brief summary of your contributions to [stdlib][stdlib] thus far, including work which has not yet been merged. This should be a list of pull requests and an indication as to whether each pull request is merged, closed, or still open.** If you made significant contributions outside of your pull requests (e.g., reviewing someone else's pull request), you may list that as well.
 
