@@ -35,7 +35,7 @@ In order to apply to GSoC with stdlib, you must:
 1. Read the resources in this repository in full.
 1. Visit the main [project repository][stdlib] and familiarize yourself with the source code, project organization, and general conventions.
 1. Consult the project [issue tracker][stdlib-issues] to find ongoing stdlib discussions.
-1. Read through the project [contributing guide] to learn how to start developing stdlib.
+1. Read through the project [contributing guide][stdlib-contributing] to learn how to start developing stdlib.
 1. Read and understand the [Code of Conduct][stdlib-code-of-conduct]
 1. Create a [GitHub account][github-create-account], if you do not already have one.
 1. Submit **at least** one patch to stdlib. All applications which are not accompanied by at least one patch to stdlib will be **rejected**. Instructions as to how to fulfill the patch requirement are described below.
