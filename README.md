@@ -37,7 +37,9 @@ In order to apply to GSoC with [stdlib][stdlib], you must:
 
 Please remember that all applications **must** go through Google's application system and you **MUST SUBMIT YOUR APPLICATION ON GOOGLE'S WEBSITE**. If you do not submit your application on the [GSoC website][gsoc], we **cannot** accept your application.
 
->**Tip**: Communication is probably the most important part of the application process. Talk to mentors and other stdlib developers, **listen** when they offer advice, and demonstrate that you've understood their suggestions by incorporating their feedback into what you are proposing. Failure to incorporate feedback **significantly** lowers your chance of success.
+> **Tip**: Communication is probably the most important part of the application process. Talk to mentors and other stdlib developers, **listen** when they offer advice, and demonstrate that you've understood their suggestions by incorporating their feedback into what you are proposing. Failure to incorporate feedback **significantly** lowers your chance of success.
+
+### Questions
 
 If you have questions, first check whether the questions have already been answered in the GSoC [FAQ][gsoc-faq]. If you still have a question after consulting the GSoC [FAQ][gsoc-faq], you can reach out on the stdlib [Gitter][stdlib-gitter] channel.
 
