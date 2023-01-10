@@ -14,6 +14,12 @@ GSoC is a global program that offers new contributors (who are **18** years or o
 
 In this repository, you'll find information on how to apply for GSoC and a list of potential ideas which could serve as the basis for a GSoC project.
 
+## Time Commitment
+
+GSoC contributors are [expected][gsoc-faq-time-commitment] to work either **350** hours (full-time equivalent) or **175** hours (part-time equivalent) over the course of the program. The default schedule runs over 3 months (12 weeks) and can potentially be spread out over a longer period.
+
+The program start date is [**non-negotiable**][gsoc-faq-schedule-start]. All GSoC contributors **must** begin the program at the same time.
+
 ## Application Process
 
 In order to apply to GSoC with [stdlib][stdlib], you must:
@@ -45,7 +51,7 @@ In contrast, the following question is too open-ended and too vague to solicit a
 
 > I'm interested in project X. Please help me to work on this.
 
-When reaching out over [Gitter][stdlib-gitter], be sure to introduce yourself so that we can get to know you. Some useful pieces of information include
+When reaching out over [Gitter][stdlib-gitter], be sure to introduce yourself so that we can get to know you. Some useful pieces of information to include
 
 - Level of familiarity with JavaScript (including years of programming and previous projects).
 - Education level (high school / college / PhD).
@@ -56,13 +62,51 @@ When reaching out over [Gitter][stdlib-gitter], be sure to introduce yourself so
 
 ### Patch Requirement
 
+In addition to the written proposal, we **require** every [GSoC][gsoc] applicant to write a patch and have it merged into the main [stdlib repository][stdlib].
 
+> We take your patches to [stdlib][stdlib] into **strong** consideration when reviewing your proposal. Submitting one or more patches is your best opportunity to demonstrate that you are capable of doing what is included in your proposal.
 
-## Time Commitment
+To submit a patch,
 
-GSoC contributors are [expected][gsoc-faq-time-commitment] to work either **350** hours (full-time equivalent) or **175** hours (part-time equivalent) over the course of the program. The default schedule runs over 3 months (12 weeks) and can potentially be spread out over a longer period.
+1.  Create a GitHub account, if you do not already have one.
 
-The program start date is [**non-negotiable**][gsoc-faq-schedule-start]. All GSoC contributors **must** begin the program at the same time.
+1.  Fork the [stdlib repository][stdlib].
+
+1.  Setup your platform to develop [stdlib][stdlib] (e.g., install Git, clone your forked repository, set it up to track the remote upstream [stdlib repository][stdlib], install dependencies, and initialize your local development environment). Our [contributing guide][stdlib-contributing] walks you through setting up Git and details our preferred way of development.
+
+    Please do **not** submit patches through the GitHub web editor. You will need to learn how to use Git and develop [stdlib][stdlib] locally if your project is accepted. Taking the time now to use Git and develop [stdlib][stdlib] locally increases your chance of success and helps you decide whether [stdlib][stdlib] is a good fit for you.
+
+1.  Find something in [stdlib][stdlib] that doesn't work, needs improvement, or would be a useful addition. If you need inspiration, feel free to fix any issue in the [list of issues][stdlib-issues-good-first] which are good for first time contributors.
+
+    In addition to the issues, search for `FIXME` or `TODO` in the codebase. You can use `grep` from the command-line with `git grep "TODO"`.
+
+    You can also play around in the [stdlib][stdlib] REPL and find something that needs fixing or could be implemented.
+
+1.  Once you've found something, if an issue doesn't already exist, open an issue on the [stdlib issue tracker][stdlib-issues] describing the problem and your proposed solution.
+
+    If your project will use a language other than JavaScript (e.g., C or Fortran), you should submit patches that use that language, as well, in order to demonstrate that you are proficient in that language.
+
+    Note that your patch **must** be code-related, not documentation. While documentation fixes are always welcome, they do **not** fulfill the patch requirement.
+
+    And further note that your patch does **not** need to be related to your proposed project in order to satisfy the patch requirement. In order to familiarize yourself with the code on which you'd be working, you may wish to try to fix a relevant bug in the same or similar code, but this is **not** part of the patch requirement.
+
+1.  Publish your patch for peer review by creating a pull request on GitHub. You must submit your pull request through GitHub (as opposed to, for example, pasting a patched file on an issue) as this is the easiest way for us to review your code and provide feedback and is what we expect from a contributor working on a [GSoC][gsoc] project.
+
+    You must submit a patch that is successfully reviewed and merged to satisfy the patch requirement. We do **not** consider applications without successfully merged patches.
+
+    A successful patch demonstrates your technical proficiency and your ability to interact with the [stdlib][stdlib] community.
+
+1.  Once your create a pull request on GitHub, [stdlib][stdlib] reviewers will review your code and potentially request changes. You **should** address these changes.
+
+    Throughout the development and feedback process, you should **always** run unit tests locally to verify expected behavior.
+
+    During review, please be patient with reviewers. Due to [GSoC][gsoc], there may be a number of pull requests to review, and we may be slow to review all pull requests, especially if they are submitted close to the application deadline. You are **strongly** encouraged to submit your pull request early on in the application process to give yourself the best chance for having a merged patch before the **application** deadline.
+
+    While having a patch merged before the application deadline is preferred, if your patch is still under review, that is fine. What is critical is that your patch be merged before the **acceptance** deadline.
+
+    It is up to you to respond to our feedback in a timely enough manner so that your patch gets merged before the **acceptance** deadline.
+
+1.  **In your application, please provide a brief summary of your contributions to [stdlib][stdlib] thus far, including work which has not yet been merged. This should be a list of pull requests and an indication as to whether each pull request is merged, closed, or still open.** If you made significant contributions outside of your pull requests (e.g., reviewing someone else's pull request), you may list that as well.
 
 * * *
 
@@ -92,6 +136,8 @@ This document may be reused under a [Creative Commons Attribution-ShareAlike 4.0
 [stdlib]: https://github.com/stdlib-js/stdlib
 
 [stdlib-issues]: https://github.com/stdlib-js/stdlib/issues
+
+[stdlib-issues-good-first]: https://github.com/stdlib-js/stdlib/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22
 
 [stdlib-contributing]: https://github.com/stdlib-js/stdlib/blob/develop/CONTRIBUTING.md
 
