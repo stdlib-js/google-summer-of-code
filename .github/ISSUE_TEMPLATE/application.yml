@@ -45,7 +45,7 @@ body:
     attributes:
       value: |
         * * *
-        ## You the person
+        ## Your Background
 
         We'd like to get to know you and your background!
 
@@ -99,7 +99,7 @@ body:
       value: |
         * * *
 
-        ## You the programmer
+        ## Programming Experience
 
         Help us understand your programming experience! Don't worry if you have never used stdlib or Git. Many contributors start fresh, and we'll help teach you what you need to know. :smile:
 
@@ -188,7 +188,7 @@ body:
       value: |
         * * *
 
-        ## You and your project
+        ## Project Description
 
         Tell us about your proposal!
 
