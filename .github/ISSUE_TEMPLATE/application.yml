@@ -66,8 +66,8 @@ body:
       label: University status
       description: Are you currently enrolled at a university?
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
     validations:
       required: true
 
@@ -172,13 +172,13 @@ body:
       label: Version control
       description: Have you ever used Git for version control?
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
     validations:
       required: true
 
   - type: textarea
-    id: tech_stdlib
+    id: tech_stdlib_contributions
     attributes:
       label: Contributions to stdlib
       description: Please provide a brief summary of your contributions to stdlib so far, including any unmerged work. This should be a list of pull requests and an indication as to whether each pull request is merged, closed, or still open. If you made significant contributions outside of your pull requests (e.g., reviewing someone else's pull request), you may list that as well.
@@ -267,5 +267,5 @@ body:
           required: true
         - label: The issue name begins with `RFC:` and succinctly describes your proposal.
           required: true
-        - lable: I understand that, in order to apply to be a GSoC contributor, I must submit my final application to <https://summerofcode.withgoogle.com/> **before** the submission deadline.
+        - label: I understand that, in order to apply to be a GSoC contributor, I must submit my final application to <https://summerofcode.withgoogle.com/> **before** the submission deadline.
           required: true
