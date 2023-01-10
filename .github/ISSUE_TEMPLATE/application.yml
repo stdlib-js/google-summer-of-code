@@ -30,23 +30,21 @@ body:
 
         1.  To be considered, a GSoC application **must** have a written proposal submitted to <https://summerofcode.withgoogle.com/>. The purpose of creating this issue is to allow stdlib mentors to provide feedback and answer any questions you have regarding your prospective project proposal. Note, however, that we will **not** write your proposal for you. You, and you alone, are responsible for writing, and the timely submission of, your project proposal.
 
-        1.  Please use a succinct name to describe your proposal. This issue should use the following convention:
+        1.  Please use a succinct name to describe your proposal. This issue should use the following issue naming convention:
 
-            > RFC: the succinct name describing your proposal
+            -   RFC: the succinct name describing your proposal
 
             For example,
 
-            > RFC: improve tiling algorithms for element-wise ndarray iteration
-
-            or
-
-            > RFC: build a developer dashboard for tracking repository build status
+            -   RFC: improve tiling algorithms for element-wise ndarray iteration
+            -   RFC: build a developer dashboard for tracking repository build status
 
         1.  In your proposal, you should include the following information, as described below.
 
   - type: markdown
     attributes:
       value: |
+        * * *
         ## You the person
 
         We'd like to get to know you and your background!
@@ -91,7 +89,7 @@ body:
     id: contact
     attributes:
       label: Contact details
-      description: How can we contact you? This may include e-mail, GitHub username, or other handle. If you have multiple handles/usernames, please list all those you want us to know about in order to help us associate all your various usernames with you. Separate each entry with a comma.
+      description: How can we contact you? This may include an e-mail address, GitHub username, or other handle. If you have multiple handles/usernames, please list all handles and usernames that you want us to know about in order to help us associate your various usernames with you. Separate each entry with a comma.
       placeholder: email:jane@doe.com,github:janedoe123
     validations:
       required: true
@@ -181,7 +179,7 @@ body:
     id: tech_stdlib_contributions
     attributes:
       label: Contributions to stdlib
-      description: Please provide a brief summary of your contributions to stdlib so far, including any unmerged work. This should be a list of pull requests and an indication as to whether each pull request is merged, closed, or still open. If you made significant contributions outside of your pull requests (e.g., reviewing someone else's pull request), you may list that as well.
+      description: Please provide a brief summary of your contributions to stdlib thus far, including any unmerged work. This should be a list of pull requests and an indication as to whether each pull request is merged, closed, or still open. If you made significant contributions outside of your pull requests (e.g., reviewing someone else's pull request), you may list that as well.
     validations:
       required: true
 
@@ -192,9 +190,9 @@ body:
 
         ## You and your project
 
-        Tell us our your proposal!
+        Tell us about your proposal!
 
-        When detailing the project schedule, you are advised to note where along the way where you could formulate a pull request. Ideally, pull requests should be points where you can have self-contained, well-documented, and tested pieces of functionality. By breaking the project into smaller sub-tasks which can completed as part of one or more pull requests helps to keep branch merges and code reviews reasonable. A large code dump at the end of the program will likely be hard to review and merge before the project deadline.
+        When detailing the project schedule, you are advised to note where along the way where you could formulate a pull request. Ideally, pull requests should be points where you can have self-contained, well-documented, and tested pieces of functionality. Breaking the project into smaller sub-tasks which can be completed as part of one or more pull requests helps to keep branch merges and code reviews reasonable. A large code dump at the end of the program will likely be hard to review and merge before the project deadline.
 
         Please do **not** copy verbatim text from the list of project ideas or from other people's discussions about your project. Always write your proposal in your own words.
 
@@ -212,7 +210,7 @@ body:
     id: proposal_why
     attributes:
       label: Why this project?
-      description: What excites you about this project and why?
+      description: What excites you about the proposed project and why?
     validations:
       required: true
 
@@ -228,7 +226,7 @@ body:
     id: proposal_prior_art
     attributes:
       label: Prior art
-      description: How have other people achieved the aims of this project? Has the project been implemented before (e.g., in another programming language or library)? Are there are papers or blog posts about it?
+      description: "How have other people achieved the aims of this project? Has the project been implemented before (e.g., in another programming language or library)? Are there are papers or blog posts about it? (hint: this is likely!)"
     validations:
       required: true
 
@@ -236,7 +234,7 @@ body:
     id: proposal_commitment
     attributes:
       label: Commitment
-      description: How much time do you plan to invest the project before, during, and after the Google Summer of Code program? E.g., for part-time contributors, we expect ~20 hr/week during GSoC, but we request that you be explicit in your commitment. If you plan on taking any vacations or time away during the program, let us know about it here.
+      description: How much time do you plan to invest in the project before, during, and after the Google Summer of Code program? E.g., for part-time contributors, we expect ~20 hr/week during GSoC, but we request that you be explicit in your commitment. If you plan on taking any vacations or time away during the program, let us know about it here.
     validations:
       required: true
 
@@ -244,7 +242,7 @@ body:
     id: proposal_schedule
     attributes:
       label: Schedule
-      description: Please provide a schedule of how your time will be spent on sub-tasks of the project throughout the GSoC program. While this is only preliminary, providing such a schedule will help us monitor your progress throughout the program. Also, understand that, during your project, you will issue weekly progress reports against that plan on your blog.
+      description: Please provide a schedule of how your time will be spent on the subtasks of the project throughout the GSoC program. While this is only preliminary, providing such a schedule will help us monitor your progress throughout the program. Also, during your project, understand that you will issue weekly progress reports against the proposed schedule on your blog.
     validations:
       required: true
 
