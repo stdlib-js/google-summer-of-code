@@ -96,7 +96,7 @@ To submit a patch,
 
     A successful patch demonstrates your technical proficiency and your ability to interact with the [stdlib][stdlib] community.
 
-1.  Once your create a pull request on GitHub, [stdlib][stdlib] reviewers will review your code and potentially request changes. You **should** address these changes.
+1.  Once you've created a pull request on GitHub, [stdlib][stdlib] reviewers will review your code and potentially request changes. You **should** address these changes.
 
     Throughout the development and feedback process, you should **always** run unit tests locally to verify expected behavior.
 
