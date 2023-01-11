@@ -22,3 +22,20 @@ If you are willing to mentor,
 
     - e-mail: [pburckhardt@outlook.com][mailto:pburckhardt@outlook.com]
     - projects: all
+
+## Time Commitment
+
+We expected around a 5-10 hour a week commitment.
+
+TODO
+
+## Required Knowledge
+
+In general, **successful mentors are those who are already developers and community members of stdlib**. If you're new to stdlib, expect to take time to learn the ropes yourself so that you are in a position to help GSoC contributors.
+
+Mentors do not have to be be experts in all things stdlib. Much of what mentors do is keeping contributors on track and helping them get unstuck when they encounter unexpected obstacles. Sometimes that means just knowing who and what to ask and where to look rather than knowing the answer yourself. In an ideal world, a mentor can answer basic architectural questions and knows how to get code accepted upstream (e.g., is deeply familiar with project conventions, practices, and development workflows).
+
+
+## Contributor Evaluations
+
+Mentors must perform multiple evaluations on each GSoC contributor, two mid-terms and one at the end. Evaluations typically consist of a few questions about how the GSoC contributor is doing and then a pass/fail that determines if the GSoC contributor is paid and continues in the program.
