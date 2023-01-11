@@ -24,6 +24,7 @@ The program start date is [**non-negotiable**][gsoc-faq-schedule-start]. All GSo
 
 In order to apply to GSoC with [stdlib][stdlib], you must:
 
+1. Read the GSoC [contributor guide][gsoc-contributor-guide].
 1. Read the resources in **this** repository in full.
 1. Visit the main [stdlib project repository][stdlib] and familiarize yourself with the source code, project organization, and general conventions.
 1. Read and understand the [Code of Conduct][stdlib-code-of-conduct].
@@ -182,6 +183,8 @@ This document may be reused under a [Creative Commons Attribution-ShareAlike 4.0
 <!-- links -->
 
 [gsoc]: https://summerofcode.withgoogle.com/
+
+[gsoc-contributor-guide]: https://google.github.io/gsocguides/student/
 
 [gsoc-faq]: https://developers.google.com/open-source/gsoc/faq
 
