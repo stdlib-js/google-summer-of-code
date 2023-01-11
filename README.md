@@ -70,6 +70,54 @@ When reaching out over [Gitter][stdlib-gitter], be sure to introduce yourself so
 - Familiarity with [stdlib][stdlib] (e.g., have you used [stdlib][stdlib]?).
 - Other possibly relevant information (e.g., geographical location, native language, etc).
 
+### Project Ideas
+
+Before working on your GSoC application, please review our [list of ideas][stdlib-gsoc-ideas] to see if you find a project which excites you. The list of existing ideas is provided to serve as inspiration and to indicate what directions may be good for [stdlib][stdlib].
+
+If you do find an existing idea that you'd like to pursue, please be sure to contact us over [Gitter][stdlib-gitter] to discuss it first! **Always be sure to ask about these ideas prior to working on application in order to get the latest information about what is already implemented and what exactly must be done.**
+
+The [list of ideas][stdlib-gsoc-ideas] is organized by labels according to the following conventions:
+
+**Priority**
+
+- `high`: ideas that are considered important in our roadmap.
+- `normal`: ideas that are not urgent but would be nice to have sooner rather than later.
+- `low`: ideas that are novel or interesting, but are low on our priority list.
+
+**Difficulty**
+
+- `1`: an idea suitable for someone with little to no JavaScript experience.
+- `2`: an idea suitable for someone with a working knowledge of JavaScript.
+- `3`: an idea that is likely to be challenging but manageable.
+- `4`: an idea that is likely to be challenging and has ambitious goals.
+- `5`: an idea that is likely to be difficult to implement with several unknowns.
+
+**Technology**
+
+- `javascript`: an idea that involves programming in JavaScript. At least some JavaScript is likely to be required for all ideas.
+- `nodejs`: an idea that requires developing with Node.js. Working with Node.js is likely to be required for most, if not all, ideas, as Node.js is the default environment for testing, benchmarks, and local development.
+- `c`: an idea that involves programming in C. This is required for Node.js native add-ons.
+- `fortran`: an idea that involves programming in Fortran. This is required for working on BLAS/LAPACK bindings.
+- `html/css`: an idea that involves using HTML and CSS (e.g., if building a frontend application).
+- `jsx/react`: an idea that involves programming with React JSX (e.g., if working on the stdlib website).
+- `native addons`: an idea that involves developing Node.js native add-ons.
+
+Priority, difficulty, technology, and topic area have no bearing on the chances of an idea being accepted. All ideas are equally good, and your chances of being accepted depend solely on the **quality of your application**.
+
+**Project Length**
+
+GSoC allows two different project lengths: **175** hours and **350** hours. Each idea must indicate whether the idea is a better fit for 175 or 350 hours.
+
+In some cases, we may be able to extend a 175 hour project to a 350 hour project by extending the ideas of what can be done. Similarly, in some cases, a 350 hour project can be shortened to a 175 hour project by only implementing part of an idea and leaving the rest for a future project. In either case, if you want to adjust the project length, please be sure to contact us over [Gitter][stdlib-gitter] to discuss it first!
+
+#### Your Own Idea
+
+If you'd like to submit your own idea, that is also welcome; just be sure to propose your idea to stdlib mentors first! After reaching out, we'll inform you whether the idea has already been implemented, if the idea will entail enough work to last the duration of the GSoC program, if the idea requires too much work to be meaningfully pursued during GSoC, and if the idea is within the scope of stdlib. **Unsolicited, undiscussed ideas are less likely to get accepted.**
+
+The best project for you is the one you are most interested in and knowledgeable about. Excitement and aptitude are two key ingredients of a successful project and help ensure your commitment and ability to see a project through to completion. So if there is something you are especially passionate about and that you believe falls aligns with the scope and goals of [stdlib][stdlib], we'd be happy to hear your pitch!
+
+After discussing with us over [Gitter][stdlib-gitter] and receiving approval to submit your idea, please open an [issue][stdlib-gsoc-idea-template] which describes your idea using the [**idea issue template**][stdlib-gsoc-idea-template].
+
 ### Patch Requirement
 
 In addition to the written proposal, we **require** every [GSoC][gsoc] applicant to write a patch and have it merged into the main [stdlib repository][stdlib].
@@ -154,6 +202,8 @@ This document may be reused under a [Creative Commons Attribution-ShareAlike 4.0
 [stdlib-code-of-conduct]: https://github.com/stdlib-js/stdlib/blob/develop/CODE_OF_CONDUCT.md
 
 [stdlib-gsoc-application-template]: https://github.com/stdlib-js/google-summer-of-code/issues/new?assignees=&labels=rfc%2C2023&template=application.yml&title=%5BRFC%5D%3A+
+
+[stdlib-gsoc-idea-template]: https://github.com/stdlib-js/google-summer-of-code/issues/new?assignees=&labels=idea&template=idea.yml&title=%5BIdea%5D%3A+
 
 [stdlib-gsoc-ideas]: https://github.com/stdlib-js/google-summer-of-code/labels/idea
 
