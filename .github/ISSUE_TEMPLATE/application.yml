@@ -271,9 +271,11 @@ body:
     id: proposal_schedule
     attributes:
       label: Schedule
-      description: Please provide a weekly schedule of how your time will be spent on the subtasks of the project throughout the GSoC program and the expected deliverables. While this is only preliminary and can be adjusted later, if need be, providing such a schedule will help us monitor your progress throughout the program. During your project, understand that you will issue weekly progress reports against the proposed schedule on your blog. If you aim to perform any prepwork prior to week 1, be sure to include that in your answer below. The template below assumes a 12 week schedule. If you are doing an alternate schedule, you can adjust the template accordingly.
+      description: Please provide a weekly schedule of how your time will be spent on the subtasks of the project throughout the GSoC program and the expected deliverables. While this is only preliminary and can be adjusted later, if need be, providing such a schedule will help us monitor your progress throughout the program. During your project, understand that you will issue weekly progress reports against the proposed schedule on your blog. If you aim to perform any prepwork prior to week 1 (e.g., during the community bonding period), be sure to include that in your answer below. The template below assumes a 12 week schedule. If you are doing an alternate schedule, you can adjust the template accordingly.
       value: |
         Assuming a 12 week schedule,
+
+        - **Community Bonding Period**:
 
         - **Week 1**:
 
@@ -303,6 +305,7 @@ body:
 
         Notes:
 
+        - The community bonding period is a 3 week period built into GSoC to help you get to know the project community and participate in project discussion. This is an opportunity for you to setup your local development environment, learn how the project's source control works, refine your project plan, read any necessary documentation, and otherwise prepare to execute on your project project proposal.
         - Usually, even week 1 deliverables include some code.
         - By week 6, you need enough done at this point for your mentor to evaluate your progress and pass you. Usually, you want to be a bit more than halfway done.
         - By week 11, you may want to "code freeze" and focus on completing any tests and/or documentation.

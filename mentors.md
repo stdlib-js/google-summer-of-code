@@ -10,24 +10,23 @@
 
 If you are willing to mentor,
 
+1. read the [GSoC mentor guide](https://google.github.io/gsocguides/mentor/).
 1. please register at <https://summerofcode.withgoogle.com/>. 
-1. please submit a pull request adding yourself to the list below, making sure to include an project ideas that you'd be willing to mentor by linking to the relevant issue(s) and to include the e-mail that you used to register at <https://summerofcode.withgoogle.com/> and >.
+1. please submit a pull request adding yourself to the list below, making sure to include any project ideas that you'd be willing to mentor by linking to the relevant issue(s) and to include the e-mail that you used to register at <https://summerofcode.withgoogle.com/>.
 
 - Athan Reines
 
-    - e-mail: [kgryte@gmail.com][mailto:kgryte@gmail.com]
+    - e-mail: [kgryte@gmail.com](mailto:kgryte@gmail.com)
     - projects: all
     
 - Philipp Burckhardt
 
-    - e-mail: [pburckhardt@outlook.com][mailto:pburckhardt@outlook.com]
+    - e-mail: [pburckhardt@outlook.com](mailto:pburckhardt@outlook.com)
     - projects: all
 
 ## Time Commitment
 
-We expected around a 5-10 hour a week commitment.
-
-TODO
+We expect between a 3-10 hour a week commitment, where the requisite time decreases over the course of the program. Mentors can expect to spend more time the first few weeks prior to the contributor start date, where you'll be helping flesh out the project ideas, discussing projects with potential contributors, and selecting contributors based on their submitted proposals. Once contributors are selected and the program kicks off, your commitment should decrease to 2-4 hours a week and be comprised of a weekly 1 hour 1-on-1 where you'll establish rapport and discuss project progress and of some additional time to perform code review and answer questions as they arise. Ideally, a mentor will pair program with a contributor for 1 hour every two weeks throughout the duration of the program.
 
 ## Required Knowledge
 
