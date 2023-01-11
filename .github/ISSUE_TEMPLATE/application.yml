@@ -263,7 +263,7 @@ body:
     id: proposal_commitment
     attributes:
       label: Commitment
-      description: How much time do you plan to invest in the project before, during, and after the Google Summer of Code program? E.g., for part-time contributors, we expect ~20 hr/week during GSoC, but we request that you be explicit in your commitment. If you have other commitments, such as if you plan on taking any vacations or time away, have other jobs, or will be busy with exams during the program, let us know about it here.
+      description: How much time do you plan to invest in the project before, during, and after the Google Summer of Code program? E.g., for part-time contributors, we expect ~15 hr/week during GSoC based on a 12 week schedule, but we request that you be explicit in your commitment. If you have other commitments, such as if you plan on taking any vacations or time away, have other jobs, or will be busy with exams during the program, let us know about it here.
     validations:
       required: true
 
