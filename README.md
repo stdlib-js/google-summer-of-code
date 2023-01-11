@@ -40,7 +40,7 @@ Please remember that all applications **must** go through Google's application s
 
 ### Tips
 
-The intent of GSoC is to provide a way for new contributors to join and participate in the world of open source. The contributors most likely to be selected and ultimately succeed are those who are engaged in the community and hoping to continue their involvement beyond the duration of the GSoC program. In general, for most projects, **being a good community member is more important than be a good coder**.
+The intent of GSoC is to provide a way for new contributors to join and participate in the world of open source. The contributors most likely to be selected and ultimately succeed are those who are engaged in the community and hoping to continue their involvement beyond the duration of the GSoC program. In general, for most projects, **being a good community member is more important than being a good coder**.
 
 **Communicate.** Communication is probably the most important part of the application process. Talk to mentors and other stdlib developers, **listen** when they offer advice, and demonstrate that you've understood their suggestions by incorporating their feedback into what you are proposing. Failure to incorporate feedback **significantly** lowers your chance of success.
 
@@ -102,6 +102,7 @@ The [list of ideas][stdlib-gsoc-ideas] is organized by labels according to the f
 - `html/css`: an idea that involves using HTML and CSS (e.g., if building a frontend application).
 - `jsx/react`: an idea that involves programming with React JSX (e.g., if working on the stdlib website).
 - `native addons`: an idea that involves developing Node.js native add-ons.
+- `typescript`: an idea that involves programming in TypeScript.
 
 Priority, difficulty, technology, and topic area have no bearing on the chances of an idea being accepted. All ideas are equally good, and your chances of being accepted depend solely on the **quality of your application**.
 
