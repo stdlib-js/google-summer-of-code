@@ -12,7 +12,7 @@ If you are willing to mentor,
 
 1. read the [GSoC mentor guide](https://google.github.io/gsocguides/mentor/).
 1. register at <https://summerofcode.withgoogle.com/>. 
-1. submit a pull request adding yourself to the list below, making sure to include any project ideas that you'd be willing to mentor by linking to the relevant issue(s) and to include the e-mail that you used to register at <https://summerofcode.withgoogle.com/>.
+1. submit a pull request adding yourself to the list below, making sure (1) to include any project ideas that you'd be willing to mentor by linking to the relevant issue(s) and (2) to include the e-mail that you used to register at <https://summerofcode.withgoogle.com/>.
 
 ## Mentor List
 
