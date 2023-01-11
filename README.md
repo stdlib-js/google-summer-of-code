@@ -72,7 +72,7 @@ When reaching out over [Gitter][stdlib-gitter], be sure to introduce yourself so
 
 ### Project Ideas
 
-Before working on your GSoC application, please review our [list of ideas][stdlib-gsoc-ideas] to see if you find a project which excites you. The list of existing ideas is provided to serve as inspiration and to indicate what directions may be good for [stdlib][stdlib].
+Before working on your GSoC application, please review our [list of ideas][stdlib-gsoc-ideas] to see if you find a project which excites you. The list of existing ideas is provided to serve as inspiration and to indicate which directions may be good for [stdlib][stdlib].
 
 If you do find an existing idea that you'd like to pursue, please be sure to contact us over [Gitter][stdlib-gitter] to discuss it first! **Always be sure to ask about these ideas prior to working on application in order to get the latest information about what is already implemented and what exactly must be done.**
 
@@ -95,7 +95,7 @@ The [list of ideas][stdlib-gsoc-ideas] is organized by labels according to the f
 **Technology**
 
 - `javascript`: an idea that involves programming in JavaScript. At least some JavaScript is likely to be required for all ideas.
-- `nodejs`: an idea that requires developing with Node.js. Working with Node.js is likely to be required for most, if not all, ideas, as Node.js is the default environment for testing, benchmarks, and local development.
+- `nodejs`: an idea that requires developing with Node.js. Working with Node.js is likely to be required for most, if not all, ideas, as Node.js is the default environment for testing, benchmarking, and local development.
 - `c`: an idea that involves programming in C. This is required for Node.js native add-ons.
 - `fortran`: an idea that involves programming in Fortran. This is required for working on BLAS/LAPACK bindings.
 - `html/css`: an idea that involves using HTML and CSS (e.g., if building a frontend application).
@@ -114,7 +114,7 @@ In some cases, we may be able to extend a 175 hour project to a 350 hour project
 
 If you'd like to submit your own idea, that is also welcome; just be sure to propose your idea to stdlib mentors first! After reaching out, we'll inform you whether the idea has already been implemented, if the idea will entail enough work to last the duration of the GSoC program, if the idea requires too much work to be meaningfully pursued during GSoC, and if the idea is within the scope of stdlib. **Unsolicited, undiscussed ideas are less likely to get accepted.**
 
-The best project for you is the one you are most interested in and knowledgeable about. Excitement and aptitude are two key ingredients of a successful project and help ensure your commitment and ability to see a project through to completion. So if there is something you are especially passionate about and that you believe falls aligns with the scope and goals of [stdlib][stdlib], we'd be happy to hear your pitch!
+The best project for you is the one you are most interested in and knowledgeable about. Excitement and aptitude are two key ingredients of a successful project and help ensure your commitment and ability to see a project through to completion. So if there is something you are especially passionate about and that you believe aligns with the scope and goals of [stdlib][stdlib], we'd be happy to hear your pitch!
 
 After discussing with us over [Gitter][stdlib-gitter] and receiving approval to submit your idea, please open an [issue][stdlib-gsoc-idea-template] which describes your idea using the [**idea issue template**][stdlib-gsoc-idea-template].
 
