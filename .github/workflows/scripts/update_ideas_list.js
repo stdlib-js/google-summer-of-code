@@ -116,9 +116,9 @@ async function main( github, context, core, fs, path, dir ) {
 		str = [
 			'## ' + t,
 			'',
-			issues[ i ].body,
+			'Linked issue: <' + issues[ i ].url + '>',
 			'',
-			'Linked issue: <' + issues[ i ].url + '>'
+			issues[ i ].body
 		].join( '\n' );
 		content.push( str );
 	}
