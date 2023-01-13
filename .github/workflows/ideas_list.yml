@@ -1,0 +1,103 @@
+#/
+# @license Apache-2.0
+#
+# Copyright (c) 2023 The Stdlib Authors.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#/
+
+# Workflow name:
+name: ideas_list
+
+# Workflow triggers:
+on:
+  # Define all the activity types for which we want to update the ideas list:
+  issues:
+    types:
+      - opened
+      - edited
+      - closed
+      - reopened
+      - labeled
+      - unlabeled
+
+  # Allow the workflow to be manually run:
+  workflow_dispatch:
+
+# Workflow concurrency group:
+concurrency:
+
+  # Specify a group name:
+  group: ${{ github.workflow }}
+
+  # Specify whether to cancel any currently running workflow in the same concurrency group:
+  cancel-in-progress: true
+
+# Workflow jobs:
+jobs:
+
+  # Define a job for updating our ideas list...
+  update-file:
+
+    # Define a display name:
+    name: 'Update file'
+
+    # Define the type of virtual host machine:
+    runs-on: ubuntu-latest
+
+    # Define the sequence of job steps...
+    steps:
+
+      # Checkout the repository:
+      - name: 'Checkout repository'
+        uses: actions/checkout@v3
+        with:
+          # Specify whether to remove untracked files before checking out the repository:
+          clean: true
+
+          # Limit clone depth to the most recent commit:
+          fetch-depth: 1
+
+          # Specify whether to download Git-LFS files:
+          lfs: false
+        timeout-minutes: 10
+
+      # Configure Git:
+      - name: 'Configure Git'
+        run: |
+          git config --local user.email "noreply@stdlib.io"
+          git config --local user.name "stdlib-bot"
+        timeout-minutes: 5
+
+      # Generate file:
+      - name: 'Generate file'
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GHPROJECT_TOKEN }}
+          script: |
+            const fs = require( 'fs' );
+            const path = require( 'path' );
+            const script = require( '${{ github.workspace }}/.github/workflows/scripts/update_ideas_list.js' );
+            await script( github, context, core, fs, path, '${{ github.workspace }}' );
+
+      # Push changes:
+      - name: 'Push changes'
+        run: |
+          if [[ -z "$(git status --porcelain)" ]]; then
+            # If no files were changed, nothing more to do:
+            exit 0
+          fi
+          # Otherwise, add changed files to the staging area and commit:
+          git add -A && git commit -m "Update ideas list"
+          git push
+        timeout-minutes: 15
