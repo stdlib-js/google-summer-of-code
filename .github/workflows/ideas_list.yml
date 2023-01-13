@@ -83,7 +83,7 @@ jobs:
       - name: 'Generate file'
         uses: actions/github-script@v6
         with:
-          github-token: ${{ secrets.GHPROJECT_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const fs = require( 'fs' );
             const path = require( 'path' );
