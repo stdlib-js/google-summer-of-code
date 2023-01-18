@@ -24,4 +24,6 @@ If you do reach out directly to a mentor, please be **respectful** of their time
 
 ## Why are idea issues locked?
 
-Idea issues are **not** our desired forum for initial project inquiries and are intended to be a lightweight means for core stdlib developers to write down potential GSoC project ideas. Our aim is to keep idea issues as clear and succinct as possible and to avoid long drawn out discussions which are better suited for chat. If you have questions or are interested in pursuing a particular idea, you should reach out over [Gitter](https://gitter.im/stdlib-js/stdlib). 
+Idea issues are **not** our desired forum for initial project inquiries and are intended to be a lightweight means for core stdlib developers to write down potential GSoC project ideas. Our aim is to keep idea issues as clear and succinct as possible and to avoid long drawn out discussions which are better suited for chat.
+
+If you have questions or are interested in pursuing a particular idea, you should reach out over [Gitter](https://gitter.im/stdlib-js/stdlib). 
