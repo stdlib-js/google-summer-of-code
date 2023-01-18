@@ -14,7 +14,7 @@ The application process follows a similar process to how open source software co
 
 We understand, however, the feeling of wanting to be protective of one's idea, especially in what is perceived as a competitive environment, for fear that someone else could swoop in and copy the idea. Setting aside how likely such a threat is, our application process requires that an applicant provide their usernames/handles/name along with their application so that we can associate a particular proposal with a single individual. If individual X proposes A and then individual Y comes along, copies A with some small modifications, and proposes A', we have a public record of who was first and can give priority accordingly.
 
-In short, given that the intent of GSoC is offering new contributors a pathway into open source, we believe that it's conceptually consistent to embrace a culture of public discussion from the outset, as engaging in public discussion and community engagement is something that will have to be done throughout the GSoC program and hopefully beyond.
+In short, given that the intent of GSoC is offering new contributors a pathway into open source, we believe that it's conceptually consistent to embrace a culture of public discussion from the outset, as engaging in public discussion and with the community is something that will have to be done throughout the GSoC program and hopefully beyond.
 
 ## How can I reach out privately if I need to ask something confidential?
 
