@@ -128,8 +128,6 @@ In addition to the written proposal, we **require** every [GSoC][gsoc] applicant
 
 To submit a patch,
 
-1.  Create a GitHub account, if you do not already have one.
-
 1.  Fork the [stdlib repository][stdlib].
 
 1.  Setup your platform to develop [stdlib][stdlib] (e.g., install Git, clone your forked repository, set it up to track the remote upstream [stdlib repository][stdlib], install dependencies, and initialize your local development environment). Our [contributing guide][stdlib-contributing] walks you through setting up Git and details our preferred way of development.
