@@ -26,6 +26,12 @@ If you are willing to mentor,
     - e-mail: [pburckhardt@outlook.com](mailto:pburckhardt@outlook.com)
     - projects: all
 
+- Gagandeep Singh
+
+    - e-mail: [gdp.1807@gmail.com](mailto:gdp.1807@gmail.com)
+    - projects: anything involving implementation of mathematical functions, array programming features.
+    - github: [czgdp1807](https://github.com/czgdp1807)
+
 ## Time Commitment
 
 We expect between a 3-10 hour a week commitment, where the requisite time decreases over the course of the program. Mentors can expect to spend more time the first few weeks prior to the contributor start date, where you'll be helping flesh out the project ideas, discussing projects with potential contributors, and selecting contributors based on their submitted proposals. Once contributors are selected and the program kicks off, your commitment should decrease to 2-4 hours a week and be comprised of a weekly 1 hour 1-on-1 where you'll establish rapport and discuss project progress and of some additional time to perform code review and answer questions as they arise. Ideally, a mentor will pair program with a contributor for 1 hour every two weeks throughout the duration of the program.
