@@ -26,7 +26,7 @@ If you are willing to mentor,
 
     - e-mail: [pburckhardt@outlook.com](mailto:pburckhardt@outlook.com)
     - projects: all
-    - [planeshifter](https://github.com/planeshifter)
+    - GitHub: [planeshifter](https://github.com/planeshifter)
 
 - Gagandeep Singh
 
