@@ -19,20 +19,20 @@ If you are willing to mentor,
 - Athan Reines
 
     - e-mail: [kgryte@gmail.com](mailto:kgryte@gmail.com)
-    - projects: all
     - GitHub: [kgryte](https://github.com/kgryte)
+    - projects: all
     
 - Philipp Burckhardt
 
     - e-mail: [pburckhardt@outlook.com](mailto:pburckhardt@outlook.com)
-    - projects: all
     - GitHub: [planeshifter](https://github.com/planeshifter)
+    - projects: all
 
 - Gagandeep Singh
 
     - e-mail: [gdp.1807@gmail.com](mailto:gdp.1807@gmail.com)
-    - projects: anything involving implementation of mathematical functions, array programming features.
     - GitHub: [czgdp1807](https://github.com/czgdp1807)
+    - projects: anything involving implementation of mathematical functions or array programming
 
 ## Time Commitment
 
