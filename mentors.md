@@ -12,7 +12,7 @@ If you are willing to mentor,
 
 1. read the [GSoC mentor guide](https://google.github.io/gsocguides/mentor/).
 1. register at <https://summerofcode.withgoogle.com/>. 
-1. submit a pull request adding yourself to the list below, making sure (1) to include any project ideas that you'd be willing to mentor by linking to the relevant issue(s) and (2) to include the e-mail that you used to register at <https://summerofcode.withgoogle.com/>.
+1. submit a pull request adding yourself to the list below, making sure (1) to include any project ideas that you'd be willing to mentor by linking to the relevant issue(s), (2) to provide your GitHub handle, and (3) to include the e-mail that you used to register at <https://summerofcode.withgoogle.com/>.
 
 ## Mentor List
 
@@ -20,17 +20,19 @@ If you are willing to mentor,
 
     - e-mail: [kgryte@gmail.com](mailto:kgryte@gmail.com)
     - projects: all
+    - GitHub: [kgryte](https://github.com/kgryte)
     
 - Philipp Burckhardt
 
     - e-mail: [pburckhardt@outlook.com](mailto:pburckhardt@outlook.com)
     - projects: all
+    - [planeshifter](https://github.com/planeshifter)
 
 - Gagandeep Singh
 
     - e-mail: [gdp.1807@gmail.com](mailto:gdp.1807@gmail.com)
     - projects: anything involving implementation of mathematical functions, array programming features.
-    - github: [czgdp1807](https://github.com/czgdp1807)
+    - GitHub: [czgdp1807](https://github.com/czgdp1807)
 
 ## Time Commitment
 
