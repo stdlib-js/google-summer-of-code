@@ -46,7 +46,7 @@ The intent of GSoC is to provide a way for new contributors to join and particip
 
 **Read the instructions.** Always read (and re-read) all instructions when submitting proposals. Do not simply submit a resume, scientific paper, presentation, or other file which does not contain any information about the project you'd like to pursue. Failure to follow instructions is guaranteed to lead to proposal rejection.
 
-**Be professional.** Show respect and demonstrate that you will take the mentoring relationship seriously. That means actively listening when you receive feedback and always valuing the time of each member in the [stdlib][stdlib] community. Poor communication and a failure to read and follow instructions convey a lack of respect and lack of consideration for mentor time, and no mentor wants to work with a contributor who doesn't exhibit the professionalism necessary to ensure both the success of their project and their personal growth as a [stdlib][stdlib] community member.
+**Be professional.** Show respect and demonstrate that you will take the mentoring relationship seriously. That means actively listening when you receive feedback and always valuing the time of each member in the [stdlib][stdlib] community. Poor communication and a failure to read and follow instructions convey a lack of respect and a lack of consideration for mentor time, and no mentor wants to work with a contributor who doesn't exhibit the professionalism necessary to ensure both the success of their project and their personal growth as a [stdlib][stdlib] community member.
 
 ### Questions
 
