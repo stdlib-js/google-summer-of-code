@@ -24,7 +24,7 @@ If you are willing to mentor,
     
 - Philipp Burckhardt
 
-    - e-mail: [pburckhardt@outlook.com](mailto:pburckhardt@outlook.com)
+    - e-mail: [philipp.burckhardttc@gmail.com](mailto:philipp.burckhardttc@gmail.com)
     - GitHub: [planeshifter](https://github.com/planeshifter)
     - projects: all
 
