@@ -22,6 +22,10 @@ The best project for you is the one you are most interested in and knowledgeable
 
 After discussing with us over [Gitter](https://gitter.im/stdlib-js/stdlib) and receiving approval to submit your idea, please open an [issue](https://github.com/stdlib-js/google-summer-of-code/issues/new?assignees=&labels=idea&template=idea.yml&title=%5BIdea%5D%3A+) which describes your idea using the [**idea issue template**](https://github.com/stdlib-js/google-summer-of-code/issues/new?assignees=&labels=idea&template=idea.yml&title=%5BIdea%5D%3A+).
 
+## Mentors
+
+To learn who might mentor one of the projects listed below, consult the list of potential project [mentors](https://github.com/stdlib-js/google-summer-of-code/blob/main/mentors.md). For each mentor, the list includes a mentor's preferred project(s) and/or general interest area.
+
 * * *
 ## Building a better Node.js REPL
 
