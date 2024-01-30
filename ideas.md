@@ -135,7 +135,17 @@ Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/4>
 
 ### Idea
 
+The [stdlib](https://github.com/stdlib-js/stdlib) project encompasses over 3500 repositories which are orchestrated via a centralized repository. While orchestration largely works as intended, build failures do happen, and quickly detecting and resolving build failures in standalone repositories is critical to prevent downstream breakages and ensure ecosystem integrity.
+
 The goal of this idea is to build a developer dashboard to display in real-time standalone repository build failures. We currently have the backend database which collects build results in real-time; however, we have yet to build a frontend for viewing and analyzing such data.
+
+The expected roadmap is as follows:
+
+- Build a Node.js backend for querying a PostgreSQL database.
+- Build a frontend dashboard which interfaces with the backend. As this will be a developer facing application, the choice of technologies is greenfield. Potential options may include ESBuild, tailwind, etc.
+- Add support for filtering the dashboard based on build status and other features.
+- Allow for quick navigation to repository resources and build artifacts.
+- Extend the dashboard to support historical overviews and other drill down metrics.
 
 ### Expected Outcomes
 
@@ -156,6 +166,10 @@ Intermediate. Requires a fair amount of frontend engineering knowledge and moder
 ### Project Length
 
 175/350 hours. A skilled contributor may be able to execute on this faster. If so, scope could be expanded to include analytics and historical overviews.
+
+### Potential Mentors
+
+@kgryte @Planeshifter @steff456 
 
 * * *
 
