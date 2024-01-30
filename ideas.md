@@ -251,6 +251,10 @@ Intermediate.
 
 175/350 hours. The scope of this idea can be adjusted depending on availability.
 
+### Potential Mentors
+
+@kgryte @Planeshifter @steff456 
+
 * * *
 
 ## Reimagine the stdlib plot API and implementation
