@@ -381,6 +381,10 @@ Intermediate.
 
 175/350 hours. Can be scoped accordingly. A skilled contributor should be able to complete in 175 hours with the potential of using their implementation to implement higher order statistics APIs.
 
+### Potential Mentors
+
+@kgryte @Planeshifter @Pranavchiku 
+
 * * *
 
 ## Migrate stdlib to use ESLint for linting TypeScript files
