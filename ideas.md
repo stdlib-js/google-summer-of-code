@@ -391,36 +391,6 @@ Intermediate.
 
 * * *
 
-## Migrate stdlib to use ESLint for linting TypeScript files
-
-Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/12>
-
-### Idea
-
-Currently, stdlib uses tslint to lint TypeScript files; however, this utility is now deprecated. The goal of this idea is to migrate stdlib away from tslint to use ESLint for linting. We already use ESLint for linting JavaScript, and being able to use the same linter for TypeScript files would be a significant development improvement, given stdlib's investment in developing custom ESLint rules for enforcing project conventions.
-
-### Expected Outcomes
-
-Linting of stdlib's TypeScript files will be performed by ESLint.
-
-### Involved Software
-
-No other software is necessary.
-
-### Prerequisite Knowledge
-
-JavaScript, Node.js.
-
-### Difficulty
-
-Beginner/Intermediate. 
-
-### Project Length
-
-175/350 hours. Can be scoped accordingly. Scope can be expanded to create custom ESLint rules to enforce particular aspects of stdlib conventions.
-
-* * *
-
 ## Develop a Google Sheets extension which exposes stdlib functionality
 
 Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/13>
