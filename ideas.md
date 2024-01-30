@@ -441,7 +441,9 @@ Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/14>
 
 ### Idea
 
-The goal of this idea is to provide a visual representation of an API's dependency graph directly in the stdlib API documentation. Initial thinking is that would be an interactive network diagram in which nodes present package dependencies and allow for navigation.
+stdlib is a large (and growing!) project, which can make project navigation challenging. The goal of this idea is to provide a visual representation of an API's dependency graph directly in the stdlib API documentation. Initial thinking is that would be an interactive network diagram in which nodes present package dependencies and allow for navigation; however, other visual representations may be possible.
+
+By providing such a means for navigating the project, users could more readily deepen their understanding of the `stdlib` code base, identify potential issues, and better understand how underlying APIs are used.
 
 ### Expected Outcomes
 
@@ -462,6 +464,10 @@ Beginner/Intermediate.
 ### Project Length
 
 175 hours.
+
+### Potential Mentors
+
+@kgryte @Planeshifter @steff456 
 
 * * *
 
