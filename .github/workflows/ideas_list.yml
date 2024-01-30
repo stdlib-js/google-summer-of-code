@@ -97,6 +97,6 @@ jobs:
             exit 0
           fi
           # Otherwise, add changed files to the staging area and commit:
-          git add -A && git commit -m "Update ideas list"
+          git add -A && git commit -m "feat: update ideas list"
           git push
         timeout-minutes: 15
