@@ -732,6 +732,10 @@ Intermediate.
 
 175/350 hours. Can be scoped according to project length.
 
+### Potential Mentors
+
+@kgryte @Planeshifter @steff456 
+
 * * *
 
 ## Functions for numerical integration and differentiation
