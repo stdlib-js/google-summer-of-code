@@ -98,6 +98,11 @@ Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/3>
 
 The goal of this idea is to expose a set of Fast Fourier Transform (FFT) interfaces similar to those available in NumPy and as documented in the [Data APIs Array API specification](https://data-apis.org/array-api/latest/extensions/fourier_transform_functions.html). Similar to stdlib's BLAS interfaces, we may want to allow switching out the FFT backend.
 
+One potential reference implementation which could form the basis of this idea is pocketfft, as done in NumPy:
+
+- https://github.com/mreineck/pocketfft
+- https://gitlab.mpcdf.mpg.de/mtr/pocketfft
+
 ### Expected Outcomes
 
 stdlib users would be able to evaluate FFT operations on stdlib ndarrays. Ideally, we'd also provide a set of C APIs.
