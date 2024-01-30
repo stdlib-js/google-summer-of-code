@@ -588,6 +588,10 @@ Intermediate.
 
 350 hours.
 
+### Potential Mentors
+
+@kgryte @Planeshifter @steff456 
+
 * * *
 
 ## Refactor generated TypeScript interface documentation
