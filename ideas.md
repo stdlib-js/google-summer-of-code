@@ -219,6 +219,10 @@ Intermediate.
 
 350 hours.
 
+### Potential Mentors
+
+@kgryte @Planeshifter @steff456 
+
 * * *
 
 ## Develop a project test runner
