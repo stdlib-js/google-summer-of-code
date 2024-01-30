@@ -42,7 +42,7 @@ If you are willing to mentor,
 - Pranav Goswami
     - e-mail: [goswami.4@iitj.ac.in](mailto:goswami.4@iitj.ac.in)
     - GitHub: [pranavchiku](https://github.com/pranavchiku)
-    - projects: most, particularly implementation of blas, mathematical functions 
+    - projects: most, particularly implementation of BLAS, mathematical functions 
 
 ## Time Commitment
 
