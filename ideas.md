@@ -286,7 +286,9 @@ Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/9>
 
 ### Idea
 
-Currently, stdlib has a limited set of dedicated "async" APIs for performing various utility operations. The goal of this idea is to achieve feature parity with `async.js`.
+Currently, stdlib has a limited set of dedicated "async" APIs for performing various utility operations. The goal of this idea is to achieve feature parity with [`async.js`](https://caolan.github.io/async/v3/), a popular library providing callback-based async APIs.
+
+Motivation for this idea stems from certain advantages afforded by callback-based asynchronous programming. Notable among them is superior performance and the ability to more readily return and inspect status objects.
 
 ### Expected Outcomes
 
@@ -307,6 +309,10 @@ Beginner. Would benefit from someone with JavaScript experience.
 ### Project Length
 
 175/350 hours. Can be scoped accordingly.
+
+### Potential Mentors
+
+@kgryte @Planeshifter @steff456 
 
 * * *
 
