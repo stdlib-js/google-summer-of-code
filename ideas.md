@@ -38,6 +38,17 @@ The read-eval-print loop (REPL) is a fixture of data analysis and numerical comp
 
 This idea aims to implement a suite of enhancements to the stdlib REPL, which is an alternative to the Node.js REPL and analogous to Python's IPython. The overarching goal is to provide a compelling environment for interactive JavaScript computing to further establish Node.js as a platform suitable for numerical computing and data analysis.
 
+Potential improvements include the following:
+
+- Auto-completion previews for file paths, function names, and variables
+- Fuzzy auto-completion extension
+- Less/more documentation pager
+- Pretty printing of tabular output
+- Terminal syntax highlighting and bracket matching
+- Bracketed-paste
+- Custom key binding support
+- Numerical computing workshops/tutorials using the built-in REPL presentation framework
+
 ### Expected Outcomes
 
 REPL users will be able to leverage the stdlib REPL in a manner similar to a fully-featured IDE and have access to workshops and tutorials for an integrated interactive learning experience covering machine learning and statistical computing concepts.
@@ -57,6 +68,10 @@ Intermediate. Difficulties may arise due to escape sequences necessary for synta
 ### Project Length
 
 350 hours.
+
+### Potential Mentors
+
+@kgryte @Planeshifter @steff456 
 
 * * *
 
