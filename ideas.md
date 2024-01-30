@@ -794,6 +794,10 @@ Intermediate
 
 350 hours.
 
+### Potential Mentors
+
+@kgryte @Planeshifter @rreusser 
+
 * * *
 
 ## Make code blocks on website documentation interactive
