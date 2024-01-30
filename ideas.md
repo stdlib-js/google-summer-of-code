@@ -864,6 +864,10 @@ Hard. Depends on the reference implementation requirements and algorithmic diffi
 
 350 hours.
 
+### Potential Mentors
+
+@kgryte @Planeshifter @rreusser @Pranavchiku @czgdp1807 
+
 * * *
 
 ## Linear Algebra Functionality
