@@ -10,7 +10,7 @@ Priority, difficulty, technology, and topic area have no bearing on the chances 
 
 **Project Length**
 
-GSoC allows three different project lengths: **90** hours, **175** hours, and **350** hours. Each idea must indicate whether the idea is a better fit for 90, 175, or 350 hours.
+GSoC allows two different project lengths: **175** hours and **350** hours. Each idea must indicate whether the idea is a better fit for 175 or 350 hours.
 
 In some cases, we may be able to extend a 175 hour project to a 350 hour project by extending the ideas of what can be done. Similarly, in some cases, a 350 hour project can be shortened to a 175 hour project by only implementing part of an idea and leaving the rest for a future project. In either case, if you want to adjust the project length, please be sure to contact us over [Gitter](https://gitter.im/stdlib-js/stdlib) to discuss it first!
 
@@ -27,6 +27,7 @@ After discussing with us over [Gitter](https://gitter.im/stdlib-js/stdlib) and r
 To learn who might mentor one of the projects listed below, consult the list of potential project [mentors](https://github.com/stdlib-js/google-summer-of-code/blob/main/mentors.md). For each mentor, the list includes a mentor's preferred project(s) and/or general interest area.
 
 * * *
+
 ## Building a better Node.js REPL
 
 Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/1>
@@ -56,7 +57,9 @@ Intermediate. Difficulties may arise due to escape sequences necessary for synta
 ### Project Length
 
 350 hours.
+
 * * *
+
 ## Implement a broader range of statistical distributions
 
 Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/2>
@@ -84,7 +87,9 @@ Intermediate. Difficulties may arise for distributions whose properties and mome
 ### Project Length
 
 350 hours.
+
 * * *
+
 ## Provide APIs for computing Fast Fourier Transforms
 
 Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/3>
@@ -112,7 +117,9 @@ Hard. This may be a straightforward port, or it may not be. More R&D is needed.
 ### Project Length
 
 350 hours.
+
 * * *
+
 ## Developer dashboard for tracking ecosystem build failures
 
 Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/4>
@@ -140,7 +147,9 @@ Intermediate. Requires a fair amount of frontend engineering knowledge and moder
 ### Project Length
 
 175/350 hours. A skilled contributor may be able to execute on this faster. If so, scope could be expanded to include analytics and historical overviews.
+
 * * *
+
 ## Expand support for additional pseudorandom number generators
 
 Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/5>
@@ -168,7 +177,9 @@ Intermediate/Hard. Depends. Some PRNGs may be straightforward to implement. Othe
 ### Project Length
 
 175/350 hours. This idea can be adjusted according to needs and availability.
+
 * * *
+
 ## Add support for visualizing benchmark results
 
 Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/6>
@@ -198,7 +209,9 @@ Intermediate.
 ### Project Length
 
 350 hours.
+
 * * *
+
 ## Develop a project test runner
 
 Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/7>
@@ -228,7 +241,9 @@ Intermediate.
 ### Project Length
 
 175/350 hours. The scope of this idea can be adjusted depending on availability.
+
 * * *
+
 ## Reimagine the stdlib plot API and implementation
 
 Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/8>
@@ -258,7 +273,9 @@ Intermediate/Hard.
 ### Project Length
 
 350 hours. This project has the potential to spiral out of control, as there are many unknowns we'd need to answer. Mentor would likely need to be actively involved in order to perform R&D and properly scope.
+
 * * *
+
 ## Achieve feature parity with async.js
 
 Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/9>
@@ -286,7 +303,9 @@ Beginner. Would benefit from someone with JavaScript experience.
 ### Project Length
 
 175/350 hours. Can be scoped accordingly.
+
 * * *
+
 ## Achieve feature parity with builtin Node.js `fs` module
 
 Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/10>
@@ -316,7 +335,9 @@ Intermediate. Could require some creative solutions to ensure that abstractions 
 ### Project Length
 
 175/350 hours. Can be scoped accordingly.
+
 * * *
+
 ## Add support for the multivariate normal distribution
 
 Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/11>
@@ -344,7 +365,9 @@ Intermediate.
 ### Project Length
 
 175/350 hours. Can be scoped accordingly. A skilled contributor should be able to complete in 175 hours with the potential of using their implementation to implement higher order statistics APIs.
+
 * * *
+
 ## Migrate stdlib to use ESLint for linting TypeScript files
 
 Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/12>
@@ -372,7 +395,9 @@ Beginner/Intermediate.
 ### Project Length
 
 175/350 hours. Can be scoped accordingly. Scope can be expanded to create custom ESLint rules to enforce particular aspects of stdlib conventions.
+
 * * *
+
 ## Develop a Google Sheets extension which exposes stdlib functionality
 
 Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/13>
@@ -400,7 +425,9 @@ Beginner/Intermediate.
 ### Project Length
 
 175/350 hours. Can be scoped accordingly. A skilled contributor can work strategy for performant fused operations.
+
 * * *
+
 ## Stdlib API dependency explorer
 
 Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/14>
@@ -428,7 +455,9 @@ Beginner/Intermediate.
 ### Project Length
 
 175 hours.
+
 * * *
+
 ## Add support for bootstrap and jackknife resampling
 
 Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/15>
@@ -456,7 +485,9 @@ Beginner/Intermediate.
 ### Project Length
 
 175/350 hours. Can be scoped accordingly. Scope can be expanded to implement different bootstrap algorithms.
+
 * * *
+
 ## Develop a Jupyter backend for interfacing with the stdlib REPL
 
 Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/16>
@@ -486,7 +517,9 @@ Hard.
 ### Project Length
 
 350 hours. This idea has many unknowns and will be hard to scope.
+
 * * *
+
 ## Implement additional statistical tests
 
 Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/17>
@@ -514,7 +547,9 @@ Hard. Depends on the reference implementation requirements and algorithmic diffi
 ### Project Length
 
 350 hours.
+
 * * *
+
 ## Generate web documentation from JSDoc comments
 
 Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/19>
@@ -545,7 +580,9 @@ Intermediate.
 ### Project Length
 
 350 hours.
+
 * * *
+
 ## Refactor generated TypeScript interface documentation
 
 Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/20>
@@ -573,7 +610,9 @@ Intermediate.
 ### Project Length
 
 175/350 hours. Length will depend on the nature of the proposed solution (e.g., needing to write a custom TypeScript parser vs modifying the existing tsdoc library).
+
 * * *
+
 ## Use ES6 modules for running unit tests and benchmarks in web browsers
 
 Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/21>
@@ -603,7 +642,9 @@ Intermediate.
 ### Project Length
 
 350 hours.
+
 * * *
+
 ## Migrate web API documentation to use matomo and instrument for better understanding user navigation behavior
 
 Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/22>
@@ -633,14 +674,16 @@ Intermediate.
 ### Project Length
 
 350 hours. Can be adjusted depending on skill and ability.
+
 * * *
+
 ## Improve the REPL presentation framework
 
 Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/23>
 
 ### Idea
 
-stdlib currently offers a REPL presentation framework for authoring presentations for use directly in the REPL. This is particularly use for creating interactive tutorials illustrating how to use stdlib functionality for data analysis and visualization from the terminal. Some functionality is missing which would be quite useful. E.g.,
+stdlib currently offers a REPL presentation framework for authoring presentations for use directly in the REPL. This is particularly useful for creating interactive tutorials illustrating how to use stdlib functionality for data analysis and visualization from the terminal. Some functionality is missing which would be quite useful. E.g.,
 
 - ASCII plotting
 - ASCII animations
@@ -669,7 +712,9 @@ Intermediate.
 ### Project Length
 
 175/350 hours. Can be scoped according to project length.
+
 * * *
+
 ## Functions for numerical integration and differentiation
 
 Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/24>
@@ -697,7 +742,9 @@ Intermediate.
 ### Project Length
 
 350 hours.
+
 * * *
+
 ## Symbolic Math
 
 Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/25>
@@ -725,7 +772,9 @@ Intermediate
 ### Project Length
 
 350 hours.
+
 * * *
+
 ## Make code blocks on website documentation interactive
 
 Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/26>
@@ -753,7 +802,9 @@ Hard.
 ### Project Length
 
 350 hours.
+
 * * *
+
 ## Optimization Algorithms
 
 Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/27>
@@ -781,7 +832,9 @@ Hard. Depends on the reference implementation requirements and algorithmic diffi
 ### Project Length
 
 350 hours.
+
 * * *
+
 ## Linear Algebra Functionality
 
 Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/28>
