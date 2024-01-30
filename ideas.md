@@ -361,6 +361,10 @@ Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/11>
 
 The goal of this idea is to implement the multivariate normal distribution. This distribution is fundamental in a wide variety of statistical applications and will help unblock stdlib in offering additional statistics APIs.
 
+As a starting point, SciPy's multivariate normal distribution API and implementation could provide a suitable point of reference:
+
+- https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.multivariate_normal.html
+
 ### Expected Outcomes
 
 Users will be able to evaluate the PDF, CDF, logPDF, and logCDF and be able to draw random variates from a specified distribution.
