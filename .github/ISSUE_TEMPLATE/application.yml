@@ -19,7 +19,7 @@
 name: 🚀 Application
 description: I'd like to apply to Google Summer of Code to work on stdlib!
 title: "[RFC]: "
-labels: ["rfc", "2023"]
+labels: ["rfc", "2024"]
 body:
   - type: markdown
     attributes:
@@ -219,7 +219,7 @@ body:
 
         Tell us about your proposal!
 
-        When detailing the project schedule, you are advised to note where along the way where you could formulate a pull request. Ideally, pull requests should be points where you can have self-contained, well-documented, and tested pieces of functionality. Breaking the project into smaller sub-tasks which can be completed as part of one or more pull requests helps to keep branch merges and code reviews reasonable. A large code dump at the end of the program will likely be hard to review and merge before the project deadline.
+        When detailing the project schedule, you are advised to note where along the way you could formulate a pull request. Ideally, pull requests should be points where you can have self-contained, well-documented, and tested pieces of functionality. Breaking the project into smaller sub-tasks which can be completed as part of one or more pull requests helps to keep branch merges and code reviews reasonable. A large code dump at the end of the program will likely be hard to review and merge before the project deadline.
 
         Please do **not** copy verbatim text from the list of project ideas or from other people's discussions about your project. Always write your proposal in your own words.
 
@@ -231,7 +231,7 @@ body:
     id: proposal_goals
     attributes:
       label: Goals
-      description: What do you hope to achieve? This should be your project abstract and included a detailed description of the proposed work.
+      description: What do you hope to achieve? This should be your project abstract and include a detailed description of the proposed work.
     validations:
       required: true
 
