@@ -429,9 +429,17 @@ Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/13>
 
 The goal of this idea is to allow users to call stdlib APIs from within Google Sheets. This will allow users to perform linear algebra and various machine learning operations directly on spreadsheet data and all within the browser.
 
+In order to execute on this idea, we'll want to support
+
+- two-dimensional array broadcasting semantics
+- performant element-wise iteration APIs
+- input argument validation tailored to the Sheets context
+- Fused operations to avoid unnecessary network calls
+- documentation and tutorials demonstrating API usage
+
 ### Expected Outcomes
 
-Google Sheets users will be able to install an add-on which exposes stdlib functionality, run statistical tests, evaluate mathematical functions, and perform linear algebra operations using stdlib.
+Google Sheets users will be able to install an extension which exposes stdlib functionality, run statistical tests, evaluate mathematical functions, and perform linear algebra operations using stdlib.
 
 ### Involved Software
 
@@ -448,6 +456,10 @@ Beginner/Intermediate.
 ### Project Length
 
 175/350 hours. Can be scoped accordingly. A skilled contributor can work strategy for performant fused operations.
+
+### Potential Mentors
+
+@kgryte @Planeshifter @steff456 
 
 * * *
 
