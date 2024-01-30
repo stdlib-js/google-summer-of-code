@@ -436,6 +436,8 @@ In order to execute on this idea, we'll want to support
 - input argument validation tailored to the Sheets context
 - Fused operations to avoid unnecessary network calls
 - documentation and tutorials demonstrating API usage
+- good generation and automation for creating extension builds
+- testing and performance measurement to guard against regressions
 
 ### Expected Outcomes
 
