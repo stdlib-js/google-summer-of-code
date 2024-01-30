@@ -768,6 +768,8 @@ Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/24>
 
 The goal of this idea is to add functions for numerical integration or differentiation to stdlib as building blocks for downstream algorithms. The functions could be ported from permissively licensed open-source libraries in other languages such as C or Fortran or alternatively be implemented from scratch by consulting the literature and reference implementations from various languages.
 
+Some work along these lines has been started in the scijs ecosystem, which can be used for initial inspiration (e.g., https://github.com/scijs/ode45-cash-karp), and more generally in SciPy (e.g., https://docs.scipy.org/doc/scipy/reference/generated/scipy.integrate.ode.html).
+
 ### Expected Outcomes
 
 stdlib will have a range of robust functions for performing numerical integration or differentiation
@@ -787,6 +789,10 @@ Intermediate.
 ### Project Length
 
 350 hours.
+
+### Potential Mentors
+
+@kgryte @Planeshifter @rreusser @Pranavchiku @czgdp1807 
 
 * * *
 
