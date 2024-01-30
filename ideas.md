@@ -618,6 +618,10 @@ Intermediate.
 
 175/350 hours. Length will depend on the nature of the proposed solution (e.g., needing to write a custom TypeScript parser vs modifying the existing tsdoc library).
 
+### Potential Mentors
+
+@kgryte @Planeshifter @steff456 
+
 * * *
 
 ## Use ES6 modules for running unit tests and benchmarks in web browsers
