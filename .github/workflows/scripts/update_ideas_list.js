@@ -68,6 +68,7 @@ var HEADING = [
 	'To learn who might mentor one of the projects listed below, consult the list of potential project [mentors](https://github.com/stdlib-js/google-summer-of-code/blob/main/mentors.md). For each mentor, the list includes a mentor\'s preferred project(s) and/or general interest area.',
 	'',
 	'* * *',
+	'',
 	''
 ].join( '\n' );
 
