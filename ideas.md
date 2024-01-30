@@ -525,6 +525,10 @@ Hard.
 
 350 hours. This idea has many unknowns and will be hard to scope.
 
+### Potential Mentors
+
+@kgryte @Planeshifter 
+
 * * *
 
 ## Implement additional statistical tests
