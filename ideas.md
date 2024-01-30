@@ -187,6 +187,10 @@ Intermediate/Hard. Depends. Some PRNGs may be straightforward to implement. Othe
 
 175/350 hours. This idea can be adjusted according to needs and availability.
 
+### Potential Mentors
+
+@kgryte @Planeshifter @Pranavchiku 
+
 * * *
 
 ## Add support for visualizing benchmark results
