@@ -96,7 +96,7 @@ Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/3>
 
 ### Idea
 
-The goal of this idea is to expose a set of FFT interfaces similar to those available in NumPy and as documented in the Data APIs Array API specification. Similar to stdlib's BLAS interfaces, we may want to allow switching out the FFT backend.
+The goal of this idea is to expose a set of Fast Fourier Transform (FFT) interfaces similar to those available in NumPy and as documented in the Data APIs Array API specification. Similar to stdlib's BLAS interfaces, we may want to allow switching out the FFT backend.
 
 ### Expected Outcomes
 
