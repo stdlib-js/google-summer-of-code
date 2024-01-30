@@ -351,6 +351,10 @@ Intermediate. Could require some creative solutions to ensure that abstractions 
 
 175/350 hours. Can be scoped accordingly.
 
+### Potential Mentors
+
+@kgryte @Planeshifter @steff456 
+
 * * *
 
 ## Add support for the multivariate normal distribution
