@@ -10,7 +10,7 @@ Priority, difficulty, technology, and topic area have no bearing on the chances 
 
 **Project Length**
 
-GSoC allows two different project lengths: **175** hours and **350** hours. Each idea must indicate whether the idea is a better fit for 175 or 350 hours.
+GSoC allows three different project lengths: **90** hours, **175** hours, and **350** hours. Each idea must indicate whether the idea is a better fit for 90, 175, or 350 hours.
 
 In some cases, we may be able to extend a 175 hour project to a 350 hour project by extending the ideas of what can be done. Similarly, in some cases, a 350 hour project can be shortened to a 175 hour project by only implementing part of an idea and leaving the rest for a future project. In either case, if you want to adjust the project length, please be sure to contact us over [Gitter](https://gitter.im/stdlib-js/stdlib) to discuss it first!
 
