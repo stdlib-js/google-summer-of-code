@@ -690,6 +690,10 @@ Intermediate.
 
 350 hours. Can be adjusted depending on skill and ability.
 
+### Potential Mentors
+
+@kgryte @Planeshifter @steff456 
+
 * * *
 
 ## Improve the REPL presentation framework
