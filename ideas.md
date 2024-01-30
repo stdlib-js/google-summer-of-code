@@ -118,9 +118,9 @@ Hard. This may be a straightforward port, or it may not be. More R&D is needed.
 
 350 hours.
 
-### Possible Mentors
+### Potential Mentors
 
-@kgryte @Planeshifter @rreusser 
+@kgryte @Planeshifter @rreusser @Pranavchiku 
 
 * * *
 
