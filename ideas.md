@@ -283,6 +283,10 @@ Intermediate/Hard.
 
 350 hours. This project has the potential to spiral out of control, as there are many unknowns we'd need to answer. Mentor would likely need to be actively involved in order to perform R&D and properly scope.
 
+### Potential Mentors
+
+@kgryte @Planeshifter @rreusser 
+
 * * *
 
 ## Achieve feature parity with async.js
