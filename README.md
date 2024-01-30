@@ -16,7 +16,7 @@ In this repository, you'll find information on how to apply for GSoC and a list 
 
 ## Time Commitment
 
-GSoC contributors are [expected][gsoc-faq-time-commitment] to work either **350** hours (full-time equivalent) or **175** hours (part-time equivalent) over the course of the program. The default schedule runs over 3 months (12 weeks) and can potentially be spread out over a longer period.
+GSoC contributors are [expected][gsoc-faq-time-commitment] to work either **350** hours (full-time equivalent), **175** hours (part-time equivalent), or **90** hours (short-time equivalent) over the course of the program. The default schedule runs over 3 months (12 weeks) and can potentially be spread out over a longer period.
 
 The program start date is [**non-negotiable**][gsoc-faq-schedule-start]. All GSoC contributors **must** begin the program at the same time.
 
@@ -34,7 +34,7 @@ In order to apply to GSoC with [stdlib][stdlib], you must:
 1. Submit **at least** one patch to [stdlib][stdlib]. All applications which are not accompanied by at least one patch to stdlib will be **rejected**. Instructions as to how to fulfill the [patch requirement](#patch-requirement) are described below.
 1. Review our [list of ideas][stdlib-gsoc-ideas] to see if you find a project which excites you. If you'd like to submit your own idea, that is fine; just be sure to propose your idea to stdlib mentors first! **Unsolicited, undiscussed ideas are less likely to get accepted.**
 1. Develop your application, making sure to follow the [application template][stdlib-gsoc-application-template]. We strongly suggest opening an [issue][stdlib-gsoc-application-template] which describes your project using the [application issue template][stdlib-gsoc-application-template]. Doing so allows individuals who are not on the [GSoC website][gsoc] to review your application and provide feedback.
-1. **The application deadline is April 4, 18:00 UTC.** You are **strongly** advised to submit your application well in advance of the deadline. Google will **not** accept late applications for any reason. You will be able to edit your application up until the deadline, so, if you have a draft, submit it early and continue to update it as time allows.
+1. **The application deadline is April 2, 18:00 UTC.** You are **strongly** advised to submit your application well in advance of the deadline. Google will **not** accept late applications for any reason. You will be able to edit your application up until the deadline, so, if you have a draft, submit it early and continue to update it as time allows.
 
 Please remember that all applications **must** go through Google's application system and you **MUST SUBMIT YOUR APPLICATION ON GOOGLE'S WEBSITE**. If you do not submit your application on the [GSoC website][gsoc], we **cannot** accept your application.
 
@@ -108,7 +108,7 @@ Priority, difficulty, technology, and topic area have no bearing on the chances 
 
 **Project Length**
 
-GSoC allows two different project lengths: **175** hours and **350** hours. Each idea must indicate whether the idea is a better fit for 175 or 350 hours.
+GSoC allows three different project lengths: **90** hours, **175** hours and **350** hours. Each idea must indicate whether the idea is a better fit for 90, 175, or 350 hours.
 
 In some cases, we may be able to extend a 175 hour project to a 350 hour project by extending the ideas of what can be done. Similarly, in some cases, a 350 hour project can be shortened to a 175 hour project by only implementing part of an idea and leaving the rest for a future project. In either case, if you want to adjust the project length, please be sure to contact us over [Gitter][stdlib-gitter] to discuss it first!
 
