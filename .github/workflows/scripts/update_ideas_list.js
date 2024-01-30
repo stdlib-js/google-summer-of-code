@@ -126,7 +126,7 @@ async function main( github, context, core, fs, path, dir ) {
 		].join( '\n' );
 		content.push( str );
 	}
-	content = content.join( '\n* * *\n' );
+	content = content.join( '\n\n* * *\n\n' );
 
 	// Resolve the output file path:
 	fpath = path.join( dir, OUT_FILENAME );
