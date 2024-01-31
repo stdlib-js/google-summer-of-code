@@ -35,11 +35,13 @@ If you are willing to mentor,
     - projects: anything involving implementation of mathematical functions or array programming
 
 - Ricky Reusser
+
     - e-mail: [rsreusser@gmail.com](mailto:rsreusser@gmail.com)
     - GitHub: [rreusser](https://github.com/rreusser)
     - projects: most, with particular interest in those involving numerics
 
 - Pranav Goswami
+
     - e-mail: [goswami.4@iitj.ac.in](mailto:goswami.4@iitj.ac.in)
     - GitHub: [pranavchiku](https://github.com/pranavchiku)
     - projects: most, particularly implementation of BLAS, mathematical functions 
