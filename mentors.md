@@ -44,7 +44,13 @@ If you are willing to mentor,
 
     - e-mail: [goswami.4@iitj.ac.in](mailto:goswami.4@iitj.ac.in)
     - GitHub: [pranavchiku](https://github.com/pranavchiku)
-    - projects: most, particularly implementation of BLAS, mathematical functions 
+    - projects: most, particularly implementation of BLAS, mathematical functions
+
+- Stephannie Jimenez Gacha
+    
+    - e-mail: [steff456@hotmail.com](steff456@hotmail.com)
+    - GitHub: [steff456](https://github.com/steff456)
+    - projects: implementation of mathematical functions and google sheets API 
 
 ## Time Commitment
 
