@@ -1101,3 +1101,44 @@ Beginner/Intermediate.
 ### Potential Mentors
 
 @kgryte @Planeshifter @steff456 
+
+* * *
+
+## Add BLAS bindings and implementations for linear algebra
+
+Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/36>
+
+### Idea
+
+[BLAS](https://netlib.org/blas/) routines are standard building blocks for performing basic vector and matrix operations. These building blocks are leveraged by most modern numerical programming languages and libraries, including NumPy, SciPy, Julia, MATLAB, R, and others.
+
+The goal of this idea is to 
+
+- reimplement reference BLAS routines in free-form Fortran 95
+- port reference BLAS routines to C
+- port reference BLAS routines to JavaScript
+- write Node.js bindings to allow calling BLAS routines in compiled C/ Fortran from JavaScript
+
+### Expected Outcomes
+
+Users will be able to call BLAS routines from JavaScript. In web browsers, BLAS routines will be in JavaScript. In Node.js, provided native bindings have been compiled, BLAS routines will either be ported reference implementations or hardware optimized system libraries.
+
+### Involved Software
+
+No other software is necessary apart from standard compilers (GCC, gfortran).
+
+### Prerequisite Knowledge
+
+C, Fortran, JavaScript, Node.js.
+
+### Difficulty
+
+Intermediate. Familiarity with C and Fortran will be beneficial. This idea mainly involves porting existing implementations and doing so in a manner which conforms with stdlib conventions.
+
+### Project Length
+
+90/175/350 hours. Can be scoped accordingly.
+
+### Potential Mentors
+
+@kgryte @Planeshifter @steff456 @rreusser @Pranavchiku @czgdp1807 
