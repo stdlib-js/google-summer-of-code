@@ -1055,3 +1055,49 @@ Intermediate. Familiarity with C is beneficial. This idea mainly involves portin
 ### Potential Mentors
 
 @kgryte @Planeshifter @steff456 @rreusser @Pranavchiku @czgdp1807 
+
+* * *
+
+## Develop an Excel add-on which exposes stdlib functionality
+
+Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/35>
+
+### Idea
+
+The goal of this idea is to allow users to call stdlib APIs from within Excel. This will allow users to perform linear algebra and various machine learning operations directly on spreadsheet data and all within the browser.
+
+In order to execute on this idea, we'll want to support
+
+- two-dimensional array broadcasting semantics
+- performant element-wise iteration APIs
+- input argument validation tailored to the Sheets context
+- Fused operations to avoid unnecessary network calls
+- documentation and tutorials demonstrating API usage
+- good generation and automation for creating extension builds
+- testing and performance measurement to guard against regressions
+
+This idea is the Excel version of https://github.com/stdlib-js/google-summer-of-code/issues/13.
+
+### Expected Outcomes
+
+Excel users will be able to install an extension which exposes stdlib functionality, run statistical tests, evaluate mathematical functions, and perform linear algebra operations using stdlib.
+
+### Involved Software
+
+No other software is necessary; however, access to a local copy of Excel will be beneficial. While Microsoft 360 can be used, debugging is more difficult and less stable.
+
+### Prerequisite Knowledge
+
+JavaScript, Node.js.
+
+### Difficulty
+
+Beginner/Intermediate. 
+
+### Project Length
+
+175/350 hours. Can be scoped accordingly. A skilled contributor can work on a strategy for performant fused operations.
+
+### Potential Mentors
+
+@kgryte @Planeshifter @steff456 
