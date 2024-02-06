@@ -1142,3 +1142,41 @@ Intermediate. Familiarity with C and Fortran will be beneficial. This idea mainl
 ### Potential Mentors
 
 @kgryte @Planeshifter @steff456 @rreusser @Pranavchiku @czgdp1807 
+
+* * *
+
+## Implement incremental (online) machine learning algorithms
+
+Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/37>
+
+### Idea
+
+The goal of this idea is to implement incremental machine learning algorithms to allow for real-time regression and classification. Such online algorithms would allow for point-by-point data processing and avoid the sometimes costly overhead of batch processing. Online algorithms are particularly useful in data streaming contexts (e.g., user clicks, photon collection, etc).
+
+While stdlib includes some incremental algorithms ([binary classification](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ml/incr/binary-classification), [k-means](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ml/incr/kmeans), and [stochastic gradient descent regression](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ml/incr/sgd-regression)), the project would benefit from additional algorithms.
+
+Individuals interested in pursuing this idea should be prepared to research possible algorithms and propose specific APIs.
+
+### Expected Outcomes
+
+stdlib will expose one or more additional APIs for incremental machine learning.
+
+### Involved Software
+
+No other software is necessary.
+
+### Prerequisite Knowledge
+
+JavaScript, Node.js.
+
+### Difficulty
+
+Intermediate. In order to implement ML algorithms, individuals will likely need to consult reference implementations written in other languages. Porting from these implementations may not be straightforward depending on the features involved.
+
+### Project Length
+
+90/175/350 hours. Can be scoped accordingly.
+
+### Potential Mentors
+
+@kgryte @Planeshifter
