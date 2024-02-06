@@ -4,13 +4,13 @@
 
 Before working on your GSoC application, please review our list of ideas to see if you find a project which excites you. The list of existing ideas is provided to serve as inspiration and to indicate which directions may be good for stdlib.
 
-If you do find an existing idea that you'd like to pursue, please be sure to contact us over at our [Element](https://gitter.im/stdlib-js/stdlib) channel to discuss it first! **Always be sure to ask about these ideas prior to working on application in order to get the latest information about what is already implemented and what exactly must be done.**
+If you do find an existing idea that you'd like to pursue, please be sure to contact us in our [Element](https://gitter.im/stdlib-js/stdlib) channel to discuss it first! **Always be sure to ask about these ideas prior to working on application in order to get the latest information about what is already implemented and what exactly must be done.**
 
 Priority, difficulty, technology, and topic area have no bearing on the chances of an idea being accepted. All ideas are equally good, and your chances of being accepted depend solely on the **quality of your application**.
 
 **Project Length**
 
-GSoC allows two different project lengths: **175** hours and **350** hours. Each idea must indicate whether the idea is a better fit for 175 or 350 hours.
+GSoC allows three different project lengths: **90** hours, **175** hours, and **350** hours. Each idea must indicate whether the idea is a better fit for 90, 175, or 350 hours.
 
 In some cases, we may be able to extend a 175 hour project to a 350 hour project by extending the ideas of what can be done. Similarly, in some cases, a 350 hour project can be shortened to a 175 hour project by only implementing part of an idea and leaving the rest for a future project. In either case, if you want to adjust the project length, please be sure to contact us in our [Element](https://gitter.im/stdlib-js/stdlib) channel to discuss it first!
 
@@ -981,3 +981,41 @@ Hard. Depends on the reference implementation requirements and algorithmic diffi
 ### Potential Mentors
 
 @kgryte @Planeshifter @Pranavchiku @czgdp1807 @rreusser 
+
+* * *
+
+## Achieve ndarray API parity with built-in JavaScript arrays
+
+Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/33>
+
+### Idea
+
+Built-in JavaScript [arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) (and typed arrays) have a number of methods for creating, transforming, and manipulating array contents (e.g., `forEach`, `map`, `reverse`, `slice`, `filter`, etc). These APIs provide base level functionality forming a default vocabulary for working with array data.
+
+The goal of this idea is to create functional analogs of array methods for working with [ndarrays](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/ctor), which are efficient data structures for operating on multi-dimensional data. The main difficulty in implementing analogs is in ensuring efficient iteration of non-contiguous data. The main patterns for such iteration have been established in stdlib, but work remains to apply such patterns for top-level array-equivalent APIs.
+
+### Expected Outcomes
+
+Users will be able to use functional APIs (exposed as part of individual packages) for operating on ndarrays in a manner similar to how users can use prototype methods available on built-in arrays and typed arrays.
+
+### Involved Software
+
+No other software is necessary.
+
+### Prerequisite Knowledge
+
+JavaScript, Node.js.
+
+For APIs not accepting callbacks, certain kernels can be implemented in C, as time and scope allow.
+
+### Difficulty
+
+Intermediate. Writing the loop kernels can be involved, but, once understood, are straightforward to apply.
+
+### Project Length
+
+90/175/350 hours. Can be scoped accordingly. Scope can be expanded to implement additional ndarray kernels outside of Array method equivalents.
+
+### Potential Mentors
+
+@kgryte @Planeshifter @steff456 @rreusser 
