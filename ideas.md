@@ -476,7 +476,7 @@ Beginner/Intermediate.
 
 ### Project Length
 
-175/350 hours. Can be scoped accordingly. A skilled contributor can work strategy for performant fused operations.
+175/350 hours. Can be scoped accordingly. A skilled contributor can work on a strategy for performant fused operations.
 
 ### Potential Mentors
 
