@@ -1019,3 +1019,39 @@ Intermediate. Writing the loop kernels can be involved, but, once understood, ar
 ### Potential Mentors
 
 @kgryte @Planeshifter @steff456 @rreusser 
+
+* * *
+
+## Develop C implementations for base special mathematical functions
+
+Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/34>
+
+### Idea
+
+This idea builds on the work outlined in https://github.com/stdlib-js/stdlib/issues/649. Namely, implementing base special mathematical functions in C. Currently, all special mathematical functions have JavaScript implementations, which are often ports from other languages.
+
+The goal of this idea is to port all JavaScript implementations to C. Having such implementations will allow stdlib to provide Node.js native add-ons for higher performance ndarray computation and is more generally necessary for achieving NumPy/SciPy parity.
+
+### Expected Outcomes
+
+Users will be able to leverage C implementations for use in Node.js native add-ons, and stdlib will be able to expose element-wise APIs for evaluating base special math functions over ndarrays.
+
+### Involved Software
+
+No other software is necessary.
+
+### Prerequisite Knowledge
+
+C, JavaScript, Node.js.
+
+### Difficulty
+
+Intermediate. Familiarity with C is beneficial. This idea mainly involves porting existing implementations (many of which are written in C/C++) and doing so in a manner which conforms with stdlib conventions.
+
+### Project Length
+
+90/175/350 hours. Can be scoped accordingly. Scope can be expanded to implement new special mathematical functions.
+
+### Potential Mentors
+
+@kgryte @Planeshifter @steff456 @rreusser @Pranavchiku @czgdp1807 
