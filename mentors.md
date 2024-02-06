@@ -44,7 +44,13 @@ If you are willing to mentor,
 
     - e-mail: [goswami.4@iitj.ac.in](mailto:goswami.4@iitj.ac.in)
     - GitHub: [pranavchiku](https://github.com/pranavchiku)
-    - projects: most, particularly implementation of BLAS, mathematical functions 
+    - projects: most, particularly implementation of BLAS and mathematical functions
+    
+- Robert Gislason
+
+    - e-mail: [gztown2216@yahoo.com](mailto:gztown2216@yahoo.com)
+    - GitHub: [rgizz](https://github.com/rgizz)
+    - projects: all
 
 ## Time Commitment
 
