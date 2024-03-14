@@ -28,7 +28,7 @@ body:
 
         A few general notes:
 
-        1.  Before working on your proposal, be sure to read through [instructions](https://github.com/stdlib-js/google-summary-of-code/blob/main/README.md) first!
+        1.  Before working on your proposal, be sure to read through [instructions](https://github.com/stdlib-js/google-summer-of-code/blob/main/README.md) first!
 
         1.  To be considered, a GSoC application **must** have a written proposal submitted to <https://summerofcode.withgoogle.com/>. The purpose of creating this issue is to allow stdlib mentors to provide feedback and answer any questions you have regarding your prospective project proposal. Note, however, that we will **not** write your proposal for you. You, and you alone, are responsible for writing, and the timely submission of, your project proposal.
 
@@ -328,7 +328,7 @@ body:
           required: true
         - label: I have read and understood the application materials found in this repository.
           required: true
-        - label: I have read and understood the [patch requirement](https://github.com/stdlib-js/google-summary-of-code/blob/main/README.md#patch-requirement) which is necessary for my application to be considered for acceptance.
+        - label: I have read and understood the [patch requirement](https://github.com/stdlib-js/google-summer-of-code/blob/main/README.md#patch-requirement) which is necessary for my application to be considered for acceptance.
           required: true
         - label: The issue name begins with `[RFC]:` and succinctly describes your proposal.
           required: true
