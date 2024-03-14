@@ -4,13 +4,13 @@
 
 Before working on your GSoC application, please review our list of ideas to see if you find a project which excites you. The list of existing ideas is provided to serve as inspiration and to indicate which directions may be good for stdlib.
 
-If you do find an existing idea that you'd like to pursue, please be sure to contact us over at our [Element](https://gitter.im/stdlib-js/stdlib) channel to discuss it first! **Always be sure to ask about these ideas prior to working on application in order to get the latest information about what is already implemented and what exactly must be done.**
+If you do find an existing idea that you'd like to pursue, please be sure to contact us in our [Element](https://gitter.im/stdlib-js/stdlib) channel to discuss it first! **Always be sure to ask about these ideas prior to working on application in order to get the latest information about what is already implemented and what exactly must be done.**
 
 Priority, difficulty, technology, and topic area have no bearing on the chances of an idea being accepted. All ideas are equally good, and your chances of being accepted depend solely on the **quality of your application**.
 
 **Project Length**
 
-GSoC allows two different project lengths: **175** hours and **350** hours. Each idea must indicate whether the idea is a better fit for 175 or 350 hours.
+GSoC allows three different project lengths: **90** hours, **175** hours, and **350** hours. Each idea must indicate whether the idea is a better fit for 90, 175, or 350 hours.
 
 In some cases, we may be able to extend a 175 hour project to a 350 hour project by extending the ideas of what can be done. Similarly, in some cases, a 350 hour project can be shortened to a 175 hour project by only implementing part of an idea and leaving the rest for a future project. In either case, if you want to adjust the project length, please be sure to contact us in our [Element](https://gitter.im/stdlib-js/stdlib) channel to discuss it first!
 
@@ -476,7 +476,7 @@ Beginner/Intermediate.
 
 ### Project Length
 
-175/350 hours. Can be scoped accordingly. A skilled contributor can work strategy for performant fused operations.
+175/350 hours. Can be scoped accordingly. A skilled contributor can work on a strategy for performant fused operations.
 
 ### Potential Mentors
 
@@ -981,3 +981,202 @@ Hard. Depends on the reference implementation requirements and algorithmic diffi
 ### Potential Mentors
 
 @kgryte @Planeshifter @Pranavchiku @czgdp1807 @rreusser 
+
+* * *
+
+## Achieve ndarray API parity with built-in JavaScript arrays
+
+Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/33>
+
+### Idea
+
+Built-in JavaScript [arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) (and typed arrays) have a number of methods for creating, transforming, and manipulating array contents (e.g., `forEach`, `map`, `reverse`, `slice`, `filter`, etc). These APIs provide base level functionality forming a default vocabulary for working with array data.
+
+The goal of this idea is to create functional analogs of array methods for working with [ndarrays](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/ctor), which are efficient data structures for operating on multi-dimensional data. The main difficulty in implementing analogs is in ensuring efficient iteration of non-contiguous data. The main patterns for such iteration have been established in stdlib, but work remains to apply such patterns for top-level array-equivalent APIs.
+
+### Expected Outcomes
+
+Users will be able to use functional APIs (exposed as part of individual packages) for operating on ndarrays in a manner similar to how users can use prototype methods available on built-in arrays and typed arrays.
+
+### Involved Software
+
+No other software is necessary.
+
+### Prerequisite Knowledge
+
+JavaScript, Node.js.
+
+For APIs not accepting callbacks, certain kernels can be implemented in C, as time and scope allow.
+
+### Difficulty
+
+Intermediate. Writing the loop kernels can be involved, but, once understood, are straightforward to apply.
+
+### Project Length
+
+90/175/350 hours. Can be scoped accordingly. Scope can be expanded to implement additional ndarray kernels outside of Array method equivalents.
+
+### Potential Mentors
+
+@kgryte @Planeshifter @steff456 @rreusser 
+
+* * *
+
+## Develop C implementations for base special mathematical functions
+
+Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/34>
+
+### Idea
+
+This idea builds on the work outlined in https://github.com/stdlib-js/stdlib/issues/649. Namely, implementing base special mathematical functions in C. Currently, all special mathematical functions have JavaScript implementations, which are often ports from other languages.
+
+The goal of this idea is to port all JavaScript implementations to C. Having such implementations will allow stdlib to provide Node.js native add-ons for higher performance ndarray computation and is more generally necessary for achieving NumPy/SciPy parity.
+
+### Expected Outcomes
+
+Users will be able to leverage C implementations for use in Node.js native add-ons, and stdlib will be able to expose element-wise APIs for evaluating base special math functions over ndarrays.
+
+### Involved Software
+
+No other software is necessary.
+
+### Prerequisite Knowledge
+
+C, JavaScript, Node.js.
+
+### Difficulty
+
+Intermediate. Familiarity with C is beneficial. This idea mainly involves porting existing implementations (many of which are written in C/C++) and doing so in a manner which conforms with stdlib conventions.
+
+### Project Length
+
+90/175/350 hours. Can be scoped accordingly. Scope can be expanded to implement new special mathematical functions.
+
+### Potential Mentors
+
+@kgryte @Planeshifter @steff456 @rreusser @Pranavchiku @czgdp1807 
+
+* * *
+
+## Develop an Excel add-on which exposes stdlib functionality
+
+Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/35>
+
+### Idea
+
+The goal of this idea is to allow users to call stdlib APIs from within Excel. This will allow users to perform linear algebra and various machine learning operations directly on spreadsheet data and all within the browser.
+
+In order to execute on this idea, we'll want to support
+
+- two-dimensional array broadcasting semantics
+- performant element-wise iteration APIs
+- input argument validation tailored to the Sheets context
+- Fused operations to avoid unnecessary network calls
+- documentation and tutorials demonstrating API usage
+- good generation and automation for creating extension builds
+- testing and performance measurement to guard against regressions
+
+This idea is the Excel version of https://github.com/stdlib-js/google-summer-of-code/issues/13.
+
+### Expected Outcomes
+
+Excel users will be able to install an extension which exposes stdlib functionality, run statistical tests, evaluate mathematical functions, and perform linear algebra operations using stdlib.
+
+### Involved Software
+
+No other software is necessary; however, access to a local copy of Excel will be beneficial. While Microsoft 360 can be used, debugging is more difficult and less stable.
+
+### Prerequisite Knowledge
+
+JavaScript, Node.js.
+
+### Difficulty
+
+Beginner/Intermediate. 
+
+### Project Length
+
+175/350 hours. Can be scoped accordingly. A skilled contributor can work on a strategy for performant fused operations.
+
+### Potential Mentors
+
+@kgryte @Planeshifter @steff456 
+
+* * *
+
+## Add BLAS bindings and implementations for linear algebra
+
+Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/36>
+
+### Idea
+
+[BLAS](https://netlib.org/blas/) routines are standard building blocks for performing basic vector and matrix operations. These building blocks are leveraged by most modern numerical programming languages and libraries, including NumPy, SciPy, Julia, MATLAB, R, and others.
+
+The goal of this idea is to 
+
+- reimplement reference BLAS routines in free-form Fortran 95
+- port reference BLAS routines to C
+- port reference BLAS routines to JavaScript
+- write Node.js bindings to allow calling BLAS routines in compiled C/ Fortran from JavaScript
+
+### Expected Outcomes
+
+Users will be able to call BLAS routines from JavaScript. In web browsers, BLAS routines will be in JavaScript. In Node.js, provided native bindings have been compiled, BLAS routines will either be ported reference implementations or hardware optimized system libraries.
+
+### Involved Software
+
+No other software is necessary apart from standard compilers (GCC, gfortran).
+
+### Prerequisite Knowledge
+
+C, Fortran, JavaScript, Node.js.
+
+### Difficulty
+
+Intermediate. Familiarity with C and Fortran will be beneficial. This idea mainly involves porting existing implementations and doing so in a manner which conforms with stdlib conventions.
+
+### Project Length
+
+90/175/350 hours. Can be scoped accordingly.
+
+### Potential Mentors
+
+@kgryte @Planeshifter @steff456 @rreusser @Pranavchiku @czgdp1807 
+
+* * *
+
+## Implement incremental (online) machine learning algorithms
+
+Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/37>
+
+### Idea
+
+The goal of this idea is to implement incremental machine learning algorithms to allow for real-time regression and classification. Such online algorithms would allow for point-by-point data processing and avoid the sometimes costly overhead of batch processing. Online algorithms are particularly useful in data streaming contexts (e.g., user clicks, photon collection, etc).
+
+While stdlib includes some incremental algorithms ([binary classification](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ml/incr/binary-classification), [k-means](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ml/incr/kmeans), and [stochastic gradient descent regression](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ml/incr/sgd-regression)), the project would benefit from additional algorithms.
+
+Individuals interested in pursuing this idea should be prepared to research possible algorithms and propose specific APIs.
+
+### Expected Outcomes
+
+stdlib will expose one or more additional APIs for incremental machine learning.
+
+### Involved Software
+
+No other software is necessary.
+
+### Prerequisite Knowledge
+
+JavaScript, Node.js.
+
+### Difficulty
+
+Intermediate. In order to implement ML algorithms, individuals will likely need to consult reference implementations written in other languages. Porting from these implementations may not be straightforward depending on the features involved.
+
+### Project Length
+
+90/175/350 hours. Can be scoped accordingly.
+
+### Potential Mentors
+
+@kgryte @Planeshifter
