@@ -1297,11 +1297,8 @@ Familiarity and comfort with JavaScript would be highly recommended, given that 
 
 ### Project length
 
-350
+350hrs, as will likely involve a decent amount of R&D.
 
-### Checklist
+### Potential mentors
 
-- [X] I have read and understood the [Code of Conduct](https://github.com/stdlib-js/stdlib/blob/develop/CODE_OF_CONDUCT.md).
-- [X] I have read and understood the application materials found in this repository.
-- [X] The issue name begins with `[Idea]:` and succinctly describes your idea.
-- [X] I understand that, in order to apply to be a GSoC contributor, I must submit my final application to <https://summerofcode.withgoogle.com/> **before** the submission deadline.
+@kgryte @Planeshifter 
