@@ -1187,7 +1187,7 @@ Intermediate. In order to implement ML algorithms, individuals will likely need 
 
 Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/43>
 
-### Description
+### Idea
 
 Currently, stdlib supports a variety of array [data types](https://github.com/stdlib-js/stdlib/tree/5dbb01dba2b1b305c6a11b66652ee2e4ccac15e2/lib/node_modules/%40stdlib/array/dtypes); however, most of these data types are numeric. The lone exception is the "generic" data type for use with generic arrays.
 
@@ -1234,10 +1234,3 @@ Familiarity and comfort with JavaScript would be highly recommended, given that 
 ### Project length
 
 350hrs, but can scope can be tailored depending on contributor ability. A contributor proficient in JavaScript can probably finish a `@stdlib/array/bool` package within 90hrs. Integration work is likely to take longer.
-
-### Checklist
-
-- [X] I have read and understood the [Code of Conduct](https://github.com/stdlib-js/stdlib/blob/develop/CODE_OF_CONDUCT.md).
-- [X] I have read and understood the application materials found in this repository.
-- [X] The issue name begins with `[Idea]:` and succinctly describes your idea.
-- [X] I understand that, in order to apply to be a GSoC contributor, I must submit my final application to <https://summerofcode.withgoogle.com/> **before** the submission deadline.
