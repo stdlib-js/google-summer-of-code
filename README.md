@@ -166,6 +166,18 @@ To submit a patch,
 
 1.  **In your application, please provide a brief summary of your contributions to [stdlib][stdlib] thus far, including work which has not yet been merged. This should be a list of pull requests and an indication as to whether each pull request is merged, closed, or still open.** If you made significant contributions outside of your pull requests (e.g., reviewing someone else's pull request), you may list that as well.
 
+### Plagiarism
+
+Please note that we will **not** tolerate plagiarism in any form. When developing your application, **do so by writing in your own words**.
+
+While other applicants may publicly discuss and submit proposals for the same idea, you should not lift content from their proposals. You should write and propose what **you** think is the best course of action for ensuring a successful project according to a timeline which **you** believe is appropriate.
+
+**If we detect that your application contains plagiarized content, we will reject your application without review.**
+
+Additionally, while we recognize that, for many contributors, English may not be your first language, please avoid using LLMs (e.g., ChatGPT, etc). We can typically tell when individuals rely on LLMs to auto-generate application content (and code contributions!), and what this signals to us is that you cannot be bothered to take the time to write a thoughtful application and that you likely will not be capable of earning our trust.
+
+The best candidates are those who are thoughtful, who pay close attention to detail, and who are eager and willing to learn.
+
 * * *
 
 ## Attribution
