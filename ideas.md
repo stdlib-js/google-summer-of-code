@@ -1293,7 +1293,7 @@ Additionally, there will be difficulty beyond the creation of a new `StringArray
 
 ### Prerequisite knowledge
 
-Familiarity and comfort with JavaScript would be highly recommended, given that this project will require considerable programming in JavaScript. Some familiarity with C would also be good, especially for boolean array integration with ndarrays.
+Familiarity and comfort with JavaScript would be highly recommended, given that this project will require considerable programming in JavaScript. Some familiarity with C would also be good, especially for string array integration with ndarrays.
 
 ### Project length
 
