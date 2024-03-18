@@ -1201,7 +1201,7 @@ As part of this project, not only will a new `BooleanArray` be added to the proj
 
 ### Expected outcomes
 
-The expected outcomes of this idea should be (1) creation of a new `@stdlib/array/bool` package exposing a new typed array constructor, (2) support for `BoolArray` instances throughout `@stdlib/array/*`, (3) support for `BooleanArray` instances as backing arrays for ndarrays (which may involve working with various C APIs), and (4) any other integration opportunities.
+The expected outcomes of this idea should be (1) creation of a new `@stdlib/array/bool` package exposing a new typed array constructor, (2) support for `BooleanArray` instances throughout `@stdlib/array/*`, (3) support for `BooleanArray` instances as backing arrays for ndarrays (which may involve working with various C APIs), and (4) any other integration opportunities.
 
 ### Status
 
