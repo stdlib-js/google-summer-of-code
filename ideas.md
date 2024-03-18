@@ -1283,7 +1283,7 @@ n/a
 
 ### Difficulty
 
-5
+Intermediate/Advanced
 
 ### Difficulty justification
 
