@@ -1263,7 +1263,7 @@ As part of this project, not only will a new `StringArray` be added to the proje
 
 ### Expected outcomes
 
-The expected outcomes of this idea should be (1) creation of a new `@stdlib/array/string` package exposing a new typed array constructor, (2) support for `StringArray` instances throughout @stdlib/array/*, (3) support for `StringArray` instances as backing arrays for ndarrays (which may involve working with various C APIs), and (4) any other integration opportunities.
+The expected outcomes of this idea should be (1) creation of a new `@stdlib/array/string` package exposing a new typed array constructor, (2) support for `StringArray` instances throughout `@stdlib/array/*`, (3) support for `StringArray` instances as backing arrays for ndarrays (which may involve working with various C APIs), and (4) any other integration opportunities.
 
 ### Status
 
