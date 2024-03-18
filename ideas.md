@@ -1180,3 +1180,64 @@ Intermediate. In order to implement ML algorithms, individuals will likely need 
 ### Potential Mentors
 
 @kgryte @Planeshifter
+
+* * *
+
+## Add support for boolean arrays in stdlib
+
+Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/43>
+
+### Description
+
+Currently, stdlib supports a variety of array [data types](https://github.com/stdlib-js/stdlib/tree/5dbb01dba2b1b305c6a11b66652ee2e4ccac15e2/lib/node_modules/%40stdlib/array/dtypes); however, most of these data types are numeric. The lone exception is the "generic" data type for use with generic arrays.
+
+A need exists to expand data type support beyond numeric data types (e.g., real and complex floating-point, signed and unsigned integer) to include other non-numeric data types. One such data type is a `boolean` data type. The rationale for having a dedicated boolean data type is for use in advanced array indexing, where a boolean array can be used to filter/mask another array. See, e.g., the examples in [`@stdlib/array/to-fancy`](https://github.com/stdlib-js/stdlib/tree/5dbb01dba2b1b305c6a11b66652ee2e4ccac15e2/lib/node_modules/%40stdlib/array/to-fancy).
+
+Accordingly, the goal of this project is to create a new typed array called a `BoolArray`, which will only support the values `true` and `false`. This new array type should follow a similar path to that of [`@stdlib/array/complex64`](https://github.com/stdlib-js/stdlib/tree/5dbb01dba2b1b305c6a11b66652ee2e4ccac15e2/lib/node_modules/%40stdlib/array/complex64), which provides a typed array dedicated to single-precision floating-point numbers; namely, `BoolArray` should support standard typed array methods, as well as provide accessors for getting and setting array elements.
+
+Note, however, that a `BoolArray` should be a typed array (meaning, fixed length with a fixed memory layout). A `BoolArray` should not wrap a "generic" array. Instead, the array should be backed by a `Uint8Array`, similar to how [`@stdlib/array/complex64`](https://github.com/stdlib-js/stdlib/tree/5dbb01dba2b1b305c6a11b66652ee2e4ccac15e2/lib/node_modules/%40stdlib/array/complex64) is backed by a `Float32Array`.
+
+As part of this project, not only will a new `BoolArray` be added to the project, but it will be integrated throughout `stdlib`. This will entail adding support for `BoolArray`s wherever arrays are accepted/used, following the same precedent established by [`@stdlib/array/complex64`](https://github.com/stdlib-js/stdlib/tree/5dbb01dba2b1b305c6a11b66652ee2e4ccac15e2/lib/node_modules/%40stdlib/array/complex64) and other custom array types in stdlib. This includes adding support for boolean arrays in ndarray APIs.
+
+### Expected outcomes
+
+The expected outcomes of this idea should be (1) creation of a new `@stdlib/array/bool` package exposing a new typed array constructor, (2) support for `BoolArray` instances throughout `@stdlib/array/*`, (3) support for `BoolArray` instances as backing arrays for ndarrays (which may involve working with various C APIs), and (4) any other integration opportunities.
+
+### Status
+
+Some initial work has been done to create a new `@stdlib/array/bool` package, but this is incomplete and needs more significant investment. There exists prior art for adding custom typed arrays to stdlib; namely, `Complex64Array` and `Complex128Array`.
+
+### Involved software
+
+No special software for initial work. Once work has progressed to ndarray support, will need access to a C compiler, as documented in the project development guide.
+
+### Technology
+
+JavaScript, C, nodejs, native addons
+
+### Other technology
+
+n/a
+
+### Difficulty
+
+4
+
+### Difficulty justification
+
+This project is ambitious, as arrays are fundamental to a lot of stdlib functionality; however, many of the more difficult integration aspects have already addressed given the widespread support for accessor arrays throughout the project. The main project difficulty beyond the creation of a new `BoolArray` class will be finding all the various bits of code throughout the project which need to be updated.
+
+### Prerequisite knowledge
+
+Familiarity and comfort with JavaScript would be highly recommended, given that this project will require considerable programming in JavaScript. Some familiarity with C would also be good, especially for boolean array integration with ndarrays.
+
+### Project length
+
+350
+
+### Checklist
+
+- [X] I have read and understood the [Code of Conduct](https://github.com/stdlib-js/stdlib/blob/develop/CODE_OF_CONDUCT.md).
+- [X] I have read and understood the application materials found in this repository.
+- [X] The issue name begins with `[Idea]:` and succinctly describes your idea.
+- [X] I understand that, in order to apply to be a GSoC contributor, I must submit my final application to <https://summerofcode.withgoogle.com/> **before** the submission deadline.
