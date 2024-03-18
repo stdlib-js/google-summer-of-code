@@ -48,7 +48,7 @@ body:
   - type: textarea
     id: idea
     attributes:
-      label: Description
+      label: Idea
       description: Describe your idea (in 2-5 sentences), including the overall goals and any prior art relevant to its achievement (e.g., academic literature, reference implementations, etc).
     validations:
       required: true
