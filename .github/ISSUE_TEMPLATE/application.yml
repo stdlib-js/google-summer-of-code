@@ -338,6 +338,8 @@ body:
           required: true
         - label: I have read and understood the application materials found in this repository.
           required: true
+        - label: I understand that plagiarism will not be tolerated, and I have authored this application in my own words.
+          required: true
         - label: I have read and understood the [patch requirement](https://github.com/stdlib-js/google-summer-of-code/blob/main/README.md#patch-requirement) which is necessary for my application to be considered for acceptance.
           required: true
         - label: The issue name begins with `[RFC]:` and succinctly describes your proposal.
