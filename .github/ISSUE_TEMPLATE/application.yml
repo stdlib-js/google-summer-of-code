@@ -313,6 +313,14 @@ body:
     validations:
       required: true
 
+  - type: textarea
+    id: related_issues
+    attributes:
+      label: Related issues
+      description: Does this proposal have any related issues (e.g., a proposal idea issue or upstream issues in the main stdlib project or website repositories)? If so, please link to those issues below.
+    validations:
+      required: false
+
   - type: markdown
     attributes:
       value: |
