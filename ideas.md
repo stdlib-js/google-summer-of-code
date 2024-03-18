@@ -1221,7 +1221,7 @@ n/a
 
 ### Difficulty
 
-4
+Intermediate/Advanced
 
 ### Difficulty justification
 
@@ -1234,3 +1234,7 @@ Familiarity and comfort with JavaScript would be highly recommended, given that 
 ### Project length
 
 350hrs, but can scope can be tailored depending on contributor ability. A contributor proficient in JavaScript can probably finish a `@stdlib/array/bool` package within 90hrs. Integration work is likely to take longer.
+
+### Potential mentors
+
+@kgryte @Planeshifter 
