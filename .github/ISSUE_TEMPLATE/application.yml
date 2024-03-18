@@ -30,6 +30,8 @@ body:
 
         1.  Before working on your proposal, be sure to read through [instructions](https://github.com/stdlib-js/google-summer-of-code/blob/main/README.md) first!
 
+        1.  We will **not** tolerate plagiarism of any kind. Please write your proposal in your own words. If we find that you have plagiarized application content, we will reject your application without review.
+
         1.  To be considered, a GSoC application **must** have a written proposal submitted to <https://summerofcode.withgoogle.com/>. The purpose of creating this issue is to allow stdlib mentors to provide feedback and answer any questions you have regarding your prospective project proposal. Note, however, that we will **not** write your proposal for you. You, and you alone, are responsible for writing, and the timely submission of, your project proposal.
 
         1.  Please use a succinct name to describe your proposal. This issue should use the following issue naming convention:
