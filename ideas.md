@@ -81,7 +81,7 @@ Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/2>
 
 ### Idea
 
-The goal of this idea is to implement all distributions found in SciPy [stats](https://docs.scipy.org/doc/scipy/tutorial/stats.html). Distribution support will entail implementing APIs for computing PDFs, CDFs, quantiles, and other distribution properties. Additionally, stdlib should support APIs for drawing random variates from any implemented distributions.
+The goal of this idea is to implement all distributions found in SciPy [stats](https://docs.scipy.org/doc/scipy/reference/stats.html#statsrefmanual). Distribution support will entail implementing APIs for computing PDFs, CDFs, quantiles, and other distribution properties. Additionally, stdlib should support APIs for drawing random variates from any implemented distributions.
 
 ### Expected Outcomes
 
