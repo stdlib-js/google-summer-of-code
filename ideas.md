@@ -651,7 +651,7 @@ Intermediate.
 
 ### Project Length
 
-350 hours. The length can likely be scaled down; however, there are several unknowns, and it may not be straightforward to develop an in-house parser which caters to the unique structure and setup of stdlib.
+350 hours. The length can likely be scaled down; however, there are several unknowns, and it may not be straightforward to develop an in-house parser which caters to the unique structure and setup of stdlib. For advanced contributors, possibility to explore support for source file types other than JavaScript (e.g., C and `make`).
 
 ### Potential Mentors
 
