@@ -48,6 +48,7 @@ Potential improvements include the following:
 - Bracketed-paste
 - Custom key binding support
 - Numerical computing workshops/tutorials using the built-in REPL presentation framework
+- Multi-line editing
 
 ### Expected Outcomes
 
