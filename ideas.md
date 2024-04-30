@@ -38,7 +38,7 @@ The read-eval-print loop (REPL) is a fixture of data analysis and numerical comp
 
 This idea aims to implement a suite of enhancements to the stdlib REPL, which is an alternative to the Node.js REPL and analogous to Python's IPython. The overarching goal is to provide a compelling environment for interactive JavaScript computing to further establish Node.js as a platform suitable for numerical computing and data analysis.
 
-Potential improvements include the following:
+Potential improvements include, but are not limited to, the following:
 
 - Auto-completion previews for file paths, function names, and variables
 - Fuzzy auto-completion extension
@@ -48,6 +48,7 @@ Potential improvements include the following:
 - Bracketed-paste
 - Custom key binding support
 - Numerical computing workshops/tutorials using the built-in REPL presentation framework
+- Multi-line editing
 
 ### Expected Outcomes
 
@@ -81,7 +82,7 @@ Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/2>
 
 ### Idea
 
-The goal of this idea is to implement all distributions found in SciPy [stats](https://docs.scipy.org/doc/scipy/tutorial/stats.html). Distribution support will entail implementing APIs for computing PDFs, CDFs, quantiles, and other distribution properties. Additionally, stdlib should support APIs for drawing random variates from any implemented distributions.
+The goal of this idea is to implement all distributions found in SciPy [stats](https://docs.scipy.org/doc/scipy/reference/stats.html#statsrefmanual). Distribution support will entail implementing APIs for computing PDFs, CDFs, quantiles, and other distribution properties. Additionally, stdlib should support APIs for drawing random variates from any implemented distributions.
 
 ### Expected Outcomes
 
@@ -631,6 +632,8 @@ stdlib relies heavily on JSDoc comments to document its source code. Currently, 
 1. Write an in-house JSDoc parser.
 2. Generate HTML documentation from the parsed comments which is capable of supporting project conventions and its embrace of radical modularity.
 
+JSDoc comments are oriented toward JavaScript source files; however, stdlib also uses similar documentation practices for documenting C source files and `make` files. A possible extension to the in-house JSDoc parser would be to support these other source file types. As those file types may require separate AST parsers, supporting other file types is likely to require writing separate comment parsers for each source type.
+
 ### Expected Outcomes
 
 In addition to the current API documentation, a user will be able to navigate to a package's JSDoc documentation to gain more insight into supported input and output dtypes and implemented algorithms. This would be especially useful for rendering the extended JSDoc comment of elementary mathematical functions.
@@ -649,7 +652,7 @@ Intermediate.
 
 ### Project Length
 
-350 hours.
+350 hours. The length can likely be scaled down; however, there are several unknowns, and it may not be straightforward to develop an in-house parser which caters to the unique structure and setup of stdlib. For advanced contributors, possibility to explore support for source file types other than JavaScript (e.g., C and `make`).
 
 ### Potential Mentors
 
