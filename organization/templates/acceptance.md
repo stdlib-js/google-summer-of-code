@@ -8,7 +8,9 @@ One very important question first: do you accept the project?
 
 Often applicants apply to many internships. It is not uncommon for a GSoC project to be accepted, only to be withdrawn a couple weeks later due to an applicant accepting a different internship. We'd like to avoid this scenario, as it would likely lead us to lose a slot, despite rejecting other high quality proposals. So if you could please confirm your acceptance now, we'd greatly appreciate it!
 
-Your official mentors are MENTOR_NAMES. They should be contacting you soon to discuss a schedule for you to meet and discuss your progress throughout the summer. Note that some of these may act as primary mentors over the summer, and others may act only as co-mentors or backup mentors. They will discuss with you the roles they will take for your project. If at any point during the summer you are not able to contact one of your mentors, please let me and ORG_ADMIN (ORG_ADMIN_EMAIL) know immediately.
+Assuming your acceptance, your official mentors are MENTOR_NAMES. We'll be arranging a joint welcome session to welcome you to the project and facilitate introductions. After the welcome session, your mentors will contact you to discuss a schedule for you to meet and discuss your progress throughout the summer. Note that some of these mentors may act as primary mentors, and others may act only as co-mentors or backup mentors. They will discuss with you the roles they will take for your project. If at any point during the summer you are not able to contact one of your mentors, please let me and ORG_ADMIN (ORG_ADMIN_EMAIL) know immediately.
+
+Throughout the program, we'll also aim to hold weekly stand-ups/demo sessions for you to share what you're working on and connect with other stdlib and GSoC contributors.
 
 Here is the official timeline:
 
@@ -20,7 +22,7 @@ The community bonding period from May BONDING_START_DATE to May BONDING_STOP_DAT
 
 http://googlesummerofcode.blogspot.com/2007/04/so-what-is-this-community-bonding-all.html.
 
-You should spend this time to get up to speed with the community, and to set up regular meetings with your mentors for the coming months.
+You should spend this time to get up to speed with the community, and to set up regular meetings with your mentors for the coming months. We'll be inviting you to our internal Slack channel shortly so you can connect with mentors and other maintainers more directly.
 
 Feel free to get a head start during the bonding period, too. If you have obligations, such as examinations during this period, please let us know now.
 
