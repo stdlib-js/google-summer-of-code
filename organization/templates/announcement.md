@@ -1,6 +1,6 @@
 Hello everyone!
 
-As many of you may have noticed, Google has announced the results for Google Summer of Code. We feel proud to announce that NUMBER_OF_ACCEPTED_APPLICATIONS people have been accepted to work on stdlib this year. The following projects have been accepted:
+As many of you may have noticed, Google has announced the results for Google Summer of Code. We are proud to announce that NUMBER_OF_ACCEPTED_APPLICATIONS people have been accepted to work on stdlib this year. The following projects have been accepted:
 
 Contributor, Project: Mentors
 
