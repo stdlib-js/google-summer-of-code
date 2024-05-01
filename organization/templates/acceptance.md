@@ -18,7 +18,7 @@ https://developers.google.com/open-source/gsoc/timeline
 
 GSoC projects have flexible timelines. Right now your project is set to the default timeline for the project length you specified in your proposal. However, should you want/need to extend or contract your timeline, you should discuss that with your mentors, and let me know if you need to make any changes. Note that the timeline *must* follow one of these timelines https://developers.google.com/open-source/gsoc/help/project-dates.
 
-The community bonding period from May {{bonding_start_date}} to May {{bonding_stop_date}} begins now.
+The community bonding period from {{bonding_start_date}} to {{bonding_stop_date}} begins now.
 
 http://googlesummerofcode.blogspot.com/2007/04/so-what-is-this-community-bonding-all.html.
 
