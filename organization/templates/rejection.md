@@ -12,11 +12,11 @@ Nevertheless, thank you for discussing your proposal with us. If you decide to w
 
 We encourage you to try again next year. Experience has shown that students who are involved in the project early are more likely to be accepted, so, if you do plan to do this, we recommend that you continue your contributions to the project.
 
-[IF PATCH MERGED]
+[IF PATCH && MERGED]
 
 We also want to thank you for all the contributions that you made recently. It really helped improve stdlib, and now you are one of the authors of stdlib (i.e., your name is in the CONTRIBUTORS file that will ship with the download and in future releases). We certainly would be quite delighted if you decide to stay around.
 
-[IF PATCH UNMERGED]
+[IF PATCH && UNMERGED]
 
 We also want to thank you for the patches that you submitted recently. These should really help improve stdlib. If you finish the work to get it merged, you will become one of the authors of stdlib (i.e., your name will be in the CONTRIBUTORS file that will ship with the download and in future releases). We certainly would be quite delighted if you decide to stay around.
 
