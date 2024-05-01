@@ -47,6 +47,8 @@ var TMPL = readFile( tpath, FOPTS );
 var dpath = resolve( __dirname, 'tmp', 'rejected.csv' );
 var DATA = parseCSV( readFile( dpath, FOPTS ) );
 
+var SUBJECT = '[GSoC 2024] Proposal notification - stdlib';
+
 
 // FUNCTIONS //
 
@@ -81,6 +83,7 @@ function main() {
 	var opts;
 	var dir;
 	var err;
+	var txt;
 	var v;
 	var t;
 	var i;
@@ -100,8 +103,14 @@ function main() {
 		}
 		t = mustache.render( TMPL, opts );
 
+		txt = [
+			'E-mail: ' + v.e_mail,
+			'Subject: ' + SUBJECT,
+			'',
+			t
+		];
 		opath = resolve( dir, v.first_name + '_' + v.last_name + '.txt' );
-		err = writeFile( opath, t, FOPTS );
+		err = writeFile( opath, txt.join( '\n' ), FOPTS );
 		if ( err ) {
 			throw err;
 		}
