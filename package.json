@@ -1,0 +1,50 @@
+{
+  "private": true,
+  "name": "",
+  "version": "0.0.0",
+  "description": "",
+  "license": "",
+  "author": {
+    "name": "The Stdlib Authors",
+    "url": "https://github.com/stdlib-js/google-summer-of-code/graphs/contributors"
+  },
+  "contributors": [
+    {
+      "name": "The Stdlib Authors",
+      "url": "https://github.com/stdlib-js/google-summer-of-code/graphs/contributors"
+    }
+  ],
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/stdlib"
+  },
+  "main": "",
+  "directories": {},
+  "scripts": {},
+  "homepage": "https://github.com/stdlib-js/google-summer-of-code",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/google-summer-of-code.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/google-summer-of-code/issues"
+  },
+  "dependencies": {},
+  "optionalDependencies": {},
+  "devDependencies": {
+    "mustache": "^4.0.0"
+  },
+  "keywords": [
+    "stdlib",
+    "stdlib-js",
+    "stdlib.js",
+    "js-stdlib",
+    "stdlibjs",
+    "standard",
+    "std",
+    "library",
+    "lib",
+    "libstd",
+    "gsoc"
+  ]
+}
