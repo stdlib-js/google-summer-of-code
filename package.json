@@ -29,9 +29,13 @@
   "bugs": {
     "url": "https://github.com/stdlib-js/google-summer-of-code/issues"
   },
-  "dependencies": {},
-  "optionalDependencies": {},
   "devDependencies": {
+    "@stdlib/fs-read-file": "^0.2.1",
+    "@stdlib/fs-write-file": "^0.2.1",
+    "@stdlib/process-env": "^0.2.1",
+    "@stdlib/regexp-eol": "^0.2.1",
+    "@stdlib/string-base-snakecase": "^0.2.1",
+    "mkdirp": "^0.5.1",
     "mustache": "^4.0.0"
   },
   "keywords": [
