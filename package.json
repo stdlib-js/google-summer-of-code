@@ -35,6 +35,7 @@
     "@stdlib/process-env": "^0.2.1",
     "@stdlib/regexp-eol": "^0.2.1",
     "@stdlib/string-base-snakecase": "^0.2.1",
+    "@stdlib/string-trim": "^0.2.1",
     "mkdirp": "^0.5.1",
     "mustache": "^4.0.0"
   },

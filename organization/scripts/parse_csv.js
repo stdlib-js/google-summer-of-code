@@ -21,6 +21,7 @@
 // MODULES //
 
 var RE_EOL = require( '@stdlib/regexp-eol' ).REGEXP;
+var trim = require( '@stdlib/string-trim');
 var snakecase = require( '@stdlib/string-base-snakecase' );
 
 
@@ -49,7 +50,7 @@ function parse( str ) {
 	var j;
 	var k;
 
-	lines = str.split( RE_EOL );
+	lines = trim( str ).split( RE_EOL );
 
 	header = lines[ 0 ].split( SEP );
 	for ( i = 0; i < header.length; i++ ) {
