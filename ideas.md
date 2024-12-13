@@ -28,54 +28,6 @@ To learn who might mentor one of the projects listed below, consult the list of 
 
 * * *
 
-## Building a better Node.js REPL
-
-Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/1>
-
-### Idea
-
-The read-eval-print loop (REPL) is a fixture of data analysis and numerical computing and provides a critical entry-point for individuals seeking to learn and better understand APIs and their associated behavior. While a web browser's JavaScript console is a staple of debugging in web applications, the Node.js REPL is significantly underutilized--an occurrence largely attributable to its underdevelopment and lack of functionality.
-
-This idea aims to implement a suite of enhancements to the stdlib REPL, which is an alternative to the Node.js REPL and analogous to Python's IPython. The overarching goal is to provide a compelling environment for interactive JavaScript computing to further establish Node.js as a platform suitable for numerical computing and data analysis.
-
-Potential improvements include, but are not limited to, the following:
-
-- Auto-completion previews for file paths, function names, and variables
-- Fuzzy auto-completion extension
-- Less/more documentation pager
-- Pretty printing of tabular output
-- Terminal syntax highlighting and bracket matching
-- Bracketed-paste
-- Custom key binding support
-- Numerical computing workshops/tutorials using the built-in REPL presentation framework
-- Multi-line editing
-
-### Expected Outcomes
-
-REPL users will be able to leverage the stdlib REPL in a manner similar to a fully-featured IDE and have access to workshops and tutorials for an integrated interactive learning experience covering machine learning and statistical computing concepts.
-
-### Involved Software
-
-No other software is necessary to implement this idea.
-
-### Prerequisite Knowledge
-
-JavaScript, Node.js
-
-### Difficulty
-
-Intermediate. Difficulties may arise due to escape sequences necessary for syntax highlighting and multi-line editing.
-
-### Project Length
-
-350 hours.
-
-### Potential Mentors
-
-@kgryte @Planeshifter @steff456 
-
-* * *
-
 ## Implement a broader range of statistical distributions
 
 Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/2>
