@@ -32,9 +32,10 @@ In order to apply to GSoC with [stdlib][stdlib], you must:
 1. Read through the project [contributing guide][stdlib-contributing] to learn how to start developing [stdlib][stdlib].
 1. Create a [GitHub account][github-create-account], if you do not already have one.
 1. Submit **at least** one patch to [stdlib][stdlib]. All applications which are not accompanied by at least one patch to stdlib will be **rejected**. Instructions as to how to fulfill the [patch requirement](#patch-requirement) are described below.
+1. Create **at least** one demo, tutorial, how-to guide, and/or showcase using [stdlib][stdlib]. All applications which are not accompanied by at least one example usage will be **rejected**. Instructions on how to fulfill the [showcase requirement](#showcase-requirement) are described below.
 1. Review our [list of ideas][stdlib-gsoc-ideas] to see if you find a project which excites you. If you'd like to submit your own idea, that is fine; just be sure to propose your idea to stdlib mentors first! **Unsolicited, undiscussed ideas are less likely to get accepted.**
 1. Develop your application, making sure to follow the [application template][stdlib-gsoc-application-template]. We strongly suggest opening an [issue][stdlib-gsoc-application-template] which describes your project using the [application issue template][stdlib-gsoc-application-template]. Doing so allows individuals who are not on the [GSoC website][gsoc] to review your application and provide feedback.
-1. **The application deadline is April 2, 18:00 UTC.** You are **strongly** advised to submit your application well in advance of the deadline. Google will **not** accept late applications for any reason. You will be able to edit your application up until the deadline, so, if you have a draft, submit it early and continue to update it as time allows.
+1. **The application deadline is April 8, 18:00 UTC.** You are **strongly** advised to submit your application well in advance of the deadline. Google will **not** accept late applications for any reason. You will be able to edit your application up until the deadline, so, if you have a draft, submit it early and continue to update it as time allows.
 
 Please remember that all applications **must** go through Google's application system and you **MUST SUBMIT YOUR APPLICATION ON GOOGLE'S WEBSITE**. If you do not submit your application on the [GSoC website][gsoc], we **cannot** accept your application.
 
@@ -124,6 +125,7 @@ After discussing with us in our [Element][stdlib-gitter] channel and receiving a
 
 In addition to the written proposal, we **require** every [GSoC][gsoc] applicant to write a patch and have it merged into the main [stdlib repository][stdlib].
 
+> [!IMPORTANT]
 > We take your patches to [stdlib][stdlib] into **strong** consideration when reviewing your proposal. Submitting one or more patches is your best opportunity to demonstrate that you are capable of doing what is included in your proposal.
 
 To submit a patch,
@@ -165,6 +167,81 @@ To submit a patch,
     It is up to you to respond to our feedback in a timely enough manner in order for your patch to be merged before the **acceptance** deadline.
 
 1.  **In your application, please provide a brief summary of your contributions to [stdlib][stdlib] thus far, including work which has not yet been merged. This should be a list of pull requests and an indication as to whether each pull request is merged, closed, or still open.** If you made significant contributions outside of your pull requests (e.g., reviewing someone else's pull request), you may list that as well.
+
+### Showcase Requirement
+
+In addition to the written proposal, we **require** every [GSoC][gsoc] applicant to create a tutorial, how-to guide, and/or showcase demonstrating [stdlib][stdlib] usage.
+
+> [!TIP]
+> The showcase requirement is your opportunity to demonstrate your excitement about stdlib and set yourself apart from other GSoC applicants. And you never know, if you do something really innovative, we might just showcase your showcase and make it a part of the official stdlib documentation!
+
+To create a showcase,
+
+1.  Create a new repository on GitHub and give it an appropriate name.
+
+1.  Setup a local repository on your machine which tracks the remote repository that you created on GitHub.
+
+    ```bash
+    git remote add origin https://github.com/<username>/<repository_name>.git
+    ```
+
+    where `<username>` is your GitHub user name and `<repository_name>` is the name of the repository you just created on GitHub.
+
+1.  In your local repository, create a minimal `.gitignore` file with the following contents:
+
+    ```text
+    /node_modules/
+    ```
+
+    Alternatively, feel free to copy the `.gitignore` found in [this repository][stdlib-gsoc-gitignore].
+
+1.  In your local repository, create a minimal `package.json` file with the following contents:
+
+    ```javascript
+    {
+        "private": true,
+        "dependencies": []
+    }
+    ```
+
+1.  Provided you've already locally installed Node.js and have access to a JavaScript package manager (e.g., `npm`, which, by default, is installed as part of most Node.js distributions), run
+
+    ```bash
+    npm install @stdlib/stdlib
+    ```
+
+    where `npm install` may be replaced by the equivalent command if you prefer other package managers, such as `yarn` or `jspm`.
+
+    After running this command, the package manager should install [stdlib][stdlib] inside a `node_modules` folder at the top-level of the local repository folder, and the package manager should update the `package.json` you created above to include `@stdlib/stdlib` as a dependency.
+
+1.  Assuming you've locally installed Git, go ahead and create an initial commit with the added files.
+
+    ```bash
+    git add -A && git commit
+    ```
+
+    You can use the following commit message:
+
+    ```text
+    chore: add initial files
+    ```
+
+1.  Provided you've setup your local repository to track the corresponding remote repository on GitHub, push your recent commit to GitHub.
+
+    ```bash
+    git push origin main
+    ```
+
+    where we assume that `main` is the default branch name. If you use a different default, you should modify the previous command accordingly.
+
+1.  Once you've completed the above, you are now ready to create your [stdlib][stdlib] showcase! Feel free to create a tutorial, how-to guide, and/or demo application showcasing how one can use stdlib. The showcase should be written in JavaScript, C, and/or TypeScript. **Please do not simply copy an existing example from the [stdlib][stdlib] repository. And please do NOT simply copy-and-paste output from an LLM.** We are interested in seeing your creativity and your willingness to familiarize yourself with the stdlib codebase.
+
+1.  Once you've implemented your showcase, commit the corresponding source files to your local repository and push to your remote using the Git commands we used above.
+
+1.  **In your application, please provide a brief summary of your [stdlib][stdlib] showcase. This should be a list of one or more repositories hosted on GitHub demonstrating stdlib usage.**
+
+> [!CAUTION]
+> Please do not (a) simply copy/fork another showcase repository and claim it as your own and (b) ask an LLM to write the entirety of your showcase for you. LLMs are not particularly good at generating stdlib code (at least not yet!), making it fairly easy to detect when someone has simply copy-pasted LLM output. We understand that some may find our requirements burdensome, but we've found that the more a GSoC contributor dives into the stdlib codebase and familiarizes themselves with our conventions and feature set, the more likely that the GSoC contributor will be a great fit for the stdlib community and ultimately succeed in completing their GSoC project.
 
 ### Plagiarism
 
@@ -220,6 +297,8 @@ This document may be reused under a [Creative Commons Attribution-ShareAlike 4.0
 [stdlib-gsoc-idea-template]: https://github.com/stdlib-js/google-summer-of-code/issues/new?assignees=&labels=idea&template=idea.yml&title=%5BIdea%5D%3A+
 
 [stdlib-gsoc-ideas]: https://github.com/stdlib-js/google-summer-of-code/labels/idea
+
+[stdlib-gsoc-gitignore]: https://github.com/stdlib-js/google-summer-of-code/blob/main/.gitignore
 
 [stdlib-gitter]: https://gitter.im/stdlib-js/stdlib
 
