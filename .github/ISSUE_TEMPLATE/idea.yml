@@ -89,7 +89,7 @@ body:
         - "Fortran"
         - "nodejs"
         - "native addons"
-        - "JSX/React"
+        - "JSX, React, or similar"
         - "HTML/CSS"
     validations:
       required: true
