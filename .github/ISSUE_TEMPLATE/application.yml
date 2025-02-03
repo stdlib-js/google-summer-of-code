@@ -19,7 +19,7 @@
 name: 🚀 Application
 description: I'd like to apply to Google Summer of Code to work on stdlib!
 title: "[RFC]: "
-labels: ["rfc", "2024"]
+labels: ["rfc", "2025"]
 body:
   - type: markdown
     attributes:
@@ -130,7 +130,7 @@ body:
 
         ## Programming Experience
 
-        Help us understand your programming experience! Don't worry if you have never used stdlib or Git. Many contributors start fresh, and we'll help teach you what you need to know. :smile:
+        Help us understand your programming experience! Don't worry if you are relatively new to programming. Many contributors start fresh, and we can help teach you what you need to know. :smile:
 
   - type: dropdown
     id: tech_platform
@@ -212,6 +212,14 @@ body:
     validations:
       required: true
 
+  - type: textarea
+    id: tech_stdlib_showcase
+    attributes:
+      label: stdlib showcase
+      description: Please provide a brief summary of how you've used stdlib and explored its functionality. This should be a list of one or more repositories in which you've created demos, tutorials, how-to guides, and/or showcases using stdlib. Please do not include forks of the main stdlib repository or forks of other someone else's demos in an attempt to pass them off as your own. Any showcases should be your own original work.
+    validations:
+      required: true
+
   - type: markdown
     attributes:
       value: |
@@ -273,7 +281,7 @@ body:
     id: proposal_schedule
     attributes:
       label: Schedule
-      description: Please provide a weekly schedule of how your time will be spent on the subtasks of the project throughout the GSoC program and the expected deliverables. While this is only preliminary and can be adjusted later, if need be, providing such a schedule will help us monitor your progress throughout the program. During your project, understand that you will issue weekly progress reports against the proposed schedule on your blog. If you aim to perform any prepwork prior to week 1 (e.g., during the community bonding period), be sure to include that in your answer below. The template below assumes a 12 week schedule. If you are doing an alternate schedule, you can adjust the template accordingly.
+      description: Please provide a weekly schedule of how your time will be spent on the subtasks of the project throughout the GSoC program and the expected deliverables. While this is only preliminary and can be adjusted later, if need be, providing such a schedule will help us monitor your progress throughout the program. During your project, understand that you will issue weekly progress reports against the proposed schedule. If you aim to perform any prepwork prior to week 1 (e.g., during the community bonding period), be sure to include that in your answer below. The template below assumes a 12 week schedule. If you are doing an alternate schedule, you can adjust the template accordingly.
       value: |
         Assuming a 12 week schedule,
 
@@ -341,6 +349,8 @@ body:
         - label: I understand that plagiarism will not be tolerated, and I have authored this application in my own words.
           required: true
         - label: I have read and understood the [patch requirement](https://github.com/stdlib-js/google-summer-of-code/blob/main/README.md#patch-requirement) which is necessary for my application to be considered for acceptance.
+          required: true
+        - label: I have read and understood the [stdlib showcase requirement](https://github.com/stdlib-js/google-summer-of-code/blob/main/README.md#showcase-requirement) which is necessary for my application to be considered for acceptance.
           required: true
         - label: The issue name begins with `[RFC]:` and succinctly describes your proposal.
           required: true
