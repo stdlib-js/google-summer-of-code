@@ -1220,7 +1220,7 @@ We will migrate stdlib-js to ESLint 9 to take advantage of new features, perform
 
 ### Status
 
-stdlib currently uses ESLint 8. The project already has an [extensive collection of custom lint rules](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/_tools/eslint/rules).
+stdlib currently uses ESLint 8. The stdlib project already has an [extensive collection of custom lint rules](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/_tools/eslint/rules).
 
 ### Involved software
 
