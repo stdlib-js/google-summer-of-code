@@ -1199,3 +1199,68 @@ Familiarity and comfort with JavaScript would be highly recommended, given that 
 ### Potential mentors
 
 @kgryte @Planeshifter 
+
+* * *
+
+## ESLint 9 Migration for JSON and YAML Linting
+
+Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/90>
+
+### Idea
+
+We will migrate stdlib-js to ESLint 9 to take advantage of new features, performance improvements, and enhanced file type support (including JSON and YAML). Additionally, this idea posits that we will create new ESLint rules that enforce project-specific coding standards for stdlib. This dual approach ensures both modern linting capabilities and adherence to stdlib’s code expectations and style guidelines.
+
+### Expected outcomes
+
+-   ESLint 9 Integration: A full migration of the linting infrastructure to ESLint 9.
+-   Extended File Support: Ability to lint not just JavaScript but also JSON and YAML files with the help of ESLint.
+-   New Custom Rules: New rules to enforce more of stdlib’s conventions.
+-   Enhanced Code Quality: Improved consistency and code quality by enforcing additional project-specific standards across the codebase.
+-   Updated Configurations: Comprehensive configuration updates that incorporate both ESLint 9 changes and the new custom rules.
+
+### Status
+
+stdlib currently uses ESLint 8. The project already has an [extensive collection of custom lint rules](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/_tools/eslint/rules).
+
+### Involved software
+
+No additional external dependencies aside from ESLint.
+
+
+
+
+### Technology
+
+nodejs, JavaScript
+
+### Other technology
+
+n/a
+
+
+### Difficulty
+
+3
+
+### Difficulty justification
+
+Migrating to ESLint 9 requires a detailed review of current linting configurations and potential refactoring of custom rules. The project will involve understanding new semantics and breaking changes introduced in ESLint 9, addressing compatibility issues, and integrating support for additional file types such as JSON and YAML and bespoke rules for these new file types. Additionally, thorough testing across various scenarios is necessary to ensure stability, making this a task that is intermediate in complexity.
+
+
+
+### Prerequisite knowledge
+
+A thorough understanding of ESLint, including its configuration system and plugin architecture, is essential. Familiarity with JavaScript and Node.js is required, along with experience in developing custom linting rules. Additionally, knowledge of continuous integration and automated testing practices is recommended to ensure that any new linting rules integrate smoothly into stdlib’s development workflow.
+
+
+
+### Project length
+
+175
+
+### Checklist
+
+- [x] I have read and understood the [Code of Conduct](https://github.com/stdlib-js/stdlib/blob/develop/CODE_OF_CONDUCT.md).
+- [x] I have read and understood the application materials found in this repository.
+- [x] The issue name begins with `[Idea]:` and succinctly describes your idea.
+- [x] I understand that, in order to apply to be a GSoC contributor, I must submit my final application to <https://summerofcode.withgoogle.com/> **before** the submission deadline.
