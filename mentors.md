@@ -74,7 +74,7 @@ If you are willing to mentor,
 
     -   e-mail: [jaysukhmakvana2004@gmail.com](mailto:jaysukhmakvana2004@gmail.com)
     -   GitHub: [Jaysukh-409](https://github.com/Jaysukh-409)
-    -   projects: most, particularly implementation of mathematical function or array related task
+    -   projects: most, particularly implementations of mathematical functions and array related tasks
 
 ## Time Commitment
 
