@@ -1273,7 +1273,7 @@ Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/92>
 
 ### Idea
 
-stdlib is composed of thousands of individual packages. Managing this complexity requires a complex publishing pipeline that handles automatic updates to repositories, generation of various bundle types, publishing packages to the npm registry, changelog generation, and more. 
+stdlib is composed of thousands of individual packages. Managing this complexity requires an intricate publishing pipeline that handles automatic updates to repositories, generation of various bundle types, publishing packages to the npm registry, changelog generation, and more. 
 
 The project aims to refactor the current workflows by breaking down the monolithic, feature-rich scripts ([example](https://github.com/stdlib-js/stdlib/blob/develop/lib/node_modules/%40stdlib/_tools/scripts/publish_packages.js)) into discrete, standalone tooling packages in the [_tools](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/_tools) namespac, which can be independently tested and maintained. 
 
