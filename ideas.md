@@ -93,7 +93,7 @@ Hard. This may be a straightforward port, or it may not be. More R&D is needed.
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @rreusser @Pranavchiku @czgdp1807 
+@kgryte @Planeshifter @rreusser @Pranavchiku @czgdp1807
 
 * * *
 
@@ -137,7 +137,7 @@ Intermediate. Requires a fair amount of frontend engineering knowledge and moder
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @steff456 
+@kgryte @Planeshifter @steff456
 
 * * *
 
@@ -171,7 +171,7 @@ Intermediate/Hard. Depends. Some PRNGs may be straightforward to implement. Othe
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @Pranavchiku 
+@kgryte @Planeshifter @Pranavchiku
 
 * * *
 
@@ -207,7 +207,7 @@ Intermediate.
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @steff456 
+@kgryte @Planeshifter @steff456
 
 * * *
 
@@ -243,7 +243,7 @@ Intermediate.
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @steff456 
+@kgryte @Planeshifter @steff456
 
 * * *
 
@@ -279,7 +279,7 @@ Intermediate/Hard.
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @rreusser 
+@kgryte @Planeshifter @rreusser
 
 * * *
 
@@ -315,7 +315,7 @@ Beginner. Would benefit from someone with JavaScript experience.
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @steff456 
+@kgryte @Planeshifter @steff456
 
 * * *
 
@@ -351,7 +351,7 @@ Intermediate. Could require some creative solutions to ensure that abstractions 
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @steff456 
+@kgryte @Planeshifter @steff456
 
 * * *
 
@@ -389,7 +389,7 @@ Intermediate.
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @Pranavchiku 
+@kgryte @Planeshifter @Pranavchiku
 
 * * *
 
@@ -433,7 +433,7 @@ Beginner/Intermediate.
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @steff456 
+@kgryte @Planeshifter @steff456
 
 * * *
 
@@ -469,7 +469,7 @@ Beginner/Intermediate.
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @steff456 
+@kgryte @Planeshifter @steff456
 
 * * *
 
@@ -535,7 +535,7 @@ Hard.
 
 ### Potential Mentors
 
-@kgryte @Planeshifter 
+@kgryte @Planeshifter
 
 * * *
 
@@ -569,7 +569,7 @@ Hard. Depends on the reference implementation requirements and algorithmic diffi
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @Pranavchiku 
+@kgryte @Planeshifter @Pranavchiku
 
 * * *
 
@@ -608,7 +608,7 @@ Intermediate.
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @steff456 
+@kgryte @Planeshifter @steff456
 
 * * *
 
@@ -642,7 +642,7 @@ Intermediate.
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @steff456 
+@kgryte @Planeshifter @steff456
 
 * * *
 
@@ -678,7 +678,7 @@ Intermediate.
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @steff456 
+@kgryte @Planeshifter @steff456
 
 * * *
 
@@ -714,7 +714,7 @@ Intermediate.
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @steff456 
+@kgryte @Planeshifter @steff456
 
 * * *
 
@@ -756,7 +756,7 @@ Intermediate.
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @steff456 
+@kgryte @Planeshifter @steff456
 
 * * *
 
@@ -792,7 +792,7 @@ Intermediate.
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @rreusser @Pranavchiku @czgdp1807 
+@kgryte @Planeshifter @rreusser @Pranavchiku @czgdp1807
 
 * * *
 
@@ -826,7 +826,7 @@ Intermediate
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @rreusser 
+@kgryte @Planeshifter @rreusser
 
 * * *
 
@@ -867,7 +867,7 @@ Hard.
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @steff456 
+@kgryte @Planeshifter @steff456
 
 * * *
 
@@ -901,7 +901,7 @@ Hard. Depends on the reference implementation requirements and algorithmic diffi
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @rreusser @Pranavchiku @czgdp1807 
+@kgryte @Planeshifter @rreusser @Pranavchiku @czgdp1807
 
 * * *
 
@@ -935,7 +935,7 @@ Hard. Depends on the reference implementation requirements and algorithmic diffi
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @Pranavchiku @czgdp1807 @rreusser 
+@kgryte @Planeshifter @Pranavchiku @czgdp1807 @rreusser
 
 * * *
 
@@ -973,7 +973,7 @@ Intermediate. Writing the loop kernels can be involved, but, once understood, ar
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @steff456 @rreusser 
+@kgryte @Planeshifter @steff456 @rreusser
 
 * * *
 
@@ -1009,7 +1009,7 @@ Intermediate. Familiarity with C is beneficial. This idea mainly involves portin
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @steff456 @rreusser @Pranavchiku @czgdp1807 
+@kgryte @Planeshifter @steff456 @rreusser @Pranavchiku @czgdp1807
 
 * * *
 
@@ -1055,7 +1055,7 @@ Beginner/Intermediate.
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @steff456 
+@kgryte @Planeshifter @steff456
 
 * * *
 
@@ -1096,7 +1096,7 @@ Intermediate. Familiarity with C and Fortran will be beneficial. This idea mainl
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @steff456 @rreusser @Pranavchiku @czgdp1807 
+@kgryte @Planeshifter @steff456 @rreusser @Pranavchiku @czgdp1807
 
 * * *
 
@@ -1198,7 +1198,7 @@ Familiarity and comfort with JavaScript would be highly recommended, given that 
 
 ### Potential mentors
 
-@kgryte @Planeshifter 
+@kgryte @Planeshifter
 
 * * *
 
@@ -1257,13 +1257,6 @@ A thorough understanding of ESLint, including its configuration system and plugi
 ### Project length
 
 175
-
-### Checklist
-
-- [x] I have read and understood the [Code of Conduct](https://github.com/stdlib-js/stdlib/blob/develop/CODE_OF_CONDUCT.md).
-- [x] I have read and understood the application materials found in this repository.
-- [x] The issue name begins with `[Idea]:` and succinctly describes your idea.
-- [x] I understand that, in order to apply to be a GSoC contributor, I must submit my final application to <https://summerofcode.withgoogle.com/> **before** the submission deadline.
 
 * * *
 
@@ -1330,10 +1323,3 @@ The project involves a large refactor of an existing, complex system.
 ### Project length
 
 350
-
-### Checklist
-
-- [x] I have read and understood the [Code of Conduct](https://github.com/stdlib-js/stdlib/blob/develop/CODE_OF_CONDUCT.md).
-- [x] I have read and understood the application materials found in this repository.
-- [x] The issue name begins with `[Idea]:` and succinctly describes your idea.
-- [x] I understand that, in order to apply to be a GSoC contributor, I must submit my final application to <https://summerofcode.withgoogle.com/> **before** the submission deadline.
