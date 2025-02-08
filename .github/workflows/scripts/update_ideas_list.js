@@ -122,7 +122,7 @@ async function main( github, context, core, fs, path, dir ) {
 		t = t.replace( '[Idea]: ', '' );
 		t = t[ 0 ].toUpperCase() + t.substring( 1 );
 
-		body = issues[i].body.replace(RE_CHECKLIST, '').trim();
+		body = issues[i].body.replace( RE_CHECKLIST, '' ).trim();
 		str = [
 			'## ' + t,
 			'',
