@@ -1264,3 +1264,76 @@ A thorough understanding of ESLint, including its configuration system and plugi
 - [x] I have read and understood the application materials found in this repository.
 - [x] The issue name begins with `[Idea]:` and succinctly describes your idea.
 - [x] I understand that, in order to apply to be a GSoC contributor, I must submit my final application to <https://summerofcode.withgoogle.com/> **before** the submission deadline.
+
+* * *
+
+## Improve `stdlib` Publishing Pipeline
+
+Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/92>
+
+### Idea
+
+stdlib is composed of thousands of individual packages. Managing this complexity requires a complex publishing pipeline that handles automatic updates to repositories, generation of various bundle types, publishing packages to the npm registry, changelog generation, and more. 
+
+The project aims to refactor the current workflows by breaking down the monolithic, feature-rich scripts ([example](https://github.com/stdlib-js/stdlib/blob/develop/lib/node_modules/%40stdlib/_tools/scripts/publish_packages.js)) into discrete, standalone tooling packages in the [_tools](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/_tools) namespac, which can be independently tested and maintained. 
+
+In addition, while we still will lean on GitHub Actions for the publishing flow, this project will ensure that our publishing pipeline will not be tightly coupled with it anymore. 
+
+Goals of the refactoring will also include to improve logging and observability, enable rigorous testing and checkpointing, and the ability to trigger all steps locally via a CLI tool.
+
+
+### Expected outcomes
+
+-   Having the publishing pipeline fully composed into modular packages.
+-   Each module having its own suite of unit tests.
+-   Integration tests and end-to-end tests for the entire workflow.
+-   Enhanced observability and diagnostic tools integrated into the publishing process.
+-   A reduction in the complexity of the existing scripts by making GitHub Actions interactions explicit and manageable.
+-   Better error recovery, collection of statistics, and a more maintainable architecture.
+
+### Status
+
+No effort has been undertaken to start modularizing the publishing pipeline architecture, but there is agreement among the TSC that this is a desirable goal.
+
+### Involved software
+
+ GitHub Actions, Bash.
+
+### Technology
+
+JavaScript, nodejs
+
+### Other technology
+
+None.
+
+### Difficulty
+
+3
+
+### Difficulty justification
+
+The project involves a large refactor of an existing, complex system.
+
+-    Decoupling the interwoven dependencies of the current monolithic script requires careful planning and modular design.
+-    Handling platform variability between local development and GitHub Actions orchestration, including differences between Linux and MacOS, adds complexity.
+-  Introducing enhanced testing and observability requires integrating new tools and extending the current functionality.
+
+
+### Prerequisite knowledge
+
+-   Proficiency in JavaScript and Node.js development as well as Bash scripting.
+-   Familiarity with GitHub Actions and CI/CD pipeline design.
+-   Understanding of modular design principles and software refactoring techniques.
+
+
+### Project length
+
+350
+
+### Checklist
+
+- [x] I have read and understood the [Code of Conduct](https://github.com/stdlib-js/stdlib/blob/develop/CODE_OF_CONDUCT.md).
+- [x] I have read and understood the application materials found in this repository.
+- [x] The issue name begins with `[Idea]:` and succinctly describes your idea.
+- [x] I understand that, in order to apply to be a GSoC contributor, I must submit my final application to <https://summerofcode.withgoogle.com/> **before** the submission deadline.
