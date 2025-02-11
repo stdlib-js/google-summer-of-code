@@ -76,6 +76,12 @@ If you are willing to mentor,
     -   GitHub: [Jaysukh-409](https://github.com/Jaysukh-409)
     -   projects: most, particularly implementations of mathematical functions and array related tasks
 
+- Aman Bhansali
+
+    -   e-mail: [amanbhansali65@gmail.com](mailto:amanbhansali65@gmail.com)
+    -   GitHub: [aman-095](https://github.com/aman-095)
+    -   projects: most, particularly implementation of BLAS, LAPACK and related mathematical functions
+
 ## Time Commitment
 
 For primary mentors, we expect between a 3-10 hour a week commitment, where the requisite time decreases over the course of the program. Mentors can expect to spend more time the first few weeks prior to the contributor start date, where you'll be helping flesh out the project ideas, discussing projects with potential contributors, and selecting contributors based on their submitted proposals. Once contributors are selected and the program kicks off, your commitment should decrease to 2-4 hours a week and be comprised of a weekly 1 hour 1-on-1 where you'll establish rapport and discuss project progress and of some additional time to perform code review and answer questions as they arise. Ideally, a mentor will pair program with a contributor for 1 hour every two weeks throughout the duration of the program.
