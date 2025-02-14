@@ -1433,3 +1433,51 @@ C, Fortran, JavaScript, Node.js.
 ### Project length
 
 350
+
+* * *
+
+## Extend stdlib's doctesting approach to C examples
+
+Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/96>
+
+### Idea
+
+We heavily rely on doctesting (see https://github.com/stdlib-js/stdlib/blob/develop/docs/doctest.md) to ensure that our Markdown and JSDoc examples are correct and do not become out-of-date. However, we currently have no such framework for ensuring that our C source code and Markdown examples are correct.
+
+The goal of this project would be to implement doctesting for C source code and associated Markdown examples. While the approach is likely to be similar (e.g., parsing source code in scripts, Markdown code blocks, and in DOXYGEN examples), the technology stack is likely to be different and will require some R&D, especially as we won't be able to rely on things like ESLint. Instead, we'll need other tooling for identifying `// returns` annotations, instrumenting examples to collect return values, resolving source files to compile, compiling source files, executing scripts, and asserting that the output results match expectation.
+
+### Expected outcomes
+
+As part of our CI workflows and in local development, developers will be able to test that their C examples are correct.
+
+### Status
+
+stdlib has its own doctesting framework for checking JavaScript examples. This should serve as inspiration and provide an idea of what we are looking for.
+
+### Involved software
+
+C compilers, AST generators, and stdlib tooling.
+
+### Technology
+
+C
+
+### Other technology
+
+None.
+
+### Difficulty
+
+5
+
+### Difficulty justification
+
+There is likely a need for R&D to determine the best tools and approach. For JavaScript examples, we are able to rely on the fact that we can lint and execute within the same JavaScript runtime. In this case, there will be additional steps needed to separately instrument, create temporary files, compile, execute, and collect.
+
+### Prerequisite knowledge
+
+Experience with C and creating tooling will be beneficial.
+
+### Project length
+
+350
