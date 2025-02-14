@@ -1380,3 +1380,56 @@ Familiarity and comfort with JavaScript would be highly recommended, given that 
 ### Project length
 
 350
+
+* * *
+
+## Add LAPACK bindings and implementations for linear algebra
+
+Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/95>
+
+### Idea
+
+[LAPACK](https://netlib.org/lapack/) routines are standard building blocks for performing basic vector and matrix operations. These building blocks are leveraged by most modern numerical programming languages and libraries, including NumPy, SciPy, Julia, MATLAB, R, and others.
+
+The goal of this idea is to
+
+- reimplement reference LAPACK routines in free-form Fortran 95
+- port reference LAPACK routines to pure C
+- port reference LAPACK routines to pure JavaScript
+- write Node.js bindings to allow calling LAPACK routines in compiled C/ Fortran from JavaScript
+
+### Expected outcomes
+
+Users will be able to call LAPACK routines from JavaScript. In web browsers, LAPACK routines will be in JavaScript. In Node.js, provided native bindings have been compiled, LAPACK routines will either be ported reference implementations or hardware optimized system libraries.
+
+### Status
+
+Some work has begun toward this effort. See https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base.
+
+### Involved software
+
+No other software is necessary apart from standard compilers (GCC, gfortran).
+
+### Technology
+
+C, JavaScript, Fortran, nodejs, native addons
+
+### Other technology
+
+_No response_
+
+### Difficulty
+
+4
+
+### Difficulty justification
+
+Familiarity with C and Fortran will be beneficial. This idea mainly involves porting existing implementations and doing so in a manner which conforms with stdlib conventions. Some of the reference implementations are likely to be quite involved and testing the correct output can be tricky, especially for lower-level helper routines.
+
+### Prerequisite knowledge
+
+C, Fortran, JavaScript, Node.js.
+
+### Project length
+
+350
