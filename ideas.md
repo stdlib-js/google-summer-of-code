@@ -1323,3 +1323,60 @@ The project involves a large refactor of an existing, complex system.
 ### Project length
 
 350
+
+* * *
+
+## Add support for `Float16Array`
+
+Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/94>
+
+### Idea
+
+With `Float16Array` now on track for stage 4 approval in JavaScript (see https://github.com/tc39/proposal-float16array/issues/7), it is time we start thinking about adding support for `Float16Array` in stdlib. We have prior experience adding new array types, such as `array/bool`, `array/complex128`, and `array/complex64`, and this idea is a continuation of those efforts.
+
+The expected roadmap is as follows:
+
+- add a new `array/float16` package which includes a polyfill for backward compatibility support. The polyfill should expose all common methods and properties as found on other typed array constructors. This package should contain complete tests, documentation, and benchmarks, as found in other typed array packages (e.g., `array/bool`).
+- add support for `float16` array dtypes throughout the `array/*` namespace.
+- add support for `float16` array dtypes throughout the `strided/*` namespace.
+- add support for `float16` array dtypes throughout the `ndarray/*` namespace.
+
+### Expected outcomes
+
+stdlib users will be able to create and operate on `Float16Array` instances the same way they do throughout the project, with `Float16Array` on equal footing with all other typed array classes.
+
+### Status
+
+No work has been done on this idea; however, we expect that this should follow as similar path to `array/bool` and its integration throughout the project.
+
+Related: https://github.com/stdlib-js/google-summer-of-code/issues/43
+
+### Involved software
+
+No special software for initial work. Once work has progressed to ndarray support, will need access to a C compiler, as documented in the project development guide.
+
+### Technology
+
+JavaScript, C, nodejs, native addons
+
+### Other technology
+
+_No response_
+
+### Difficulty
+
+4
+
+### Difficulty justification
+
+Implementing the polyfill will likely take some time, with the need for adding additional functionality to support the implementation (e.g., bit manipulation utilities, math utils, etc).
+
+This project is ambitious, as arrays are fundamental to a lot of stdlib functionality; however, many of the more difficult integration aspects have already addressed given the widespread support for other array types throughout the project. The main project difficulty beyond the creation of a new `Float16Array` class will be finding all the various bits of code throughout the project which need to be updated.
+
+### Prerequisite knowledge
+
+Familiarity and comfort with JavaScript would be highly recommended, given that this project will require considerable programming in JavaScript. Some familiarity with C would also be good, especially for float16 array integration with ndarrays.
+
+### Project length
+
+350
