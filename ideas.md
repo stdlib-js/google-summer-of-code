@@ -1416,7 +1416,7 @@ C, JavaScript, Fortran, nodejs, native addons
 
 ### Other technology
 
-_No response_
+None.
 
 ### Difficulty
 
