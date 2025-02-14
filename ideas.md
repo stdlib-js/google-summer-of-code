@@ -1361,7 +1361,7 @@ JavaScript, C, nodejs, native addons
 
 ### Other technology
 
-_No response_
+None.
 
 ### Difficulty
 
