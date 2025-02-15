@@ -1527,3 +1527,49 @@ Some familiarity with WebAssembly will be helpful. Experience with JavaScript.
 ### Project length
 
 90/175/350. Can be scoped accordingly.
+
+* * *
+
+## Add WebAssembly implementations for `stats/strided` routines
+
+Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/98>
+
+### Idea
+
+We've worked toward compiling BLAS routines to WebAssembly and offering ergonomic APIs for interfacing between JavaScript and WebAssembly binaries (see https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm). The goal of this project would be to extend these efforts to the `stats/strided` namespace, such that, for each typed interface in `stats/strided/(d|s|c|z|)*`, there would be a corresponding WebAssembly package in `stats/strided/wasm/*`.
+
+### Expected outcomes
+
+Users wanting to potentially accelerate computation of strided statistics routines will be able to consume a corresponding WebAssembly API.
+
+### Status
+
+Work has primarily happened in https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm. The efforts there would need to be replicated for the `stats/strided/*` namespace.
+
+### Involved software
+
+Emscripten, which is necessary for compiling C to WebAssembly. stdlib already offers tooling for automatically installing the emsdk and getting things up and running.
+
+### Technology
+
+C, JavaScript
+
+### Other technology
+
+None.
+
+### Difficulty
+
+3
+
+### Difficulty justification
+
+Given that most `stats/strided/*` routines are straightforward one-dimensional strided array interfaces, developing the wasm packages should be similarly straightforward. The main time-consuming task will be writing tests and documentation.
+
+### Prerequisite knowledge
+
+Some familiarity with WebAssembly will be helpful. Experience with JavaScript.
+
+### Project length
+
+90/175/350. Can be scoped accordingly.
