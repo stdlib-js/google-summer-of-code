@@ -1260,7 +1260,7 @@ A thorough understanding of ESLint, including its configuration system and plugi
 
 * * *
 
-## Improve `stdlib` Publishing Pipeline
+## Improve `stdlib` publishing pipeline
 
 Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/92>
 
