@@ -1634,3 +1634,57 @@ TypeScript, C, and JavaScript experience would be beneficial.
 ### Project length
 
 350
+
+* * *
+
+## Add matrix format parsers and data loaders
+
+Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/100>
+
+### Idea
+
+The goal of this project would be to implement various matrix and multi-dimensional format parsers and data loaders. E.g.,
+
+- [Matrix Market](https://math.nist.gov/MatrixMarket/formats.html#MMformat)
+- [NumPy `npy`](https://numpy.org/doc/stable/reference/generated/numpy.lib.format.html#module-numpy.lib.format)
+- [DLPack](https://dmlc.github.io/dlpack/latest/)
+- [MATLAB `mat`](https://www.mathworks.com/help/pdf_doc/matlab/matfile_format.pdf)
+- others?
+
+Implementing these parsers and loaders would facilitate array data interchange with other numerical computing ecosystems.
+
+### Expected outcomes
+
+Users will be able to load multi-dimensional array data saved in other numerical computing environments into stdlib's `ndarray` data structure.
+
+### Status
+
+No work has begun on this.
+
+### Involved software
+
+Access to MATLAB/Octave would be useful for implementing the MAT-file parser. One would likely need to use Python and NumPy in order to save and work with `npy` files.
+
+### Technology
+
+JavaScript
+
+### Other technology
+
+None.
+
+### Difficulty
+
+4
+
+### Difficulty justification
+
+Some of the file format specifications can be quite involved. It is also likely that we may encounter situations in which we cannot support particular formats in full due to dtype incompatibility, etc.
+
+### Prerequisite knowledge
+
+Familiarity with JavaScript, Python, and MATLAB would be useful. Experience writing parsers and performing IO will also be beneficial.
+
+### Project length
+
+350
