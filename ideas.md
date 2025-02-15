@@ -1526,4 +1526,4 @@ Some familiarity with WebAssembly will be helpful. Experience with JavaScript.
 
 ### Project length
 
-350
+90/175/350. Can be scoped accordingly.
