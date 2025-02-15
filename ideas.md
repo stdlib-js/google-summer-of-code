@@ -1573,3 +1573,64 @@ Some familiarity with WebAssembly will be helpful. Experience with JavaScript.
 ### Project length
 
 90/175/350. Can be scoped accordingly.
+
+* * *
+
+## Create a prototype for transpiling a subset of TypeScript to C with automatic add-on generation
+
+Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/99>
+
+### Idea
+
+Drawing on some of the recent innovations in the numerical Python ecosystem (e.g., see [`pyccel`](https://github.com/pyccel/pyccel/tree/devel)), the goal of this project would be to see if we can define a restricted subset of TypeScript which can be transpiled to C for faster execution in Node.js and other server runtimes.
+
+There is some prior art here; namely, [AssemblyScript](https://www.assemblyscript.org), which provides a TypeScript-like language which compiles to WebAssembly. However, we should be able to go farther here, especially in leveraging stdlib's richer collection of types (in particular, complex number dtypes). From this restricted subset, we can then automate transpilation of TypeScript to C, with the ability to automatically generate Node.js native add-ons bindings similar to what can be found in, e.g., https://github.com/stdlib-js/stdlib/blob/954e7c1e1716bfdd15903b4be7039741396927eb/lib/node_modules/%40stdlib/blas/base/dcopy/src/addon.c.
+
+There would be some puzzle pieces to put together here. Namely,
+
+- defining a richer set of numeric types. Currently, stdlib uses `number`, `boolean`, `Float64Array`, and other built-in types, along with a couple of custom types, such as `Complex128` and `Complex64`. We'd like want to create named aliases for specific numeric types, such as `int64`, `int32`, etc (similar to AssemblyScript). These would not impact consumption of project type declarations in TypeScript; although, they would have the benefit of signaling expected types.
+- updating the TypeScript declarations for various packages (e.g., `blas/ext/base`) to use the newly defined types.
+- creating tooling which can resolve and read a TypeScript declaration for an exported function and then automatically generate an `addon.c` file. If we can reproduce the [`addon.c`](https://github.com/stdlib-js/stdlib/blob/954e7c1e1716bfdd15903b4be7039741396927eb/lib/node_modules/%40stdlib/blas/base/dcopy/src/addon.c) file in `blas/base/dcopy`, that would be a win.
+- potentially porting a subset of JavaScript implementations to TypeScript using the aliases defined above.
+- from the ports, creating tooling which can, with high fidelity, generate one or more JavaScript implementations.
+- from the ports, creating tooling which can, with high fidelity, generate one or more C implementations.
+
+Note that, when transpiling from TypeScript to C, we'd need to properly determine appropriate stdlib includes and dependencies. If we could auto-generate a basic `manifest.json` file, that could also be useful.
+
+We could also explore a TypeScript to Fortran transpiler.
+
+### Expected outcomes
+
+A working end-to-end prototype which is capable of transpiling stdlib-flavored TypeScript to C and which can reproduce hand-authored C and JavaScript code.
+
+### Status
+
+No work has begun on this.
+
+### Involved software
+
+TypeScript and C/Fortran compilers.
+
+### Technology
+
+C, JavaScript, native addons, Fortran
+
+### Other technology
+
+None.
+
+### Difficulty
+
+4
+
+### Difficulty justification
+
+This idea is exploratory, and, while conceptually straightforward, the project does involve a number of unknowns, particularly around how easy it will be to reproduce hand-optimized code. Given that the `blas/base/*`, `blas/ext/base/*`, and `stats/strided/*` namespaces provide a relatively contained environment for API design, it's possible that this will be achievable, but we won't know the best approach until after some R&D.
+
+### Prerequisite knowledge
+
+TypeScript, C, and JavaScript experience would be beneficial.
+
+### Project length
+
+350
