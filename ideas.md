@@ -1688,3 +1688,72 @@ Familiarity with JavaScript, Python, and MATLAB would be useful. Experience writ
 ### Project length
 
 90/175/350. Can be scoped accordingly.
+
+* * *
+
+## Add support for working with arrays backed by memory-mapped files
+
+Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/101>
+
+### Idea
+
+Memory-mapped files allow accessing small segments of large disks stored on disk, without reading the entire file into memory. Not only can this be advantageous for memory performance, but it also facilitates shared memory between processes (e.g., operating on the same array in both Node.js and Python running in two separate processes).
+
+The goal of this project is to add support for working with typed arrays backed by memory-mapped files. Memory-mapped-backed typed arrays should support all the APIs of built-in typed arrays, with the exceptions that the constructors will need to support `mmap`-related arguments (e.g., filename, mode, offset) and indexing will require accessors, not square bracket syntax. The project is well-prepared to support accessors (see `array/bool`, `array/complex128`, etc), such that, provided a memory-mapped typed array supports the accessor protocol, passing to downstream utilities should just work.
+
+Similar to how we've approached fixed-endian typed arrays (see [`array/fixed-endian-factory`](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/fixed-endian-factory)), we can likely create a package exposing a constructor factory and then create lightweight wrappers for type-specific constructors (E.g., [`array/little-endian-float64`](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/little-endian-float64).
+
+This project may require figuring out a strategy for C-JS iterop which can be used across constructors.
+
+### Expected outcomes
+
+Ideally, we would have the following constructors:
+
+- `Float64ArrayMMap`
+- `Float32ArrayMMap`
+- `Int32ArrayMMap`
+- `Int16ArrayMMap`
+- `Int8ArrayMMap`
+- `Uint32ArrayMMap`
+- `Uint16ArrayMMap`
+- `Uint8ArrayMMap`
+- `Uint8ClampedArrayMMap`
+- `BooleanArrayMMap`
+- `Complex128ArrayMMap`
+- `Complex64ArrayMMap`
+
+Additionally, the following constructors would also be useful:
+
+- `DataViewMMap`
+
+### Status
+
+None.
+
+### Involved software
+
+C compiler such as GCC or Clang.
+
+### Technology
+
+C, JavaScript, nodejs, native addons
+
+### Other technology
+
+None
+
+### Difficulty
+
+5
+
+### Difficulty justification
+
+Figuring out an effective bridge between JavaScript and C for working with memory-mapped files will likely require some R&D. It is not clear whether we'd need to first develop separate dedicated `mmap(2)`-like functionality in JavaScript or whether we can directly interface into C. Once the lower-level details are determined, the next steps will be implementing all the user-facing APIs expected from typed arrays. This should be straightforward; however, there may be some unexpected challenges and constraints surrounding read-only access, etc.
+
+### Prerequisite knowledge
+
+C, JavaScript, and Node.js experience will be useful.
+
+### Project length
+
+350
