@@ -1757,3 +1757,59 @@ C, JavaScript, and Node.js experience will be useful.
 ### Project length
 
 350
+
+* * *
+
+## Improve project supply chain security by bringing production dependencies in-house
+
+Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/102>
+
+### Idea
+
+stdlib currently depends on [`14`](https://github.com/stdlib-js/stdlib/blob/develop/package.json#L55) external packages. Ideally, we'd reduce this number to `0` in order to (a) reduce the risk of supply-chain security vulnerabilities and (b) ensure that all production code used within stdlib follows the "stdlib way" (i.e., docs, tests, examples, benchmarks, backward-compatibility guarantees, etc).
+
+Accordingly, this project seeks to bring external packages "in-house" by implementing stdlib equivalents which can replace their usage within stdlib. Immediate targets are dependencies such as `debug`, `glob`, `resolve`, and `minimist` which we'd like to bring in-house for their own sake.
+
+Bringing `acorn` and friends in-house would likely require more work and impose an increased maintenance burden, so we'd want to be careful in determining whether we want to prioritize a stdlib implementation. That said, having a stdlib suite of JavaScript AST manipulators would be useful. The main concern is simply keeping up with yearly ECMAScript versions. If we stayed close enough to `acorn`, we could potentially just mirror changes into stdlib. Regardless, some thought would be required to determine whether we want to model any stdlib implementation after acorn or some other high-quality and performant AST parser third-party package.
+
+For `d3-*` and friends, these would likely go away once we migrated our plot functionality to use `vega`. So their priority is lower.
+
+For `vdom-to-html` and `virtual-dom`, these have been useful in the past; however, it is not clear whether these deserve inclusion in stdlib. They are currently used in the stdlib plot API. Similar to the `d3-*` packages, they might just naturally go away after migrating plot functionality to `vega`.
+
+`readable-stream` is a harder package to migrate. First and foremost, one should evaluate how much we actually need `readable-stream` and whether we can still retain desired backward compatible behavior with built-in Node.js streams. It is possible that the answer is yes; however, historically, using `readable-stream` has been critical in ensuring consistent behavior across Node.js versions.
+
+### Expected outcomes
+
+Third-party party production dependencies would have equivalent stdlib implementations, and we can remove them as dependencies in the project `package.json`.
+
+### Status
+
+No work has begun on this.
+
+### Involved software
+
+None.
+
+### Technology
+
+JavaScript, nodejs
+
+### Other technology
+
+None.
+
+### Difficulty
+
+4
+
+### Difficulty justification
+
+It depends on which dependencies are prioritized. Some, such as `acorn`, could be quite involved and require extensive testing. Others, such as `resolve` should be more straightforward. `glob` is likely to require significant R&D in order to understand and determine an ideal API.
+
+### Prerequisite knowledge
+
+Experience and a high degree of comfort with JavaScript and Node.js.
+
+### Project length
+
+350
