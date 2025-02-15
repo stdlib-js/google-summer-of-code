@@ -1687,4 +1687,4 @@ Familiarity with JavaScript, Python, and MATLAB would be useful. Experience writ
 
 ### Project length
 
-350
+90/175/350. Can be scoped accordingly.
