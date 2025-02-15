@@ -1701,7 +1701,7 @@ Memory-mapped files allow accessing small segments of large disks stored on disk
 
 The goal of this project is to add support for working with typed arrays backed by memory-mapped files. Memory-mapped-backed typed arrays should support all the APIs of built-in typed arrays, with the exceptions that the constructors will need to support `mmap`-related arguments (e.g., filename, mode, offset) and indexing will require accessors, not square bracket syntax. The project is well-prepared to support accessors (see `array/bool`, `array/complex128`, etc), such that, provided a memory-mapped typed array supports the accessor protocol, passing to downstream utilities should just work.
 
-Similar to how we've approached fixed-endian typed arrays (see [`array/fixed-endian-factory`](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/fixed-endian-factory)), we can likely create a package exposing a constructor factory and then create lightweight wrappers for type-specific constructors (E.g., [`array/little-endian-float64`](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/little-endian-float64).
+Similar to how we've approached fixed-endian typed arrays (see [`array/fixed-endian-factory`](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/fixed-endian-factory)), we can likely create a package exposing a constructor factory and then create lightweight wrappers for type-specific constructors (e.g., [`array/little-endian-float64`](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/little-endian-float64)).
 
 This project may require figuring out a strategy for C-JS iterop which can be used across constructors.
 
