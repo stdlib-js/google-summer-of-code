@@ -1481,3 +1481,49 @@ Experience with C and creating tooling will be beneficial.
 ### Project length
 
 350
+
+* * *
+
+## Add WebAssembly implementations for extended BLAS routines
+
+Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/97>
+
+### Idea
+
+We've worked toward compiling BLAS routines to WebAssembly and offering ergonomic APIs for interfacing between JavaScript and WebAssembly binaries (see https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm). The goal of this project would be to extend these efforts to the `blas/ext/base` namespace, such that, for each typed interface in `blas/ext/base/(d|s|c|z|)*`, there would be a corresponding WebAssembly package in `blas/ext/base/wasm/*`.
+
+### Expected outcomes
+
+Users wanting to potentially accelerate computation of extended BLAS routines will be able to consume a corresponding WebAssembly API.
+
+### Status
+
+Work has primarily happened in https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm. The efforts there would need to be replicated for the `blas/ext/base/wasm/*` namespace.
+
+### Involved software
+
+Emscripten, which is necessary for compiling C to WebAssembly. stdlib already offers tooling for automatically installing the emsdk and getting things up and running.
+
+### Technology
+
+C, JavaScript
+
+### Other technology
+
+None.
+
+### Difficulty
+
+3
+
+### Difficulty justification
+
+Given that most `blas/ext/base/*` routines are straightforward one-dimensional strided array interfaces, developing the wasm packages should be similarly straightforward. The main time-consuming task will be writing tests and documentation.
+
+### Prerequisite knowledge
+
+Some familiarity with WebAssembly will be helpful. Experience with JavaScript.
+
+### Project length
+
+350
