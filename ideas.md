@@ -1812,4 +1812,4 @@ Experience and a high degree of comfort with JavaScript and Node.js.
 
 ### Project length
 
-350
+90/175/350. Scope can be tailored accordingly.
