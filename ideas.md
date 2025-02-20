@@ -1816,7 +1816,7 @@ Experience and a high degree of comfort with JavaScript and Node.js.
 
 * * *
 
-## Automating Code Reviews and Fixes via stdlib-bot
+## Automated Code Reviews and Fixes via LLM-powered stdlib-bot
 
 Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/103>
 
