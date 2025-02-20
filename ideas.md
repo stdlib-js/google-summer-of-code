@@ -1844,10 +1844,9 @@ Currently, the stdlib-bot only reports necessary changes by creating issues, req
 
 ### Involved software
 
-GitHub Actions
-OpenAI API
-GitHub REST or GraphQL API to collect data from past stdlib PR reviews
-
+-   GitHub Actions
+-   LLM APIs (e.g. OpenAI)
+-   GitHub REST or GraphQL API to collect data from past stdlib PR reviews
 
 ### Technology
 
