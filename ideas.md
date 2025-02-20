@@ -1813,3 +1813,64 @@ Experience and a high degree of comfort with JavaScript and Node.js.
 ### Project length
 
 90/175/350. Scope can be tailored accordingly.
+
+* * *
+
+## Automating Code Reviews and Fixes via stdlib-bot
+
+Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/103>
+
+### Idea
+
+Maintaining a large-scale open-source project like stdlib requires code review and automated tooling for linting, running tests, etc. Many small but important code fixes, such as formatting corrections, documentation improvements, and minor refactorings, are often flagged by maintainers but require manual intervention from contributors. This creates overhead and slows down the resolution of trivial issues.
+
+This project aims to leverage LLM-powered automation to streamline these processes. The core idea is to enhance `stdlib-bot` with the ability to not only surface review comments but also propose and submit fixes in the form of automated pull requests. 
+
+In addition to automated code fixes, the project will explore fine-tuning an LLM on historical PR reviews and code comments to build an automated PR review assistant. This would allow` stdlib-bot` to provide real-time feedback on pull requests, flagging common mistakes based on past code review patterns and enforcing best practices in a scalable way.
+
+A broader goal of the project is to make stdlib more LLM-friendly. This may involve adding `llms.txt`, refining documentation formatting, and curating structured datasets (think of maintaining Cursor rules) to improve compatibility with AI-driven tooling.
+
+### Expected outcomes
+
+-   stdlib-bot automatically creates pull requests with suggested fixes based on commit comments; can be extended as an agent able to iteratively fix lint failures, formatting issues and test errors from CI workflow runs.
+-   Fine-tuning or retrieval-augmented generation (RAG) for automated PR review using past stdlib review comments (optional)
+-   Enhanced codebase compatibility with LLMs and AI code assistance (e.g., adding `llms.txt` or Cursor rules).
+-   Metrics to evaluate LLM-generated fixes and PR reviews.
+-   Integration with GitHub Actions for seamless automation.
+
+### Status
+
+Currently, the stdlib-bot only reports necessary changes by creating issues, requiring human intervention. No automation of fixes or PR reviews exists yet.
+
+### Involved software
+
+GitHub Actions
+OpenAI API
+GitHub REST or GraphQL API to collect data from past stdlib PR reviews
+
+
+### Technology
+
+JavaScript, nodejs
+
+### Other technology
+
+Depending on skill set and ambition of candidate, this can involve fine-tuning a model via the OpenAI Fine-Tuning APIs or from 
+
+### Difficulty
+
+4
+
+### Difficulty justification
+
+-   Requires integrating LLMs with structured commit comments and generating meaningful PRs.
+-   Need to come up with robust validation strategy to ensure correctness of auto-generated fixes.
+-   Fine-tuning an LLM on past stdlib code review comments involves data collection, preprocessing, and iterative testing.
+
+### Prerequisite knowledge
+
+Knowledge of Node.js / JavaScript, experience with GitHub Actions and CI/CD, understanding of LLM APIs and optionally fine-tuning methodologies. Familiarity with automated code refactoring tools is a plus.
+
+### Project length
+
+350
