@@ -1873,3 +1873,70 @@ Knowledge of Node.js / JavaScript, experience with GitHub Actions and CI/CD, und
 ### Project length
 
 350
+
+* * *
+
+## Smart Adaptive Parallel Execution: Dynamic Concurrency Management for Efficient Async Processing
+
+Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/104>
+
+### Idea
+
+Managing parallel execution efficiently in large-scale applications is a challenge. Traditional async utilities like async.parallel and Promise.all execute a fixed number of tasks in parallel, which can lead to system overload or underutilization of available resources.
+
+This project aims to introduce Smart Adaptive Parallel Execution, an asynchronous utility for stdlib that dynamically adjusts concurrency levels based on real-time CPU and memory usage. The goal is to ensure optimal performance by scaling the number of concurrent tasks up or down depending on system load.
+
+This adaptive approach is particularly useful for large-scale data processing, high-performance computing, and server-side applications, where maintaining an optimal balance between performance and resource consumption is critical.
+
+The proposed utility will monitor system resource usage (e.g., via os.loadavg() and os.freemem()) and adjust the execution of async tasks accordingly. Users will be able to define max/min concurrency limits, ensuring tasks run efficiently without overwhelming the system.
+
+### Expected outcomes
+
+✅ A new smartParallel API in stdlib that dynamically scales parallel execution.
+✅ Automatic load balancing based on system metrics like CPU and memory usage.
+✅ Customizable concurrency limits to prevent resource exhaustion.
+✅ Efficient task queueing to avoid blocking critical system resources.
+✅ Performance benchmarks and testing to measure efficiency improvements.
+✅ Comprehensive documentation and examples for easy adoption.
+
+
+
+### Status
+
+Currently, stdlib lacks an adaptive async execution model. Existing async utilities (e.g., async.parallel) run a fixed number of tasks, leading to potential overload or wasted resources. No mechanism exists to automatically scale execution based on system performance.
+
+### Involved software
+
+1. Node.js built-in OS module (for resource monitoring)
+2. Async utility libraries (for managing task execution)
+3. Benchmarking tools (to evaluate performance improvements)
+
+### Technology
+
+JavaScript, nodejs
+
+### Other technology
+
+1. Integration with Web Workers for more efficient async execution.
+2. Using worker threads in Node.js to further enhance performance.
+
+### Difficulty
+
+4
+
+### Difficulty justification
+
+1. Requires implementing a dynamic concurrency adjustment model.
+2. Needs efficient resource monitoring with minimal overhead.
+3. Must ensure correctness and robustness in various system conditions.
+4. Requires performance benchmarking to demonstrate effectiveness.
+
+### Prerequisite knowledge
+
+1. Strong understanding of Node.js / JavaScript.
+2. Experience with asynchronous programming & concurrency management.
+3. Familiarity with system resource monitoring in Node.js.
+
+### Project length
+
+350
