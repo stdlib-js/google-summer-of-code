@@ -20,7 +20,7 @@ GSoC projects have flexible timelines. Right now your project is set to the defa
 
 The community bonding period from {{bonding_start_date}} to {{bonding_stop_date}} begins now.
 
-http://googlesummerofcode.blogspot.com/2007/04/so-what-is-this-community-bonding-all.html.
+http://googlesummerofcode.blogspot.com/2007/04/so-what-is-this-community-bonding-all.html
 
 You should spend this time to get up to speed with the community, and to set up regular meetings with your mentors for the coming months. We'll be inviting you to our internal Slack channel shortly so you can connect with mentors and other maintainers more directly.
 

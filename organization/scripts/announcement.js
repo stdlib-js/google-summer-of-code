@@ -58,7 +58,7 @@ var DATA = parseCSV( readFile( dpath, FOPTS ) );
 */
 function params() {
 	return {
-		'number_of_applications': NUM_APPS,
+		'number_of_accepted_applications': NUM_APPS,
 		'coding_start_date': CODING_START,
 		'sender_name': SENDER,
 		'projects': []

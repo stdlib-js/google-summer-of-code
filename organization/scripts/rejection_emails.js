@@ -27,7 +27,9 @@ var mustache = require( 'mustache' );
 var mkdirp = require( 'mkdirp' ).sync;
 var readFile = require( '@stdlib/fs-read-file' ).sync;
 var writeFile = require( '@stdlib/fs-write-file' ).sync;
+var currentYear = require( '@stdlib/time-current-year' );
 var ENV = require( '@stdlib/process-env' );
+var format = require( '@stdlib/string-format' );
 var parseCSV = require( './parse_csv.js' );
 
 
@@ -47,7 +49,7 @@ var TMPL = readFile( tpath, FOPTS );
 var dpath = resolve( __dirname, 'tmp', 'rejected.csv' );
 var DATA = parseCSV( readFile( dpath, FOPTS ) );
 
-var SUBJECT = '[GSoC 2024] Proposal notification - stdlib';
+var SUBJECT = format( '[GSoC %d] Proposal notification - stdlib', currentYear() );
 
 
 // FUNCTIONS //

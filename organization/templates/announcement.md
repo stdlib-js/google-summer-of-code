@@ -10,11 +10,11 @@ Contributor, Project: Mentors
 {{/projects}}
 Join me in congratulating them on their acceptance.
 
-I would like to thank all of the contributors who applied this year and everyone who submitted a patch. We certainly hope that you will remain a part of our community. I would also like to thank all the mentors for helping review patches and proposals.
+I would like to thank all of the contributors who applied this year and everyone who submitted a patch. We certainly hope that you will remain a part of our community. As one inspiring success story, one of the contributors selected this year was rejected last year, but stuck with it, engaged more deeply with the community, and successfully landed a project. In short, persistence pays off! 
 
 To everyone whose proposal is accepted, you should be receiving an email from your mentors shortly to discuss how you will be communicating over the summer about your project. You should meet with your mentors about once a week during the summer to go over your progress.
 
-I would like all project maintainers to strongly encourage GSoC contributors to submit pull requests early and often. This will go a long way toward making sure that you don't end the summer with a ton of code written that never gets merged. Contributors should help review pull requests by other contributors, so that we don't get bogged down reviewing too much code.
+I would also like to thank all the mentors for helping review patches and proposals. I would like all project maintainers to strongly encourage GSoC contributors to submit pull requests early and often. This will go a long way toward making sure that you don't end the summer with a ton of code written that never gets merged. Contributors should help review pull requests by other contributors, so that we don't get bogged down reviewing too much code.
 
 The GSoC coding period officially starts {{coding_start_date}} (https://developers.google.com/open-source/gsoc/timeline).
 
