@@ -93,7 +93,7 @@ Hard. This may be a straightforward port, or it may not be. More R&D is needed.
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @rreusser @Pranavchiku @czgdp1807 
+@kgryte @Planeshifter @rreusser @Pranavchiku @czgdp1807
 
 * * *
 
@@ -137,7 +137,7 @@ Intermediate. Requires a fair amount of frontend engineering knowledge and moder
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @steff456 
+@kgryte @Planeshifter @steff456
 
 * * *
 
@@ -171,7 +171,7 @@ Intermediate/Hard. Depends. Some PRNGs may be straightforward to implement. Othe
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @Pranavchiku 
+@kgryte @Planeshifter @Pranavchiku
 
 * * *
 
@@ -207,7 +207,7 @@ Intermediate.
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @steff456 
+@kgryte @Planeshifter @steff456
 
 * * *
 
@@ -243,7 +243,7 @@ Intermediate.
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @steff456 
+@kgryte @Planeshifter @steff456
 
 * * *
 
@@ -279,7 +279,7 @@ Intermediate/Hard.
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @rreusser 
+@kgryte @Planeshifter @rreusser
 
 * * *
 
@@ -315,7 +315,7 @@ Beginner. Would benefit from someone with JavaScript experience.
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @steff456 
+@kgryte @Planeshifter @steff456
 
 * * *
 
@@ -351,7 +351,7 @@ Intermediate. Could require some creative solutions to ensure that abstractions 
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @steff456 
+@kgryte @Planeshifter @steff456
 
 * * *
 
@@ -389,7 +389,7 @@ Intermediate.
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @Pranavchiku 
+@kgryte @Planeshifter @Pranavchiku
 
 * * *
 
@@ -433,7 +433,7 @@ Beginner/Intermediate.
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @steff456 
+@kgryte @Planeshifter @steff456
 
 * * *
 
@@ -469,7 +469,7 @@ Beginner/Intermediate.
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @steff456 
+@kgryte @Planeshifter @steff456
 
 * * *
 
@@ -535,7 +535,7 @@ Hard.
 
 ### Potential Mentors
 
-@kgryte @Planeshifter 
+@kgryte @Planeshifter
 
 * * *
 
@@ -569,7 +569,7 @@ Hard. Depends on the reference implementation requirements and algorithmic diffi
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @Pranavchiku 
+@kgryte @Planeshifter @Pranavchiku
 
 * * *
 
@@ -608,7 +608,7 @@ Intermediate.
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @steff456 
+@kgryte @Planeshifter @steff456
 
 * * *
 
@@ -642,7 +642,7 @@ Intermediate.
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @steff456 
+@kgryte @Planeshifter @steff456
 
 * * *
 
@@ -678,7 +678,7 @@ Intermediate.
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @steff456 
+@kgryte @Planeshifter @steff456
 
 * * *
 
@@ -714,7 +714,7 @@ Intermediate.
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @steff456 
+@kgryte @Planeshifter @steff456
 
 * * *
 
@@ -756,7 +756,7 @@ Intermediate.
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @steff456 
+@kgryte @Planeshifter @steff456
 
 * * *
 
@@ -792,7 +792,7 @@ Intermediate.
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @rreusser @Pranavchiku @czgdp1807 
+@kgryte @Planeshifter @rreusser @Pranavchiku @czgdp1807
 
 * * *
 
@@ -826,7 +826,7 @@ Intermediate
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @rreusser 
+@kgryte @Planeshifter @rreusser
 
 * * *
 
@@ -867,7 +867,7 @@ Hard.
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @steff456 
+@kgryte @Planeshifter @steff456
 
 * * *
 
@@ -901,7 +901,7 @@ Hard. Depends on the reference implementation requirements and algorithmic diffi
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @rreusser @Pranavchiku @czgdp1807 
+@kgryte @Planeshifter @rreusser @Pranavchiku @czgdp1807
 
 * * *
 
@@ -935,7 +935,7 @@ Hard. Depends on the reference implementation requirements and algorithmic diffi
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @Pranavchiku @czgdp1807 @rreusser 
+@kgryte @Planeshifter @Pranavchiku @czgdp1807 @rreusser
 
 * * *
 
@@ -973,7 +973,7 @@ Intermediate. Writing the loop kernels can be involved, but, once understood, ar
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @steff456 @rreusser 
+@kgryte @Planeshifter @steff456 @rreusser
 
 * * *
 
@@ -1009,7 +1009,7 @@ Intermediate. Familiarity with C is beneficial. This idea mainly involves portin
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @steff456 @rreusser @Pranavchiku @czgdp1807 
+@kgryte @Planeshifter @steff456 @rreusser @Pranavchiku @czgdp1807
 
 * * *
 
@@ -1055,7 +1055,7 @@ Beginner/Intermediate.
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @steff456 
+@kgryte @Planeshifter @steff456
 
 * * *
 
@@ -1096,7 +1096,7 @@ Intermediate. Familiarity with C and Fortran will be beneficial. This idea mainl
 
 ### Potential Mentors
 
-@kgryte @Planeshifter @steff456 @rreusser @Pranavchiku @czgdp1807 
+@kgryte @Planeshifter @steff456 @rreusser @Pranavchiku @czgdp1807
 
 * * *
 
@@ -1198,7 +1198,7 @@ Familiarity and comfort with JavaScript would be highly recommended, given that 
 
 ### Potential mentors
 
-@kgryte @Planeshifter 
+@kgryte @Planeshifter
 
 * * *
 
@@ -1258,9 +1258,618 @@ A thorough understanding of ESLint, including its configuration system and plugi
 
 175
 
-### Checklist
+* * *
 
-- [x] I have read and understood the [Code of Conduct](https://github.com/stdlib-js/stdlib/blob/develop/CODE_OF_CONDUCT.md).
-- [x] I have read and understood the application materials found in this repository.
-- [x] The issue name begins with `[Idea]:` and succinctly describes your idea.
-- [x] I understand that, in order to apply to be a GSoC contributor, I must submit my final application to <https://summerofcode.withgoogle.com/> **before** the submission deadline.
+## Improve `stdlib` publishing pipeline
+
+Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/92>
+
+### Idea
+
+stdlib is composed of thousands of individual packages. Managing this complexity requires an intricate publishing pipeline that handles automatic updates to repositories, generation of various bundle types, publishing packages to the npm registry, changelog generation, and more. 
+
+The project aims to refactor the current workflows by breaking down the monolithic, feature-rich scripts ([example](https://github.com/stdlib-js/stdlib/blob/develop/lib/node_modules/%40stdlib/_tools/scripts/publish_packages.js)) into discrete, standalone tooling packages in the [_tools](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/_tools) namespace, which can be independently tested and maintained. 
+
+In addition, while we still will lean on GitHub Actions for the publishing flow, this project will ensure that our publishing pipeline will not be tightly coupled with it anymore. 
+
+Goals of the refactoring will also include to improve logging and observability, enable rigorous testing and checkpointing, and the ability to trigger all steps locally via a CLI tool.
+
+
+### Expected outcomes
+
+-   Having the publishing pipeline fully composed into modular packages.
+-   Each module having its own suite of unit tests.
+-   Integration tests and end-to-end tests for the entire workflow.
+-   Enhanced observability and diagnostic tools integrated into the publishing process.
+-   A reduction in the complexity of the existing scripts by making GitHub Actions interactions explicit and manageable.
+-   Better error recovery, collection of statistics, and a more maintainable architecture.
+
+### Status
+
+No effort has been undertaken to start modularizing the publishing pipeline architecture, but there is agreement among the TSC that this is a desirable goal.
+
+### Involved software
+
+ GitHub Actions, Bash.
+
+### Technology
+
+JavaScript, nodejs
+
+### Other technology
+
+None.
+
+### Difficulty
+
+3
+
+### Difficulty justification
+
+The project involves a large refactor of an existing, complex system.
+
+-    Decoupling the interwoven dependencies of the current monolithic script requires careful planning and modular design.
+-    Handling platform variability between local development and GitHub Actions orchestration, including differences between Linux and MacOS, adds complexity.
+-  Introducing enhanced testing and observability requires integrating new tools and extending the current functionality.
+
+
+### Prerequisite knowledge
+
+-   Proficiency in JavaScript and Node.js development as well as Bash scripting.
+-   Familiarity with GitHub Actions and CI/CD pipeline design.
+-   Understanding of modular design principles and software refactoring techniques.
+
+
+### Project length
+
+350
+
+* * *
+
+## Add support for `Float16Array`
+
+Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/94>
+
+### Idea
+
+With `Float16Array` now on track for stage 4 approval in JavaScript (see https://github.com/tc39/proposal-float16array/issues/7), it is time we start thinking about adding support for `Float16Array` in stdlib. We have prior experience adding new array types, such as `array/bool`, `array/complex128`, and `array/complex64`, and this idea is a continuation of those efforts.
+
+The expected roadmap is as follows:
+
+- add a new `array/float16` package which includes a polyfill for backward compatibility support. The polyfill should expose all common methods and properties as found on other typed array constructors. This package should contain complete tests, documentation, and benchmarks, as found in other typed array packages (e.g., `array/bool`).
+- add support for `float16` array dtypes throughout the `array/*` namespace.
+- add support for `float16` array dtypes throughout the `strided/*` namespace.
+- add support for `float16` array dtypes throughout the `ndarray/*` namespace.
+
+### Expected outcomes
+
+stdlib users will be able to create and operate on `Float16Array` instances the same way they do throughout the project, with `Float16Array` on equal footing with all other typed array classes.
+
+### Status
+
+No work has been done on this idea; however, we expect that this should follow as similar path to `array/bool` and its integration throughout the project.
+
+Related: https://github.com/stdlib-js/google-summer-of-code/issues/43
+
+### Involved software
+
+No special software for initial work. Once work has progressed to ndarray support, will need access to a C compiler, as documented in the project development guide.
+
+### Technology
+
+JavaScript, C, nodejs, native addons
+
+### Other technology
+
+None.
+
+### Difficulty
+
+4
+
+### Difficulty justification
+
+Implementing the polyfill will likely take some time, with the need for adding additional functionality to support the implementation (e.g., bit manipulation utilities, math utils, etc).
+
+This project is ambitious, as arrays are fundamental to a lot of stdlib functionality; however, many of the more difficult integration aspects have already addressed given the widespread support for other array types throughout the project. The main project difficulty beyond the creation of a new `Float16Array` class will be finding all the various bits of code throughout the project which need to be updated.
+
+### Prerequisite knowledge
+
+Familiarity and comfort with JavaScript would be highly recommended, given that this project will require considerable programming in JavaScript. Some familiarity with C would also be good, especially for float16 array integration with ndarrays.
+
+### Project length
+
+350
+
+* * *
+
+## Add LAPACK bindings and implementations for linear algebra
+
+Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/95>
+
+### Idea
+
+[LAPACK](https://netlib.org/lapack/) routines are standard building blocks for performing basic vector and matrix operations. These building blocks are leveraged by most modern numerical programming languages and libraries, including NumPy, SciPy, Julia, MATLAB, R, and others.
+
+The goal of this idea is to
+
+- reimplement reference LAPACK routines in free-form Fortran 95
+- port reference LAPACK routines to pure C
+- port reference LAPACK routines to pure JavaScript
+- write Node.js bindings to allow calling LAPACK routines in compiled C/ Fortran from JavaScript
+
+### Expected outcomes
+
+Users will be able to call LAPACK routines from JavaScript. In web browsers, LAPACK routines will be in JavaScript. In Node.js, provided native bindings have been compiled, LAPACK routines will either be ported reference implementations or hardware optimized system libraries.
+
+### Status
+
+Some work has begun toward this effort. See https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/lapack/base.
+
+### Involved software
+
+No other software is necessary apart from standard compilers (GCC, gfortran).
+
+### Technology
+
+C, JavaScript, Fortran, nodejs, native addons
+
+### Other technology
+
+None.
+
+### Difficulty
+
+4
+
+### Difficulty justification
+
+Familiarity with C and Fortran will be beneficial. This idea mainly involves porting existing implementations and doing so in a manner which conforms with stdlib conventions. Some of the reference implementations are likely to be quite involved and testing the correct output can be tricky, especially for lower-level helper routines.
+
+### Prerequisite knowledge
+
+C, Fortran, JavaScript, Node.js.
+
+### Project length
+
+350
+
+* * *
+
+## Extend stdlib's doctesting approach to C examples
+
+Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/96>
+
+### Idea
+
+We heavily rely on doctesting (see https://github.com/stdlib-js/stdlib/blob/develop/docs/doctest.md) to ensure that our Markdown and JSDoc examples are correct and do not become out-of-date. However, we currently have no such framework for ensuring that our C source code and Markdown examples are correct.
+
+The goal of this project would be to implement doctesting for C source code and associated Markdown examples. While the approach is likely to be similar (e.g., parsing source code in scripts, Markdown code blocks, and in DOXYGEN examples), the technology stack is likely to be different and will require some R&D, especially as we won't be able to rely on things like ESLint. Instead, we'll need other tooling for identifying `// returns` annotations, instrumenting examples to collect return values, resolving source files to compile, compiling source files, executing scripts, and asserting that the output results match expectation.
+
+### Expected outcomes
+
+As part of our CI workflows and in local development, developers will be able to test that their C examples are correct.
+
+### Status
+
+stdlib has its own doctesting framework for checking JavaScript examples. This should serve as inspiration and provide an idea of what we are looking for.
+
+### Involved software
+
+C compilers, AST generators, and stdlib tooling.
+
+### Technology
+
+C
+
+### Other technology
+
+None.
+
+### Difficulty
+
+5
+
+### Difficulty justification
+
+There is likely a need for R&D to determine the best tools and approach. For JavaScript examples, we are able to rely on the fact that we can lint and execute within the same JavaScript runtime. In this case, there will be additional steps needed to separately instrument, create temporary files, compile, execute, and collect.
+
+### Prerequisite knowledge
+
+Experience with C and creating tooling will be beneficial.
+
+### Project length
+
+350
+
+* * *
+
+## Add WebAssembly implementations for extended BLAS routines
+
+Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/97>
+
+### Idea
+
+We've worked toward compiling BLAS routines to WebAssembly and offering ergonomic APIs for interfacing between JavaScript and WebAssembly binaries (see https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm). The goal of this project would be to extend these efforts to the `blas/ext/base` namespace, such that, for each typed interface in `blas/ext/base/(d|s|c|z|)*`, there would be a corresponding WebAssembly package in `blas/ext/base/wasm/*`.
+
+### Expected outcomes
+
+Users wanting to potentially accelerate computation of extended BLAS routines will be able to consume a corresponding WebAssembly API.
+
+### Status
+
+Work has primarily happened in https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm. The efforts there would need to be replicated for the `blas/ext/base/wasm/*` namespace.
+
+### Involved software
+
+Emscripten, which is necessary for compiling C to WebAssembly. stdlib already offers tooling for automatically installing the emsdk and getting things up and running.
+
+### Technology
+
+C, JavaScript
+
+### Other technology
+
+None.
+
+### Difficulty
+
+3
+
+### Difficulty justification
+
+Given that most `blas/ext/base/*` routines are straightforward one-dimensional strided array interfaces, developing the wasm packages should be similarly straightforward. The main time-consuming task will be writing tests and documentation.
+
+### Prerequisite knowledge
+
+Some familiarity with WebAssembly will be helpful. Experience with JavaScript.
+
+### Project length
+
+90/175/350. Can be scoped accordingly.
+
+* * *
+
+## Add WebAssembly implementations for `stats/strided` routines
+
+Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/98>
+
+### Idea
+
+We've worked toward compiling BLAS routines to WebAssembly and offering ergonomic APIs for interfacing between JavaScript and WebAssembly binaries (see https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm). The goal of this project would be to extend these efforts to the `stats/strided` namespace, such that, for each typed interface in `stats/strided/(d|s|c|z|)*`, there would be a corresponding WebAssembly package in `stats/strided/wasm/*`.
+
+### Expected outcomes
+
+Users wanting to potentially accelerate computation of strided statistics routines will be able to consume a corresponding WebAssembly API.
+
+### Status
+
+Work has primarily happened in https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm. The efforts there would need to be replicated for the `stats/strided/*` namespace.
+
+### Involved software
+
+Emscripten, which is necessary for compiling C to WebAssembly. stdlib already offers tooling for automatically installing the emsdk and getting things up and running.
+
+### Technology
+
+C, JavaScript
+
+### Other technology
+
+None.
+
+### Difficulty
+
+3
+
+### Difficulty justification
+
+Given that most `stats/strided/*` routines are straightforward one-dimensional strided array interfaces, developing the wasm packages should be similarly straightforward. The main time-consuming task will be writing tests and documentation.
+
+### Prerequisite knowledge
+
+Some familiarity with WebAssembly will be helpful. Experience with JavaScript.
+
+### Project length
+
+90/175/350. Can be scoped accordingly.
+
+* * *
+
+## Create a prototype for transpiling a subset of TypeScript to C with automatic add-on generation
+
+Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/99>
+
+### Idea
+
+Drawing on some of the recent innovations in the numerical Python ecosystem (e.g., see [`pyccel`](https://github.com/pyccel/pyccel/tree/devel)), the goal of this project would be to see if we can define a restricted subset of TypeScript which can be transpiled to C for faster execution in Node.js and other server runtimes.
+
+There is some prior art here; namely, [AssemblyScript](https://www.assemblyscript.org), which provides a TypeScript-like language which compiles to WebAssembly. However, we should be able to go farther here, especially in leveraging stdlib's richer collection of types (in particular, complex number dtypes). From this restricted subset, we can then automate transpilation of TypeScript to C, with the ability to automatically generate Node.js native add-ons bindings similar to what can be found in, e.g., https://github.com/stdlib-js/stdlib/blob/954e7c1e1716bfdd15903b4be7039741396927eb/lib/node_modules/%40stdlib/blas/base/dcopy/src/addon.c.
+
+There would be some puzzle pieces to put together here. Namely,
+
+- defining a richer set of numeric types. Currently, stdlib uses `number`, `boolean`, `Float64Array`, and other built-in types, along with a couple of custom types, such as `Complex128` and `Complex64`. We'd like want to create named aliases for specific numeric types, such as `int64`, `int32`, etc (similar to AssemblyScript). These would not impact consumption of project type declarations in TypeScript; although, they would have the benefit of signaling expected types.
+- updating the TypeScript declarations for various packages (e.g., `blas/ext/base`) to use the newly defined types.
+- creating tooling which can resolve and read a TypeScript declaration for an exported function and then automatically generate an `addon.c` file. If we can reproduce the [`addon.c`](https://github.com/stdlib-js/stdlib/blob/954e7c1e1716bfdd15903b4be7039741396927eb/lib/node_modules/%40stdlib/blas/base/dcopy/src/addon.c) file in `blas/base/dcopy`, that would be a win.
+- potentially porting a subset of JavaScript implementations to TypeScript using the aliases defined above.
+- from the ports, creating tooling which can, with high fidelity, generate one or more JavaScript implementations.
+- from the ports, creating tooling which can, with high fidelity, generate one or more C implementations.
+
+Note that, when transpiling from TypeScript to C, we'd need to properly determine appropriate stdlib includes and dependencies. If we could auto-generate a basic `manifest.json` file, that could also be useful.
+
+We could also explore a TypeScript to Fortran transpiler.
+
+### Expected outcomes
+
+A working end-to-end prototype which is capable of transpiling stdlib-flavored TypeScript to C and which can reproduce hand-authored C and JavaScript code.
+
+### Status
+
+No work has begun on this.
+
+### Involved software
+
+TypeScript and C/Fortran compilers.
+
+### Technology
+
+C, JavaScript, native addons, Fortran
+
+### Other technology
+
+None.
+
+### Difficulty
+
+4
+
+### Difficulty justification
+
+This idea is exploratory, and, while conceptually straightforward, the project does involve a number of unknowns, particularly around how easy it will be to reproduce hand-optimized code. Given that the `blas/base/*`, `blas/ext/base/*`, and `stats/strided/*` namespaces provide a relatively contained environment for API design, it's possible that this will be achievable, but we won't know the best approach until after some R&D.
+
+### Prerequisite knowledge
+
+TypeScript, C, and JavaScript experience would be beneficial.
+
+### Project length
+
+350
+
+* * *
+
+## Add matrix format parsers and data loaders
+
+Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/100>
+
+### Idea
+
+The goal of this project would be to implement various matrix and multi-dimensional format parsers and data loaders. E.g.,
+
+- [Matrix Market](https://math.nist.gov/MatrixMarket/formats.html#MMformat)
+- [NumPy `npy`](https://numpy.org/doc/stable/reference/generated/numpy.lib.format.html#module-numpy.lib.format)
+- [DLPack](https://dmlc.github.io/dlpack/latest/)
+- [MATLAB `mat`](https://www.mathworks.com/help/pdf_doc/matlab/matfile_format.pdf)
+- others?
+
+Implementing these parsers and loaders would facilitate array data interchange with other numerical computing ecosystems.
+
+### Expected outcomes
+
+Users will be able to load multi-dimensional array data saved in other numerical computing environments into stdlib's `ndarray` data structure.
+
+### Status
+
+No work has begun on this.
+
+### Involved software
+
+Access to MATLAB/Octave would be useful for implementing the MAT-file parser. One would likely need to use Python and NumPy in order to save and work with `npy` files.
+
+### Technology
+
+JavaScript
+
+### Other technology
+
+None.
+
+### Difficulty
+
+4
+
+### Difficulty justification
+
+Some of the file format specifications can be quite involved. It is also likely that we may encounter situations in which we cannot support particular formats in full due to dtype incompatibility, etc.
+
+### Prerequisite knowledge
+
+Familiarity with JavaScript, Python, and MATLAB would be useful. Experience writing parsers and performing IO will also be beneficial.
+
+### Project length
+
+90/175/350. Can be scoped accordingly.
+
+* * *
+
+## Add support for working with arrays backed by memory-mapped files
+
+Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/101>
+
+### Idea
+
+Memory-mapped files allow accessing small segments of large disks stored on disk, without reading the entire file into memory. Not only can this be advantageous for memory performance, but it also facilitates shared memory between processes (e.g., operating on the same array in both Node.js and Python running in two separate processes).
+
+The goal of this project is to add support for working with typed arrays backed by memory-mapped files. Memory-mapped-backed typed arrays should support all the APIs of built-in typed arrays, with the exceptions that the constructors will need to support `mmap`-related arguments (e.g., filename, mode, offset) and indexing will require accessors, not square bracket syntax. The project is well-prepared to support accessors (see `array/bool`, `array/complex128`, etc), such that, provided a memory-mapped typed array supports the accessor protocol, passing to downstream utilities should just work.
+
+Similar to how we've approached fixed-endian typed arrays (see [`array/fixed-endian-factory`](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/fixed-endian-factory)), we can likely create a package exposing a constructor factory and then create lightweight wrappers for type-specific constructors (e.g., [`array/little-endian-float64`](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/little-endian-float64)).
+
+This project may require figuring out a strategy for C-JS iterop which can be used across constructors.
+
+### Expected outcomes
+
+Ideally, we would have the following constructors:
+
+- `Float64ArrayMMap`
+- `Float32ArrayMMap`
+- `Int32ArrayMMap`
+- `Int16ArrayMMap`
+- `Int8ArrayMMap`
+- `Uint32ArrayMMap`
+- `Uint16ArrayMMap`
+- `Uint8ArrayMMap`
+- `Uint8ClampedArrayMMap`
+- `BooleanArrayMMap`
+- `Complex128ArrayMMap`
+- `Complex64ArrayMMap`
+
+Additionally, the following constructors would also be useful:
+
+- `DataViewMMap`
+
+### Status
+
+None.
+
+### Involved software
+
+C compiler such as GCC or Clang.
+
+### Technology
+
+C, JavaScript, nodejs, native addons
+
+### Other technology
+
+None
+
+### Difficulty
+
+5
+
+### Difficulty justification
+
+Figuring out an effective bridge between JavaScript and C for working with memory-mapped files will likely require some R&D. It is not clear whether we'd need to first develop separate dedicated `mmap(2)`-like functionality in JavaScript or whether we can directly interface into C. Once the lower-level details are determined, the next steps will be implementing all the user-facing APIs expected from typed arrays. This should be straightforward; however, there may be some unexpected challenges and constraints surrounding read-only access, etc.
+
+### Prerequisite knowledge
+
+C, JavaScript, and Node.js experience will be useful.
+
+### Project length
+
+350
+
+* * *
+
+## Improve project supply chain security by bringing production dependencies in-house
+
+Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/102>
+
+### Idea
+
+stdlib currently depends on [`14`](https://github.com/stdlib-js/stdlib/blob/develop/package.json#L55) external packages. Ideally, we'd reduce this number to `0` in order to (a) reduce the risk of supply-chain security vulnerabilities and (b) ensure that all production code used within stdlib follows the "stdlib way" (i.e., docs, tests, examples, benchmarks, backward-compatibility guarantees, etc).
+
+Accordingly, this project seeks to bring external packages "in-house" by implementing stdlib equivalents which can replace their usage within stdlib. Immediate targets are dependencies such as `debug`, `glob`, `resolve`, and `minimist` which we'd like to bring in-house for their own sake.
+
+Bringing `acorn` and friends in-house would likely require more work and impose an increased maintenance burden, so we'd want to be careful in determining whether we want to prioritize a stdlib implementation. That said, having a stdlib suite of JavaScript AST manipulators would be useful. The main concern is simply keeping up with yearly ECMAScript versions. If we stayed close enough to `acorn`, we could potentially just mirror changes into stdlib. Regardless, some thought would be required to determine whether we want to model any stdlib implementation after acorn or some other high-quality and performant AST parser third-party package.
+
+For `d3-*` and friends, these would likely go away once we migrated our plot functionality to use `vega`. So their priority is lower.
+
+For `vdom-to-html` and `virtual-dom`, these have been useful in the past; however, it is not clear whether these deserve inclusion in stdlib. They are currently used in the stdlib plot API. Similar to the `d3-*` packages, they might just naturally go away after migrating plot functionality to `vega`.
+
+`readable-stream` is a harder package to migrate. First and foremost, one should evaluate how much we actually need `readable-stream` and whether we can still retain desired backward compatible behavior with built-in Node.js streams. It is possible that the answer is yes; however, historically, using `readable-stream` has been critical in ensuring consistent behavior across Node.js versions.
+
+### Expected outcomes
+
+Third-party party production dependencies would have equivalent stdlib implementations, and we can remove them as dependencies in the project `package.json`.
+
+### Status
+
+No work has begun on this.
+
+### Involved software
+
+None.
+
+### Technology
+
+JavaScript, nodejs
+
+### Other technology
+
+None.
+
+### Difficulty
+
+4
+
+### Difficulty justification
+
+It depends on which dependencies are prioritized. Some, such as `acorn`, could be quite involved and require extensive testing. Others, such as `resolve` should be more straightforward. `glob` is likely to require significant R&D in order to understand and determine an ideal API.
+
+### Prerequisite knowledge
+
+Experience and a high degree of comfort with JavaScript and Node.js.
+
+### Project length
+
+90/175/350. Scope can be tailored accordingly.
+
+* * *
+
+## Automated Code Reviews and Fixes via LLM-powered stdlib-bot
+
+Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/103>
+
+### Idea
+
+Maintaining a large-scale open-source project like stdlib requires code review and automated tooling for linting, running tests, etc. Many small but important code fixes, such as formatting corrections, documentation improvements, and minor refactorings, are often flagged by maintainers but require manual intervention from contributors. This creates overhead and slows down the resolution of trivial issues.
+
+This project aims to leverage LLM-powered automation to streamline these processes. The core idea is to enhance `stdlib-bot` with the ability to not only surface review comments but also propose and submit fixes in the form of automated pull requests. 
+
+In addition to automated code fixes, the project will explore fine-tuning an LLM on historical PR reviews and code comments to build an automated PR review assistant. This would allow` stdlib-bot` to provide real-time feedback on pull requests, flagging common mistakes based on past code review patterns and enforcing best practices in a scalable way.
+
+A broader goal of the project is to make stdlib more LLM-friendly. This may involve adding `llms.txt`, refining documentation formatting, and curating structured datasets (think of maintaining Cursor rules) to improve compatibility with AI-driven tooling.
+
+### Expected outcomes
+
+-   stdlib-bot automatically creates pull requests with suggested fixes based on commit comments; can be extended as an agent able to iteratively fix lint failures, formatting issues and test errors from CI workflow runs.
+-   Fine-tuning or retrieval-augmented generation (RAG) for automated PR review using past stdlib review comments (optional)
+-   Enhanced codebase compatibility with LLMs and AI code assistance (e.g., adding `llms.txt` or Cursor rules).
+-   Metrics to evaluate LLM-generated fixes and PR reviews.
+-   Integration with GitHub Actions for seamless automation.
+
+### Status
+
+Currently, the stdlib-bot only reports necessary changes by creating issues, requiring human intervention. No automation of fixes or PR reviews exists yet.
+
+### Involved software
+
+-   GitHub Actions
+-   LLM APIs (e.g. OpenAI)
+-   GitHub REST or GraphQL API to collect data from past stdlib PR reviews
+
+### Technology
+
+JavaScript, nodejs
+
+### Other technology
+
+Depending on skill set and ambition of candidate, this can involve fine-tuning a model via the OpenAI Fine-Tuning APIs or from 
+
+### Difficulty
+
+4
+
+### Difficulty justification
+
+-   Requires integrating LLMs with structured commit comments and generating meaningful PRs.
+-   Need to come up with robust validation strategy to ensure correctness of auto-generated fixes.
+-   Fine-tuning an LLM on past stdlib code review comments involves data collection, preprocessing, and iterative testing.
+
+### Prerequisite knowledge
+
+Knowledge of Node.js / JavaScript, experience with GitHub Actions and CI/CD, understanding of LLM APIs and optionally fine-tuning methodologies. Familiarity with automated code refactoring tools is a plus.
+
+### Project length
+
+350

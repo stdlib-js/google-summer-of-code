@@ -207,7 +207,7 @@ To create a showcase,
 1.  Provided you've already locally installed Node.js and have access to a JavaScript package manager (e.g., `npm`, which, by default, is installed as part of most Node.js distributions), run
 
     ```bash
-    npm install @stdlib/stdlib
+    npm install @stdlib/stdlib --save
     ```
 
     where `npm install` may be replaced by the equivalent command if you prefer other package managers, such as `yarn` or `jspm`.

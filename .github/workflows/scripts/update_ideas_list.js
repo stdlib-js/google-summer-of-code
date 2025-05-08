@@ -78,6 +78,8 @@ var FOPTS = {
 	'encoding': 'utf8'
 };
 
+var RE_CHECKLIST = /### Checklist[\s\S]*/;
+
 
 // MAIN //
 
@@ -99,6 +101,7 @@ async function main( github, context, core, fs, path, dir ) {
 	var content;
 	var issues;
 	var fpath;
+	var body;
 	var str;
 	var t;
 	var i;
@@ -118,12 +121,14 @@ async function main( github, context, core, fs, path, dir ) {
 		t = issues[ i ].title;
 		t = t.replace( '[Idea]: ', '' );
 		t = t[ 0 ].toUpperCase() + t.substring( 1 );
+
+		body = issues[ i ].body.replace( RE_CHECKLIST, '' ).trim();
 		str = [
 			'## ' + t,
 			'',
 			'Linked issue: <' + issues[ i ].url + '>',
 			'',
-			issues[ i ].body
+			body
 		].join( '\n' );
 		content.push( str );
 	}

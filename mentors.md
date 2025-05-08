@@ -42,7 +42,7 @@ If you are willing to mentor,
 
 - Pranav Goswami
 
-    - e-mail: [goswami.4@iitj.ac.in](mailto:goswami.4@iitj.ac.in)
+    - e-mail: [pranavchiku11@gmail.com](mailto:pranavchiku11@gmail.com)
     - GitHub: [pranavchiku](https://github.com/pranavchiku)
     - projects: most, particularly implementation of BLAS and mathematical functions
 
@@ -75,6 +75,12 @@ If you are willing to mentor,
     -   e-mail: [jaysukhmakvana2004@gmail.com](mailto:jaysukhmakvana2004@gmail.com)
     -   GitHub: [Jaysukh-409](https://github.com/Jaysukh-409)
     -   projects: most, particularly implementations of mathematical functions and array related tasks
+
+- Aman Bhansali
+
+    -   e-mail: [amanbhansali65@gmail.com](mailto:amanbhansali65@gmail.com)
+    -   GitHub: [aman-095](https://github.com/aman-095)
+    -   projects: most, particularly implementation of BLAS, LAPACK and related mathematical functions
 
 ## Time Commitment
 
