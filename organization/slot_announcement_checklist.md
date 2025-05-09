@@ -32,6 +32,8 @@ Once Google privately notifies organizations of their slot allocation in advance
 
 -   [ ] Create a new team on the stdlib GitHub organization named `gsoc-YYYY`.
 
+-   [ ] Create private `gsoc-YYYY` and `gsoc-mentors-YYYY` Slack channels.
+
 ## Post-public announcement
 
 After Google has publicly announced slot allocations, we need to do the following:
