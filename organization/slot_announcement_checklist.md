@@ -28,7 +28,7 @@ Once Google privately notifies organizations of their slot allocation in advance
     $ SENDER=Athan NUM_APPS=5 CODING_START="June 2" node ./organization/scripts/announcement.js
     ```
 
--   [ ] Draft a blog post announcing stdlib's GSoC participation, along with the selected projects.
+-   [ ] Draft a [blog post](https://github.com/stdlib-js/blog-drafts) announcing stdlib's GSoC participation, along with the selected projects.
 
 -   [ ] Create a new team on the stdlib GitHub organization named `gsoc-YYYY`.
 
@@ -55,6 +55,7 @@ After Google has publicly announced slot allocations, we need to do the followin
 -   [ ] Have mentors establish weekly recurring 1:1s with GSoC contributors.
 -   [ ] Publish the draft blog post the stdlib blog.
 -   [ ] Cross-post blog post to other distribution channels (e.g., dev.to, Hashnode, LinkedIn).
+-   [ ] Close all [proposals](https://github.com/stdlib-js/google-summer-of-code/issues?q=sort%3Aupdated-desc%20is%3Aissue%20is%3Aopen%20label%3Arfc) on the stdlib Google Summer of Code repository.
 
 * * *
 
