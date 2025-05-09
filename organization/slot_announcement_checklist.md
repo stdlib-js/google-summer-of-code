@@ -30,6 +30,8 @@ Once Google privately notifies organizations of their slot allocation in advance
 
 -   [ ] Draft a blog post announcing stdlib's GSoC participation, along with the selected projects.
 
+-   [ ] Create a new team on the stdlib GitHub organization named `gsoc-YYYY`.
+
 ## Post-public announcement
 
 After Google has publicly announced slot allocations, we need to do the following:
@@ -42,7 +44,9 @@ After Google has publicly announced slot allocations, we need to do the followin
 -   [ ] Send rejection e-mails to all rejected GSoC contributors.
 -   [ ] Invite accepted GSoC contributors to the stdlib Slack.
 -   [ ] Invite accepted GSoC contributors to the stdlib GitHub organization and add them to the `gsoc-YYYY` team.
--   [ ] Add accepted GSoC contributors to the stdlib `gsoc-YYYY` channel.
+-   [ ] Add accepted GSoC mentors and contributors to the stdlib `gsoc-YYYY` Slack channel.
+-   [ ] Add GSoC mentors to the stdlib `gsoc-mentors-YYYY` Slack channel.
+-   [ ] Add GSoC mentors to the `gsoc-YYYY` team on GitHub.
 -   [ ] Add accepted GSoC mentors and contributors to the stdlib GSoC calendar and have them post their planned vacations and school/obligation dates.
 -   [ ] Arrange a kickoff call to occur within 10 days of the public announcement.
 -   [ ] Establish a cadence for a weekly GSoC standup which should commence the first week of the coding period and should last for the entire duration of the GSoC program.
