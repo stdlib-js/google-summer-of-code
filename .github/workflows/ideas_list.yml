@@ -92,11 +92,14 @@ jobs:
       # Push changes:
       - name: 'Push changes'
         run: |
-          if [[ -z "$(git status --porcelain)" ]]; then
+          # Stage all changes:
+          git add -A
+
+          # Check whether anything actually changed...
+          if git diff --cached --quiet; then
             # If no files were changed, nothing more to do:
             exit 0
           fi
-          # Otherwise, add changed files to the staging area and commit:
-          git add -A && git commit -m "feat: update ideas list"
-          git push
+          # Otherwise, commit and push the changes:
+          git commit -m "feat: update ideas list" && git push
         timeout-minutes: 15
