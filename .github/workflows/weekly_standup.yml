@@ -1,0 +1,75 @@
+#/
+# @license Apache-2.0
+#
+# Copyright (c) 2025 The Stdlib Authors.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#/
+
+# Workflow name:
+name: weekly_standup
+
+# Workflow triggers:
+on:
+  # Run this workflow weekly:
+  schedule:
+    # cron: '<minutes> <hours> <day_of_month> <month> <day_of_week>'
+    - cron: '0 0 * * 1'
+
+  # Allow the workflow to be manually run:
+  workflow_dispatch:
+
+# Workflow jobs:
+jobs:
+
+  # Define a job for creating a weekly standup...
+  weekly_standup:
+
+    # Define a display name:
+    name: 'Weekly Standup'
+
+    # Define the type of virtual host machine on which to run the job:
+    runs-on: ubuntu-latest
+
+    # Define the sequence of job steps...
+    steps:
+      # Get the current date:
+      - name: "Resolve current date"
+        id: date
+        run: |
+          echo "current_date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+
+      # Checkout the repository:
+      - name: 'Checkout repository'
+
+        # Version 4.0
+        uses: actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac
+        timeout-minutes: 10
+
+      # Create an issue:
+      - name: 'Create issue'
+
+        # Version 4.0.1
+        uses: peter-evans/create-issue-from-file@d60bea1e77c1b5c523216f7c31493883d76ffad7
+        with:
+          title: Weekly Standup (${{ steps.date.outputs.current_date}})
+          content-filepath: ./.github/ISSUE_TEMPLATE/weekly_standup.md
+          labels: |
+            weekly standup
+          assignees: |
+            kgryte
+            aayush0325
+            headlessNode
+            anandkaranubc
+            ShabiShett07
+            gururaj1512
