@@ -22,9 +22,9 @@ name: weekly_standup
 # Workflow triggers:
 on:
   # Run this workflow weekly:
-  schedule:
+  # schedule:
     # cron: '<minutes> <hours> <day_of_month> <month> <day_of_week>'
-    - cron: '0 0 * * 1'
+    # - cron: '0 0 * * 1'
 
   # Allow the workflow to be manually run:
   workflow_dispatch:
