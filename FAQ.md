@@ -20,10 +20,10 @@ In short, given that the intent of GSoC is offering new contributors a pathway i
 
 In general, we prefer open and public communication. However, we recognize that you may have legitimate concerns regarding the sharing of personal information, especially in public forums. If you need to communicate privately, you can e-mail one of the [mentors](https://github.com/stdlib-js/google-summer-of-code/blob/main/mentors.md) directly.
 
-If you do reach out directly to a mentor, please be **respectful** of their time. If your e-mail is not for confidential purposes (e.g., you're e-mailing to ask if you can do idea X or something similar), mentors are likely to refer you to our public [Element](https://gitter.im/stdlib-js/stdlib) channel.
+If you do reach out directly to a mentor, please be **respectful** of their time. If your e-mail is not for confidential purposes (e.g., you're e-mailing to ask if you can do idea X or something similar), mentors are likely to refer you to our public [Zulip](https://stdlib.zulipchat.com) community.
 
 ## Why are idea issues locked?
 
 Idea issues are **not** our desired forum for initial project inquiries and are intended to be a lightweight means for core stdlib developers to write down potential GSoC project ideas. Our aim is to keep idea issues as clear and succinct as possible and to avoid long drawn out discussions which are better suited for chat.
 
-If you have questions or are interested in pursuing a particular idea, you should reach out in our [Element](https://gitter.im/stdlib-js/stdlib) channel. 
+If you have questions or are interested in pursuing a particular idea, you should reach out in the [GSoC Questions](https://stdlib.zulipchat.com/#narrow/channel/546969-gsoc-questions) channel of the stdlib [Zulip chat](https://stdlib.zulipchat.com). 
