@@ -51,9 +51,9 @@ The intent of GSoC is to provide a way for new contributors to join and particip
 
 ### Questions
 
-If you have questions, first check whether the questions have already been answered in the GSoC [FAQ][gsoc-faq]. If you still have a question after consulting the GSoC [FAQ][gsoc-faq], you can reach out on the stdlib [Element][stdlib-gitter] channel.
+If you have questions, first check whether the questions have already been answered in the GSoC [FAQ][gsoc-faq]. If you still have a question after consulting the GSoC [FAQ][gsoc-faq], you can reach out on the [GSoC Questions][stdlib-zulip-gsoc] channel of the stdlib [Zulip chat][stdlib-zulip].
 
-You can use [Element][stdlib-gitter] to solicit feedback on initial project ideas and to get help as you start working with the [stdlib][stdlib] codebase. Keep in mind that the more specific and clear your questions on stdlib forums, the more likely you are to get a good answer. An open-ended or vague question is unlikely to get a useful response.
+You can use [Zulip][stdlib-zulip] to solicit feedback on initial project ideas and to get help as you start working with the [stdlib][stdlib] codebase. Keep in mind that the more specific and clear your questions on stdlib forums, the more likely you are to get a good answer. An open-ended or vague question is unlikely to get a useful response.
 
 For example, a good question could be something along the lines of
 
@@ -63,7 +63,7 @@ In contrast, the following question is too open-ended and too vague to solicit a
 
 > I'm interested in project X. Please help me to work on this.
 
-When reaching out over [Element][stdlib-gitter], be sure to introduce yourself so that we can get to know you. Some useful pieces of information to include
+When reaching out over [Zulip][stdlib-zulip], be sure to introduce yourself so that we can get to know you. Some useful pieces of information to include
 
 - Level of familiarity with JavaScript (including years of programming and previous projects).
 - Education level (high school / college / PhD).
@@ -76,7 +76,7 @@ When reaching out over [Element][stdlib-gitter], be sure to introduce yourself s
 
 Before working on your GSoC application, please review our [list of ideas][stdlib-gsoc-ideas] to see if you find a project which excites you. The list of existing ideas is provided to serve as inspiration and to indicate which directions may be good for [stdlib][stdlib].
 
-If you do find an existing idea that you'd like to pursue, please be sure to contact us in our [Element][stdlib-gitter] channel to discuss it first! **Always be sure to ask about these ideas prior to working on application in order to get the latest information about what is already implemented and what exactly must be done.**
+If you do find an existing idea that you'd like to pursue, please be sure to contact us in our [GSoC Questions][stdlib-zulip-gsoc] channel on [Zulip][stdlib-zulip] to discuss it first! **Always be sure to ask about these ideas prior to working on application in order to get the latest information about what is already implemented and what exactly must be done.**
 
 The [list of ideas][stdlib-gsoc-ideas] is organized by labels according to the following conventions:
 
@@ -111,7 +111,7 @@ Priority, difficulty, technology, and topic area have no bearing on the chances 
 
 GSoC allows three different project lengths: **90** hours, **175** hours and **350** hours. Each idea must indicate whether the idea is a better fit for 90, 175, or 350 hours.
 
-In some cases, we may be able to extend a 175 hour project to a 350 hour project by extending the ideas of what can be done. Similarly, in some cases, a 350 hour project can be shortened to a 175 hour project by only implementing part of an idea and leaving the rest for a future project. In either case, if you want to adjust the project length, please be sure to contact us in our [Element][stdlib-gitter] channel to discuss it first!
+In some cases, we may be able to extend a 175 hour project to a 350 hour project by extending the ideas of what can be done. Similarly, in some cases, a 350 hour project can be shortened to a 175 hour project by only implementing part of an idea and leaving the rest for a future project. In either case, if you want to adjust the project length, please be sure to contact us in our [GSoC questions][stdlib-zulip-gsoc] channel to discuss it first!
 
 #### Your Own Idea
 
@@ -119,7 +119,7 @@ If you'd like to submit your own idea, that is also welcome; just be sure to pro
 
 The best project for you is the one you are most interested in and knowledgeable about. Excitement and aptitude are two key ingredients of a successful project and help ensure your commitment and ability to see a project through to completion. So if there is something you are especially passionate about and that you believe aligns with the scope and goals of [stdlib][stdlib], we'd be happy to hear your pitch!
 
-After discussing with us in our [Element][stdlib-gitter] channel and receiving approval to submit your idea, please open an [issue][stdlib-gsoc-idea-template] which describes your idea using the [**idea issue template**][stdlib-gsoc-idea-template].
+After discussing with us in our [GSoC questions][stdlib-zulip-gsoc] channel and receiving approval to submit your idea, please open an [issue][stdlib-gsoc-idea-template] which describes your idea using the [**idea issue template**][stdlib-gsoc-idea-template].
 
 ### Patch Requirement
 
@@ -300,7 +300,9 @@ This document may be reused under a [Creative Commons Attribution-ShareAlike 4.0
 
 [stdlib-gsoc-gitignore]: https://github.com/stdlib-js/google-summer-of-code/blob/main/.gitignore
 
-[stdlib-gitter]: https://gitter.im/stdlib-js/stdlib
+[stdlib-zulip]: https://stdlib.zulipchat.com
+
+[stdlib-zulip-gsoc]: https://stdlib.zulipchat.com/#narrow/channel/546969-gsoc-questions
 
 [github-create-account]: https://github.com/signup
 

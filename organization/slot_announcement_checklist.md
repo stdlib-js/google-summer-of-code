@@ -41,7 +41,7 @@ After Google has publicly announced slot allocations, we need to do the followin
 > [!NOTE]
 > Currently, sending out acceptance e-mails is done manually. We should investigate doing this directly from Google Sheets by creating a [mail merge](https://developers.google.com/apps-script/samples/automations/mail-merge).
 
--   [ ] Post the drafted announcement to Gitter.
+-   [ ] Post the drafted announcement to Zulip.
 -   [ ] Sent acceptance e-mails to all accepted GSoC contributors.
 -   [ ] Send rejection e-mails to all rejected GSoC contributors.
 -   [ ] Invite accepted GSoC contributors to the stdlib Slack.
