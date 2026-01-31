@@ -612,40 +612,6 @@ Intermediate.
 
 * * *
 
-## Refactor generated TypeScript interface documentation
-
-Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/20>
-
-### Idea
-
-Currently, stdlib publishes TypeScript interface documentation in its web-based API documentation. The generated documentation monkey-patches `tsdoc` to handle generating documentation across the entire mono-repo. The goal of this project is to refactor/rethink this approach and provide a solution capable of addressing the unique constraints of the stdlib project.
-
-### Expected Outcomes
-
-At a base level, it would be great if we had a working documentation render which did not require monkey-patching. A more difficult, but potentially more desirable, outcome would be if TypeScript documentation was not rendered as a separate website, but rather was integrated within the docs as simply another page/fragment.
-
-### Involved Software
-
-No other software is necessary.
-
-### Prerequisite Knowledge
-
-JavaScript, Node.js, HTML/CSS, TypeScript, JSX/React.
-
-### Difficulty
-
-Intermediate.
-
-### Project Length
-
-175/350 hours. Length will depend on the nature of the proposed solution (e.g., needing to write a custom TypeScript parser vs modifying the existing tsdoc library).
-
-### Potential Mentors
-
-@kgryte @Planeshifter @steff456
-
-* * *
-
 ## Use ES6 modules for running unit tests and benchmarks in web browsers
 
 Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/21>
