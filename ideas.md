@@ -393,42 +393,6 @@ Beginner/Intermediate.
 
 * * *
 
-## Stdlib API dependency explorer
-
-Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/14>
-
-### Idea
-
-stdlib is a large (and growing!) project, which can make project navigation challenging. The goal of this idea is to provide a visual representation of an API's dependency graph directly in the stdlib API documentation. Initial thinking is that would be an interactive network diagram in which nodes present package dependencies and allow for navigation; however, other visual representations may be possible.
-
-By providing such a means for navigating the project, users could more readily deepen their understanding of the `stdlib` code base, identify potential issues, and better understand how underlying APIs are used.
-
-### Expected Outcomes
-
-A user will be able to navigate to a package's documentation page, click to display a network graph, and then click on nodes within that graph to explore the documentation of package dependencies.
-
-### Involved Software
-
-No other software is necessary.
-
-### Prerequisite Knowledge
-
-JavaScript, Node.js, HTML/CSS, JSX.
-
-### Difficulty
-
-Beginner/Intermediate. 
-
-### Project Length
-
-175 hours.
-
-### Potential Mentors
-
-@kgryte @Planeshifter @steff456
-
-* * *
-
 ## Add support for bootstrap and jackknife resampling
 
 Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/15>
