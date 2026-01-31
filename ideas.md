@@ -682,42 +682,6 @@ Intermediate.
 
 * * *
 
-## Migrate web API documentation to use matomo and instrument for better understanding user navigation behavior
-
-Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/22>
-
-### Idea
-
-Currently, the stdlib web-based API docs use GA for analytics and have only minimal integration. E.g., the API docs application is a SPA which uses React and the app does not record changes in page views; we only record first hits.
-
-The goal of this idea is to migrate to using matomo and take advantage of its privacy features. The work will involve instrumenting the API documentation application and integrating with matomo. A potential stretch goal would be to setup dashboards for reporting so that we can better understand user behavior and continue to improve project documentation.
-
-### Expected Outcomes
-
-All user interaction data is logged to matomo and stored in a hosted database.
-
-### Involved Software
-
-No other software is necessary.
-
-### Prerequisite Knowledge
-
-JavaScript, Node.js, HTML/CSS, JSX/React.
-
-### Difficulty
-
-Intermediate.
-
-### Project Length
-
-350 hours. Can be adjusted depending on skill and ability.
-
-### Potential Mentors
-
-@kgryte @Planeshifter @steff456
-
-* * *
-
 ## Improve the REPL presentation framework
 
 Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/23>
