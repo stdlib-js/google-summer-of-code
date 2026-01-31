@@ -748,44 +748,6 @@ Hard. Depends on the reference implementation requirements and algorithmic diffi
 
 * * *
 
-## Achieve ndarray API parity with built-in JavaScript arrays
-
-Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/33>
-
-### Idea
-
-Built-in JavaScript [arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) (and typed arrays) have a number of methods for creating, transforming, and manipulating array contents (e.g., `forEach`, `map`, `reverse`, `slice`, `filter`, etc). These APIs provide base level functionality forming a default vocabulary for working with array data.
-
-The goal of this idea is to create functional analogs of array methods for working with [ndarrays](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/ctor), which are efficient data structures for operating on multi-dimensional data. The main difficulty in implementing analogs is in ensuring efficient iteration of non-contiguous data. The main patterns for such iteration have been established in stdlib, but work remains to apply such patterns for top-level array-equivalent APIs.
-
-### Expected Outcomes
-
-Users will be able to use functional APIs (exposed as part of individual packages) for operating on ndarrays in a manner similar to how users can use prototype methods available on built-in arrays and typed arrays.
-
-### Involved Software
-
-No other software is necessary.
-
-### Prerequisite Knowledge
-
-JavaScript, Node.js.
-
-For APIs not accepting callbacks, certain kernels can be implemented in C, as time and scope allow.
-
-### Difficulty
-
-Intermediate. Writing the loop kernels can be involved, but, once understood, are straightforward to apply.
-
-### Project Length
-
-90/175/350 hours. Can be scoped accordingly. Scope can be expanded to implement additional ndarray kernels outside of Array method equivalents.
-
-### Potential Mentors
-
-@kgryte @Planeshifter @steff456 @rreusser
-
-* * *
-
 ## Develop C implementations for base special mathematical functions
 
 Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/34>
