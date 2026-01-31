@@ -493,45 +493,6 @@ Hard. Depends on the reference implementation requirements and algorithmic diffi
 
 * * *
 
-## Generate web documentation from JSDoc comments
-
-Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/19>
-
-### Idea
-
-stdlib relies heavily on JSDoc comments to document its source code. Currently, the project has only rudimentary support for generating HTML docs from those comments. The goal of this idea would be to
-
-1. Write an in-house JSDoc parser.
-2. Generate HTML documentation from the parsed comments which is capable of supporting project conventions and its embrace of radical modularity.
-
-JSDoc comments are oriented toward JavaScript source files; however, stdlib also uses similar documentation practices for documenting C source files and `make` files. A possible extension to the in-house JSDoc parser would be to support these other source file types. As those file types may require separate AST parsers, supporting other file types is likely to require writing separate comment parsers for each source type.
-
-### Expected Outcomes
-
-In addition to the current API documentation, a user will be able to navigate to a package's JSDoc documentation to gain more insight into supported input and output dtypes and implemented algorithms. This would be especially useful for rendering the extended JSDoc comment of elementary mathematical functions.
-
-### Involved Software
-
-No other software is necessary.
-
-### Prerequisite Knowledge
-
-JavaScript, Node.js, HTML/CSS.
-
-### Difficulty
-
-Intermediate.
-
-### Project Length
-
-350 hours. The length can likely be scaled down; however, there are several unknowns, and it may not be straightforward to develop an in-house parser which caters to the unique structure and setup of stdlib. For advanced contributors, possibility to explore support for source file types other than JavaScript (e.g., C and `make`).
-
-### Potential Mentors
-
-@kgryte @Planeshifter @steff456
-
-* * *
-
 ## Use ES6 modules for running unit tests and benchmarks in web browsers
 
 Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/21>
