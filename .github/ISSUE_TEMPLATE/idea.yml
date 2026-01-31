@@ -32,7 +32,7 @@ body:
 
         1.  Also, before submitting your idea, please be sure to reach out over the stdlib [Zulip chat](https://stdlib.zulipchat.com) to discuss it with us first. We'll inform you whether the idea has already been implemented, if the idea will entail enough work to last the duration of the GSoC program, if the idea requires too much work to be meaningfully pursued during GSoC, and if the idea is within the scope of stdlib.
 
-        1.  Understand that submitting an idea is **not** sufficient to participate in GSoC. To be considered, a GSoC application **must** have a written proposal submitted to <https://summerofcode.withgoogle.com/>. To begin working on a GSoC application, we **strongly** recommend using the stdlib [application template](https://github.com/stdlib-js/google-summer-of-code/issues/new?assignees=&labels=rfc%2C2023&template=application.yml&title=%5BRFC%5D%3A+).
+        1.  Understand that submitting an idea is **not** sufficient to participate in GSoC. To be considered, a GSoC application **must** have a written proposal submitted to <https://summerofcode.withgoogle.com/>. To begin working on a GSoC application, we **strongly** recommend using the stdlib [application template](https://github.com/stdlib-js/google-summer-of-code/issues/new?assignees=&labels=rfc%2C2026&template=application.yml&title=%5BRFC%5D%3A+).
 
         1.  Please use a succinct name to describe your idea. This issue should use the following issue naming convention:
 

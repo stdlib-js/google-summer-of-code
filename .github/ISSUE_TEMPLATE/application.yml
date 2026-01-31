@@ -19,7 +19,7 @@
 name: 🚀 Application
 description: I'd like to apply to Google Summer of Code to work on stdlib!
 title: "[RFC]: "
-labels: ["rfc", "2025"]
+labels: ["rfc", "2026"]
 body:
   - type: markdown
     attributes:
