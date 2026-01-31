@@ -760,47 +760,6 @@ Intermediate
 
 * * *
 
-## Make code blocks on website documentation interactive
-
-Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/26>
-
-### Idea
-
-Currently, all code blocks in the documentation at https://stdlib.io/docs/api/latest are static. To make example code more useful and engaging, it would be nice to have interactive code shells on the website that could be edited and would provide real-time return annotations.
-
-Some initial brainstorming has been done to inform how this would work, but, at minimum, we'd need to
-
-- convert READMEs to structured data to allow for more straightforward transformation
-- support dynamic loading of relevant stdlib packages used in example code blocks
-- lazily integrate a code editor into documentation pages
-- implement security measures to prevent malicious usage
-
-### Expected Outcomes
-
-Improved user experience on the website, as the code examples would become editable and interactive. Return annotations would have to update in real-time, and additional contextual help could be provided via overlays etc. Another outcome would be to make it easy to switch between ES5 and ES6 for code blocks.
-
-### Involved Software
-
-No other software is necessary.
-
-### Prerequisite Knowledge
-
-JavaScript, HTML/CSS, React + JSX
-
-### Difficulty
-
-Hard.
-
-### Project Length
-
-350 hours.
-
-### Potential Mentors
-
-@kgryte @Planeshifter @steff456
-
-* * *
-
 ## Optimization Algorithms
 
 Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/27>
