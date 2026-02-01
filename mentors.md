@@ -94,6 +94,12 @@ If you are willing to mentor,
     -   GitHub: [aayush0325](https://github.com/aayush0325)
     -   projects: most, particularly implementation of BLAS, LAPACK and related mathematical functions
 
+- Gururaj Gurram
+
+    -   e-mail: [gururajgurram1512@gmail.com](mailto:gururajgurram1512@gmail.com)
+    -   GitHub: [gururaj1512](https://github.com/gururaj1512)
+    -   projects: most, particularly revolving around data visualization, BLAS and statistical functions
+
 ## Time Commitment
 
 For primary mentors, we expect between a 3-10 hour a week commitment, where the requisite time decreases over the course of the program. Mentors can expect to spend more time the first few weeks prior to the contributor start date, where you'll be helping flesh out the project ideas, discussing projects with potential contributors, and selecting contributors based on their submitted proposals. Once contributors are selected and the program kicks off, your commitment should decrease to 2-4 hours a week and be comprised of a weekly 1 hour 1-on-1 where you'll establish rapport and discuss project progress and of some additional time to perform code review and answer questions as they arise. Ideally, a mentor will pair program with a contributor for 1 hour every two weeks throughout the duration of the program.
