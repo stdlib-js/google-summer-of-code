@@ -1421,3 +1421,128 @@ Experience and a high degree of comfort with JavaScript and Node.js.
 ### Project length
 
 90/175/350. Scope can be tailored accordingly.
+
+* * *
+
+## Implement ndarray APIs to achieve compliance with the Array API specification
+
+Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/176>
+
+### Idea
+
+The [Array API standard](https://data-apis.org/array-api/latest/) is a specification describing a set of array operations for array libraries within the Python ecosystem. These operations including those for creating, transforming, and manipulating array contents and provide a common substrate upon which higher order libraries, such as those for machine learning, AI, statistical analysis, and data processing, can build. The Array API standard has seen rapid adoption within the Scientific Python ecosystem, with NumPy, CuPy, JAX, PyTorch, and others providing implementations, and downstream libraries, such as SciPy and scikit-learn, moving to adopt.
+
+The goal of this idea is to implement the functions described in the Array API standard for use with stdlib's [ndarrays](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/ndarray/ctor), which are efficient data structures for operating on multi-dimensional data. A principle difficulty in implementing these functions is ensuring efficient iteration of non-contiguous data. The main patterns for such iteration have been established in stdlib, but work remains to apply such patterns for top-level APIs. Having these functions would be a significant improvement for usability, as users from the Python ecosystem would benefit from a common vocabulary and set of building blocks, thus reducing the learning curve and facilitating stdlib adoption.
+
+For those interested in this idea, you should
+
+- study https://data-apis.org/array-api/latest/
+- create a list of APIs present in the standard (e.g., in a Google spreadsheet)
+- find equivalent APIs already present in stdlib
+- identify which APIs have not already been implemented
+- survey libraries within the Python ecosystem (e.g., NumPy) to determine how the missing libraries are implemented
+- describe a plan for implementing the missing functions
+
+### Expected Outcomes
+
+Users will be able to use implemented APIs (exposed as part of individual packages) for operating on ndarrays and will be able to implement various operations found in SciPy and sklearn using only the developed API primitives.
+
+### Involved Software
+
+No other software is necessary.
+
+### Prerequisite Knowledge
+
+JavaScript, Node.js.
+
+For APIs not accepting callbacks, certain kernels can be implemented in C, as time and scope allow.
+
+### Difficulty
+
+Intermediate. Writing the loop kernels can be involved, but, once understood, are straightforward to apply.
+
+### Project Length
+
+90/175/350 hours. Can be scoped accordingly. Scope can be expanded to implement additional ndarray kernels outside of the Array API standard.
+
+* * *
+
+## Integrate stdlib into scijs packages
+
+Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/177>
+
+### Idea
+
+[scijs](https://github.com/orgs/scijs/repositories?type=source) is a collection of numerical and scientific computing packages and utilities for working with multi-dimensional array data. While stdlib has surpassed scijs in terms of breadth and depth of functionality, scijs still includes a good bit of widely used functionality. One of the points of friction within the JavaScript ecosystem is the lack of interoperability between stdlib and scijs.
+
+The goal of this idea is to integrate stdlib into applicable scijs packages, and, where appropriate, to implement scijs operations in stdlib which are not currently present. This effort will entail updating various scijs packages to accept and operate on stdlib ndarrays, and where stdlib equivalents already exist, updating the current scijs implementations to delegate to stdlib implementations (e.g., see https://github.com/scijs/ndarray-fill, which, after standardizing input arguments, could delegate to `@stdlib/ndarray/fill`).
+
+For those interested in this idea, you should
+
+- study https://github.com/orgs/scijs/repositories?type=source
+- create a list of APIs present in scijs (e.g., in a Google spreadsheet)
+- find equivalent APIs already present in stdlib
+- identify which APIs have not already been implemented
+- identify which APIs are amenable to stdlib integration (note: not all APIs can be delegated to stdlib!)
+- describe a plan for achieving integration
+
+### Expected Outcomes
+
+Users will be able to use scijs APIs with stdlib ndarrays and, where appropriate, scijs APIs will delegate to stdlib functionality.
+
+### Involved Software
+
+No other software is necessary.
+
+### Prerequisite Knowledge
+
+JavaScript, Node.js.
+
+### Difficulty
+
+Intermediate.
+
+### Project Length
+
+90/175/350 hours. Can be scoped accordingly.
+
+* * *
+
+## Integrate stdlib in jstat
+
+Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/178>
+
+### Idea
+
+[jstat](https://jstat.github.io/all.html) is a collection of statistical APIs. While stdlib has surpassed jstat in terms of breadth and depth of functionality, scijs still includes a good bit of widely used functionality. One of the points of friction within the JavaScript ecosystem is the lack of interoperability between stdlib and jstat.
+
+The goal of this idea is to integrate stdlib into jstat, and, where appropriate, to implement jstat operations in stdlib which are not currently present. This effort will entail updating jstat to leverage stdlib functionality. An initial exploration of this idea can be found in https://github.com/jstat/jstat/pull/260, but that effort likely needs to be scrapped, as stdlib has grown quite a bit since that time.
+
+For those interested in this idea, you should
+
+- study https://github.com/jstat/jstat
+- create a list of APIs present in jstat (e.g., in a Google spreadsheet)
+- find equivalent APIs already present in stdlib
+- identify which APIs have not already been implemented
+- identify which APIs are amenable to stdlib integration (note: not all APIs can be delegated to stdlib!)
+- describe a plan for achieving integration
+
+### Expected Outcomes
+
+Users will be able to use jstat whose APIs will delegate to stdlib functionality.
+
+### Involved Software
+
+No other software is necessary.
+
+### Prerequisite Knowledge
+
+JavaScript, Node.js.
+
+### Difficulty
+
+Intermediate. Some care will need to be made to prevent jstat's bundle size from growing too large due to stdlib incorporation. This may require a specialized vendored bundle or the ability to only support select stdlib data types (e.g., no boolean or complex number arrays).
+
+### Project Length
+
+90/175/350 hours. Can be scoped accordingly.
