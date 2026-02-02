@@ -1546,3 +1546,44 @@ Intermediate. Some care will need to be made to prevent jstat's bundle size from
 ### Project Length
 
 90/175/350 hours. Can be scoped accordingly.
+
+* * *
+
+## Add strided implementations of statistical hypothesis tests
+
+Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/179>
+
+### Idea
+
+In the [`@stdlib/stats`](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats) namespace, we implement a number of hypothesis tests (e.g., z-test, t-test, chi-square test, Bartlett test, and more). Recently, we began work to create lower-level strided array implementations (e.g., see [`@stdlib/stats/strided/dztest`](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/strided/dztest)). These strided APIs allow us to create type-specialized implementations which can be implemented in both JavaScript and C, and they allow us to create higher-level ndarray APIs which can operate on one or more ndarray dimensions.
+
+The goal of this idea is to build on the work implementing strided APIs for `ztest` and `ztest2` to implement strided APIs for the remainder of the statistical hypothesis test APIs.
+
+For those interested in this idea, you should
+
+- study https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/strided/dztest, https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/strided/sztest, https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/strided/ztest, etc, along with their dependency trees, in order to understand how these packages are put together.
+- create a list of currently supported hypothesis tests (e.g., in a Google spreadsheet)
+- find which ones we have already implemented lower-level strided array APIs
+- identify which APIs have not already been implemented
+- identify the prerequisite packages, such as dependencies, which are not currently available (e.g., C APIs) and will need to be implemented
+- describe a plan for implementing the missing functions
+
+### Expected Outcomes
+
+Users will be able to use strided implemented APIs to operate on one-dimensional strided arrays.
+
+### Involved Software
+
+No other software is necessary.
+
+### Prerequisite Knowledge
+
+JavaScript, Node.js.
+
+### Difficulty
+
+Intermediate. There may be some instances where we will need to ensure implementation of certain functions in C (e.g., certain `stats/base/dists/*` packages) and those may vary in difficulty (e.g., beta functions).
+
+### Project Length
+
+90/175/350 hours. Can be scoped accordingly. Scope can be expanded to implement additional statistical hypothesis tests which are not currently available in stdlib.
