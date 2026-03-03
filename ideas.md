@@ -1050,7 +1050,7 @@ Linked issue: <https://github.com/stdlib-js/google-summer-of-code/issues/96>
 
 ### Idea
 
-We heavily rely on doctesting (see https://github.com/stdlib-js/stdlib/blob/develop/docs/doctest.md) to ensure that our Markdown and JSDoc examples are correct and do not become out-of-date. However, we currently have no such framework for ensuring that our C source code and Markdown examples are correct.
+We heavily rely on doctesting (see https://github.com/stdlib-js/stdlib/blob/develop/docs/contributing/doctest.md) to ensure that our Markdown and JSDoc examples are correct and do not become out-of-date. However, we currently have no such framework for ensuring that our C source code and Markdown examples are correct.
 
 The goal of this project would be to implement doctesting for C source code and associated Markdown examples. While the approach is likely to be similar (e.g., parsing source code in scripts, Markdown code blocks, and in DOXYGEN examples), the technology stack is likely to be different and will require some R&D, especially as we won't be able to rely on things like ESLint. Instead, we'll need other tooling for identifying `// returns` annotations, instrumenting examples to collect return values, resolving source files to compile, compiling source files, executing scripts, and asserting that the output results match expectation.
 
