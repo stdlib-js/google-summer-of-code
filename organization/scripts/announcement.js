@@ -27,7 +27,9 @@ var mustache = require( 'mustache' );
 var mkdirp = require( 'mkdirp' ).sync;
 var readFile = require( '@stdlib/fs-read-file' ).sync;
 var writeFile = require( '@stdlib/fs-write-file' ).sync;
+var currentYear = require( '@stdlib/time-current-year' );
 var ENV = require( '@stdlib/process-env' );
+var format = require( '@stdlib/string-format' );
 var parseCSV = require( './parse_csv.js' );
 
 
@@ -44,7 +46,7 @@ var FOPTS = {
 var tpath = resolve( __dirname, '..', 'templates', 'announcement.md' );
 var TMPL = readFile( tpath, FOPTS );
 
-var dpath = resolve( __dirname, 'tmp', 'accepted.csv' );
+var dpath = resolve( __dirname, 'tmp', format( 'accepted_%d.csv', currentYear() ) );
 var DATA = parseCSV( readFile( dpath, FOPTS ) );
 
 
@@ -94,7 +96,7 @@ function main() {
 		o.first_name = v.first_name;
 		o.last_name = v.last_name;
 		o.project_title = v.project_title;
-		o.mentors = v.mentor_1 + ', ' + v.mentor_2;
+		o.mentors = v.mentor_1 + ', ' + v.mentor_2_backup;
 		opts.projects.push( o );
 	}
 	t = mustache.render( TMPL, opts );

@@ -49,7 +49,7 @@ var FOPTS = {
 var tpath = resolve( __dirname, '..', 'templates', 'acceptance.md' );
 var TMPL = readFile( tpath, FOPTS );
 
-var dpath = resolve( __dirname, 'tmp', 'accepted.csv' );
+var dpath = resolve( __dirname, 'tmp', format( 'accepted_%d.csv', currentYear() ) );
 var DATA = parseCSV( readFile( dpath, FOPTS ) );
 
 var SUBJECT = format( '[GSoC %d] Congratulations! Your stdlib proposal was accepted!', currentYear() );
@@ -103,7 +103,7 @@ function main() {
 
 		opts = params();
 		opts.first_name = v.first_name;
-		opts.mentors = v.mentor_1 + ' and ' + v.mentor_2;
+		opts.mentors = v.mentor_1 + ' and ' + v.mentor_2_backup;
 
 		t = mustache.render( TMPL, opts );
 

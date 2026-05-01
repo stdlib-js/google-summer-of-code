@@ -46,7 +46,7 @@ var FOPTS = {
 var tpath = resolve( __dirname, '..', 'templates', 'rejection.md' );
 var TMPL = readFile( tpath, FOPTS );
 
-var dpath = resolve( __dirname, 'tmp', 'rejected.csv' );
+var dpath = resolve( __dirname, 'tmp', format( 'rejected_%d.csv', currentYear() ) );
 var DATA = parseCSV( readFile( dpath, FOPTS ) );
 
 var SUBJECT = format( '[GSoC %d] Proposal notification - stdlib', currentYear() );

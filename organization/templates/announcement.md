@@ -10,7 +10,7 @@ Contributor, Project: Mentors
 {{/projects}}
 Join me in congratulating them on their acceptance.
 
-I would like to thank all of the contributors who applied this year and everyone who submitted a patch. We certainly hope that you will remain a part of our community. As one inspiring success story, one of the contributors selected this year was rejected last year, but stuck with it, engaged more deeply with the community, and successfully landed a project. In short, persistence pays off! 
+I would like to thank all of the contributors who applied this year and everyone who submitted a patch. We certainly hope that you will remain a part of our community. As an inspiring success story, two of the contributors selected this year were rejected last year, but stuck with it, engaged more deeply with the community, and successfully landed a project. In short, persistence pays off! 
 
 To everyone whose proposal is accepted, you should be receiving an email from your mentors shortly to discuss how you will be communicating over the summer about your project. You should meet with your mentors about once a week during the summer to go over your progress.
 
